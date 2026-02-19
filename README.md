@@ -1,7 +1,7 @@
-# Group_Projects-FATESG
-A collaborative repository dedicated to storing and managing group projects, code, and documentation from college coursework. Focus on practical applications and teamwork deliverables
+# Projetos_em_Grupo
+Um repositório colaborativo dedicado ao armazenamento e gerenciamento de projetos em grupo, código e documentação de trabalhos acadêmicos. Foco em aplicações práticas e entregas de trabalho em equipe.
 
-# Collaborators:
+# Colaboradores:
 Luca Atanazio 
 https://github.com/LucaAtanazio
 
