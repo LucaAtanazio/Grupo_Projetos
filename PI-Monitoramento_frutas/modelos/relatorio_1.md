@@ -1,5 +1,5 @@
 # Relatório de Validação #1: Monitoramento das Frutas
-**Arquivo original:** relatorio_1.md | 28/02/2026 19:07
+**Arquivo original:** relatorio_1.md | 28/02/2026 19:13
 
 ---
 
@@ -22,8 +22,3 @@ weighted avg       1.00      0.70      0.82       280
 ## 2. Predição de Validade (Tempo Restante)
 * **Erro Médio (MAE):** 3.92 horas
 * **R2 Score:** -0.24
-
----
-
-## 3. Análise Visual
-![Gráfico de Importância](importancia_sensores.png)
