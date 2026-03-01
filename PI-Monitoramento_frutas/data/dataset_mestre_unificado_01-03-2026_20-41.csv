@@ -1,0 +1,134 @@
+﻿timestamp;tipofruta;lote;temperatura;umidade_ar;mq3_raw;estado_previsto;estado_real;validade;origem_arquivo
+2025-12-03 01:28:56.630;banana;lote1;26.6;71.6;1920;madura;sem risco;48.0;banana.csv
+2025-12-03 01:29:56.518;banana;lote1;26.6;70.9;1930;madura;sem risco;48.0;banana.csv
+2025-12-03 01:30:56.541;banana;lote1;26.7;72.0;1937;madura;sem risco;48.0;banana.csv
+2025-12-03 01:31:56.550;banana;lote1;26.8;71.9;1923;madura;sem risco;48.0;banana.csv
+2025-12-03 01:32:56.558;banana;lote1;26.8;72.7;1911;madura;sem risco;48.0;banana.csv
+2025-12-04 05:32:10.082;banana;lote_Madrugada;26.6;70.9;2602;alerta;sem risco;12.0;banana.csv
+2025-12-04 06:06:48.240;banana;lote_Madrugada_2;26.4;75.2;2476;madura;sem risco;48.0;banana.csv
+2025-12-04 06:07:48.146;banana;lote_Madrugada_2;26.4;75.4;2468;madura;sem risco;48.0;banana.csv
+2025-12-04 06:08:48.051;banana;lote_Madrugada_2;26.4;75.5;2441;madura;sem risco;48.0;banana.csv
+2025-12-04 06:09:48.158;banana;lote_Madrugada_2;26.4;75.4;2466;madura;sem risco;48.0;banana.csv
+2025-12-04 06:10:48.167;banana;lote_Madrugada_2;26.4;75.5;2507;madura;sem risco;48.0;banana.csv
+2025-12-04 06:11:48.068;banana;lote_Madrugada_2;26.4;75.8;2524;madura;sem risco;48.0;banana.csv
+2025-12-04 06:13:48.085;banana;lote_Madrugada_2;26.3;76.0;2550;madura;sem risco;48.0;banana.csv
+2025-12-04 06:15:08.772;banana;lote_Madrugada_2;26.4;76.3;2563;madura;sem risco;48.0;banana.csv
+2025-12-04 06:16:08.784;banana;lote_Madrugada_2;26.3;76.4;2557;madura;sem risco;48.0;banana.csv
+2025-12-04 06:17:08.790;banana;lote_Madrugada_2;26.3;76.3;2575;madura;sem risco;48.0;banana.csv
+2025-12-04 06:18:08.793;banana;lote_Madrugada_2;26.3;76.4;2592;madura;sem risco;48.0;banana.csv
+2025-12-04 06:19:09.400;banana;lote_Madrugada_2;26.3;76.6;2586;madura;sem risco;48.0;banana.csv
+2025-12-04 06:20:08.695;banana;lote_Madrugada_2;26.3;76.6;2610;alerta;sem risco;12.0;banana.csv
+2025-12-04 06:21:08.771;banana;lote_Madrugada_2;26.3;76.5;2608;alerta;sem risco;12.0;banana.csv
+2025-12-04 06:22:08.707;banana;lote_Madrugada_2;26.3;76.6;2555;madura;sem risco;48.0;banana.csv
+2025-12-04 06:23:08.829;banana;lote_Madrugada_2;26.3;76.6;2558;madura;sem risco;48.0;banana.csv
+2025-12-04 06:24:11.829;banana;lote_Madrugada_2;26.3;75.9;2577;madura;sem risco;48.0;banana.csv
+2025-12-04 06:25:08.736;banana;lote_Madrugada_2;26.3;76.0;2603;alerta;sem risco;12.0;banana.csv
+2025-12-04 06:26:08.855;banana;lote_Madrugada_2;26.3;76.2;2587;madura;sem risco;48.0;banana.csv
+2025-12-04 06:27:08.707;banana;lote_Madrugada_2;26.3;76.5;2584;madura;sem risco;48.0;banana.csv
+2025-12-04 06:28:08.860;banana;lote_Madrugada_2;26.3;76.3;2611;alerta;sem risco;12.0;banana.csv
+2025-12-04 06:29:08.865;banana;lote_Madrugada_2;26.3;76.3;2623;alerta;sem risco;12.0;banana.csv
+2025-12-04 06:30:08.832;banana;lote_Madrugada_2;26.3;76.6;2622;alerta;sem risco;12.0;banana.csv
+2025-12-04 06:31:08.778;banana;lote_Madrugada_2;26.3;76.6;2651;alerta;sem risco;12.0;banana.csv
+2025-12-04 06:32:08.747;banana;lote_Madrugada_2;26.3;76.9;2644;alerta;sem risco;12.0;banana.csv
+2025-12-04 06:33:20.158;banana;lote_Madrugada_2;26.3;76.8;2625;alerta;sem risco;12.0;banana.csv
+2025-12-04 06:34:08.861;banana;lote_Madrugada_2;26.3;76.9;2606;alerta;sem risco;12.0;banana.csv
+2025-12-04 06:35:08.771;banana;lote_Madrugada_2;26.4;76.3;2621;alerta;sem risco;12.0;banana.csv
+2025-12-04 06:36:08.810;banana;lote_Madrugada_2;26.4;75.8;2651;alerta;sem risco;12.0;banana.csv
+2025-12-04 06:37:08.845;banana;lote_Madrugada_2;26.4;75.9;2639;alerta;sem risco;12.0;banana.csv
+2025-12-04 06:38:08.823;banana;lote_Madrugada_2;26.4;76.0;2637;alerta;sem risco;12.0;banana.csv
+2025-12-04 06:39:08.829;banana;lote_Madrugada_2;26.4;75.9;2643;alerta;sem risco;12.0;banana.csv
+2025-12-04 06:40:08.748;banana;lote_Madrugada_2;26.4;75.8;2639;alerta;sem risco;12.0;banana.csv
+2025-12-04 06:41:08.729;banana;lote_Madrugada_2;26.5;75.7;2641;alerta;sem risco;12.0;banana.csv
+2025-12-04 06:42:08.852;banana;lote_Madrugada_2;26.5;75.6;2640;alerta;sem risco;12.0;banana.csv
+2025-12-04 06:43:08.883;banana;lote_Madrugada_2;26.5;75.4;2642;alerta;sem risco;12.0;banana.csv
+2025-12-04 06:44:08.863;banana;lote_Madrugada_2;26.5;75.6;2640;alerta;sem risco;12.0;banana.csv
+2025-12-04 06:45:08.866;banana;lote_Madrugada_2;26.6;75.8;2652;alerta;sem risco;12.0;banana.csv
+2025-12-04 06:46:08.770;banana;lote_Madrugada_2;26.6;75.7;2639;alerta;sem risco;12.0;banana.csv
+2025-12-04 10:37:00.498;banana;lote_Madrugada_2;26.6;75.6;2641;alerta;sem risco;12.0;banana.csv
+2025-12-04 10:43:07.957;banana;lote_Madrugada_2;26.3;78.3;2607;alerta;sem risco;12.0;banana.csv
+2025-12-04 10:44:07.864;banana;lote_Madrugada_2;26.3;77.8;2696;alerta;sem risco;12.0;banana.csv
+2025-12-04 10:45:07.920;banana;lote_Madrugada_2;26.3;77.6;2711;alerta;sem risco;12.0;banana.csv
+2025-12-04 10:46:07.846;banana;lote_Madrugada_2;26.3;77.6;2737;alerta;sem risco;12.0;banana.csv
+2025-12-04 10:47:07.920;banana;lote_Madrugada_2;26.3;77.7;2767;alerta;sem risco;12.0;banana.csv
+2025-12-04 10:48:07.986;banana;lote_Madrugada_2;26.3;78.1;2755;alerta;sem risco;12.0;banana.csv
+2025-12-04 10:49:07.990;banana;lote_Madrugada_2;26.2;78.1;2723;alerta;sem risco;12.0;banana.csv
+2025-12-04 10:50:07.896;banana;lote_Madrugada_2;26.2;77.9;2606;alerta;sem risco;12.0;banana.csv
+2025-12-04 16:15:59.180;banana;lote_Madrugada_2;26.0;77.9;2716;alerta;sem risco;12.0;banana.csv
+2025-12-04 16:15:59.195;banana;lote_Madrugada_2;26.0;77.9;2675;alerta;sem risco;12.0;banana.csv
+2025-12-04 16:15:59.215;banana;lote_Madrugada_2;26.0;78.0;2751;alerta;sem risco;12.0;banana.csv
+2025-12-04 16:17:08.087;banana;lote_Madrugada_2;26.2;78.8;2498;madura;sem risco;42.0;banana.csv
+2025-12-04 16:18:08.089;banana;lote_Madrugada_2;26.2;78.3;2508;madura;sem risco;42.0;banana.csv
+2025-12-04 16:19:08.084;banana;lote_Madrugada_2;26.2;78.5;2499;madura;sem risco;42.0;banana.csv
+2025-12-09 13:17:06.394;banana_terra;lote_[teste_banana_passada];25.3;74.2;3226;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:18:06.042;banana_terra;lote_[teste_banana_passada];25.2;76.8;3539;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:19:06.103;banana_terra;lote_[teste_banana_passada];25.2;81.3;3714;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:20:06.110;banana_terra;lote_[teste_banana_passada];25.2;83.4;3812;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:21:06.169;banana_terra;lote_[teste_banana_passada];25.1;84.8;3860;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:22:06.135;banana_terra;lote_[teste_banana_passada];25.1;85.4;3924;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:23:06.054;banana_terra;lote_[teste_banana_passada];25.1;86.1;3996;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:24:06.130;banana_terra;lote_[teste_banana_passada];25.1;87.3;4062;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:25:06.137;banana_terra;lote_[teste_banana_passada];25.0;87.9;4072;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:26:06.054;banana_terra;lote_[teste_banana_passada];25.0;88.9;4080;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:27:06.030;banana_terra;lote_[teste_banana_passada];25.0;88.4;4043;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:28:06.054;banana_terra;lote_[teste_banana_passada];25.0;88.9;4084;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:29:06.061;banana_terra;lote_[teste_banana_passada];25.0;88.5;4082;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:30:06.073;banana_terra;lote_[teste_banana_passada];25.0;89.3;4079;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:31:06.038;banana_terra;lote_[teste_banana_passada];25.0;89.2;4085;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:32:06.081;banana_terra;lote_[teste_banana_passada];25.0;89.7;4091;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:33:06.088;banana_terra;lote_[teste_banana_passada];25.0;90.0;4090;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:34:06.092;banana_terra;lote_[teste_banana_passada];25.0;90.4;4082;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:35:06.098;banana_terra;lote_[teste_banana_passada];25.0;90.3;4091;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:36:06.107;banana_terra;lote_[teste_banana_passada];25.0;90.3;4077;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:37:06.032;banana_terra;lote_[teste_banana_passada];25.0;90.2;4087;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:38:06.064;banana_terra;lote_[teste_banana_passada];25.0;90.3;4082;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:39:06.124;banana_terra;lote_[teste_banana_passada];25.0;90.4;4082;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:40:06.045;banana_terra;lote_[teste_banana_passada];25.1;90.5;4076;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:41:06.064;banana_terra;lote_[teste_banana_passada];25.1;90.4;4071;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:42:06.104;banana_terra;lote_[teste_banana_passada];25.1;90.2;4087;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:43:06.151;banana_terra;lote_[teste_banana_passada];25.1;90.4;4086;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:44:06.157;banana_terra;lote_[teste_banana_passada];25.1;90.5;4085;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:45:06.166;banana_terra;lote_[teste_banana_passada];25.1;90.5;4078;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:46:06.071;banana_terra;lote_[teste_banana_passada];25.1;90.7;4073;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:47:06.074;banana_terra;lote_[teste_banana_passada];25.2;91.0;4086;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:48:06.140;banana_terra;lote_[teste_banana_passada];25.2;90.8;4091;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:49:06.189;banana_terra;lote_[teste_banana_passada];25.2;91.0;4086;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:50:06.048;banana_terra;lote_[teste_banana_passada];25.2;91.0;4084;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:51:06.057;banana_terra;lote_[teste_banana_passada];25.2;91.0;4087;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:52:06.212;banana_terra;lote_[teste_banana_passada];25.2;90.8;4091;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:53:06.114;banana_terra;lote_[teste_banana_passada];25.2;91.3;4081;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:54:06.054;banana_terra;lote_[teste_banana_passada];25.2;91.2;4088;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:55:06.126;banana_terra;lote_[teste_banana_passada];25.2;91.0;4090;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:56:06.132;banana_terra;lote_[teste_banana_passada];25.2;91.4;4089;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:57:06.139;banana_terra;lote_[teste_banana_passada];25.3;91.3;4093;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:58:06.408;banana_terra;lote_[teste_banana_passada];25.3;91.4;4088;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 13:59:06.075;banana_terra;lote_[teste_banana_passada];25.2;91.5;4083;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 14:00:06.073;banana_terra;lote_[teste_banana_passada];25.3;91.2;4084;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 14:01:06.071;banana_terra;lote_[teste_banana_passada];25.3;91.2;4080;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 14:02:06.171;banana_terra;lote_[teste_banana_passada];25.2;91.4;4084;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 14:03:06.181;banana_terra;lote_[teste_banana_passada];25.3;91.3;4089;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 14:04:06.078;banana_terra;lote_[teste_banana_passada];25.2;91.5;4091;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 14:05:06.191;banana_terra;lote_[teste_banana_passada];25.3;91.8;4082;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 14:06:06.196;banana_terra;lote_[teste_banana_passada];25.3;91.8;4077;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 14:07:06.204;banana_terra;lote_[teste_banana_passada];25.3;91.7;4085;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 14:08:06.111;banana_terra;lote_[teste_banana_passada];25.4;91.5;4032;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 14:09:06.189;banana_terra;lote_[teste_banana_passada];25.4;91.3;4027;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 14:10:06.506;banana_terra;lote_[teste_banana_passada];25.4;91.0;4066;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 14:11:06.978;banana_terra;lote_[teste_banana_passada];25.4;91.2;4088;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 14:12:06.140;banana_terra;lote_[teste_banana_passada];25.4;91.5;3856;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 14:13:06.140;banana_terra;lote_[teste_banana_passada];25.4;91.2;3983;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 14:14:06.146;banana_terra;lote_[teste_banana_passada];25.3;90.5;3997;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 14:15:06.094;banana_terra;lote_[teste_banana_passada];25.3;91.1;3836;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 14:16:06.116;banana_terra;lote_[teste_banana_passada];25.3;90.7;3946;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 14:17:06.164;banana_terra;lote_[teste_banana_passada];25.3;90.6;3951;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 14:18:06.173;banana_terra;lote_[teste_banana_passada];25.3;90.5;4011;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 14:19:06.118;banana_terra;lote_[teste_banana_passada];25.3;90.9;4005;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 14:20:06.185;banana_terra;lote_[teste_banana_passada];25.3;91.0;4024;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 14:21:06.192;banana_terra;lote_[teste_banana_passada];25.3;91.3;4007;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 14:22:06.198;banana_terra;lote_[teste_banana_passada];25.3;91.4;4053;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 14:23:06.159;banana_terra;lote_[teste_banana_passada];25.3;90.8;4085;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 14:24:06.202;banana_terra;lote_[teste_banana_passada];25.3;91.4;4086;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 14:25:06.172;banana_terra;lote_[teste_banana_passada];25.3;91.6;4087;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-09 14:26:06.124;banana_terra;lote_[teste_banana_passada];25.4;91.5;4055;risco de perda;sem risco;0.0;banana_terra.csv
+2025-12-04 17:35:32.868;tomate;lote_Tarde_1;26.6;76.4;1181;risco de perda;sem risco;0.0;tomate.csv
+2025-12-04 17:36:32.704;tomate;lote_Tarde_1;26.6;75.3;1094;alerta;sem risco;12.0;tomate.csv
+2025-12-04 17:37:32.813;tomate;lote_Tarde_1;26.7;76.2;1027;madura;sem risco;48.0;tomate.csv
