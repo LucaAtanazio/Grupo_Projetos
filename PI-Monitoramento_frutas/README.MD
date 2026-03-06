@@ -1,120 +1,84 @@
-# Projeto integrador - Monitoramento Inteligente de Qualidade de Frutas (Hortifrúti IoT)
+# IoT de Baixo Custo para Redução de Perdas de FLV em Recipientes Dedicados
+## Sistema de Monitoramento e Análise Preditiva de Amadurecimento de Frutos Climatéricos
 
 ## Visão Geral do Projeto
 
-- Este projeto de Arquitetura de Software e Sistemas Embarcados (IoT) visa solucionar o problema de **altas perdas e ineficiência operacional** na seção de Frutas, Legumes e Verduras (FLV) em varejos. O setor de FLV registrou uma **ineficiência operacional de 5,83% em 2024** , um índice que é mais do que o triplo da média geral do supermercado.
+Este projeto implementa a arquitetura proposta no artigo científico desenvolvido na **Faculdade SENAI Fatesg**. O foco é mitigar a ineficiência operacional no setor de Hortifrúti (FLV), que registra perdas de **5,83%** (base 2024), através de um sistema ciber-físico que monitora a liberação de compostos voláteis e variáveis ambientais.
 
-- Utilizamos uma arquitetura IoT baseada em sensores para coletar dados críticos de amadurecimento e conservação, aplicando um sistema de análise preditiva para gerar alertas de venda e descarte em tempo real.
+O sistema foca em **frutos climatéricos**, que apresentam pico respiratório e liberação acelerada de Etileno ($C_2H_4$) durante a maturação. O monitoramento contínuo permite identificar o ponto de transição entre o estado "Maduro" e "Risco" (degradação).
 
 ### Frutas de Estudo (Casos Climatéricos):
 * **Banana** 
-* **Maçã** 
 * **Tomate** 
-> Frutos climatéricos aceleram a maturação e a degradação em cadeia devido à liberação do hormônio gasoso Etileno ($\text{C}_2\text{H}_4$)
 
-## Arquitetura Funcional e Fluxo de Dados
+## Metodologia e Tecnologias Aplicadas
 
-O sistema segue uma arquitetura de **Edge Computing** e Nuvem, priorizando a **baixa latência e eficácia de rede** para que alertas de "Venda Rápida" cheguem à equipe em tempo hábil.
+### Camada de Aquisição (Edge Computing)
+#### O nó sensor é baseado no microcontrolador ESP32, utilizando um protocolo de amostragem rigoroso para garantir a fidelidade do sinal analógico:
 
-1.  **Módulo Edge (ESP32):** Realiza a coleta e o pré-processamento de dados brutos dos sensores. A inteligência na borda minimiza a latência ao formatar o payload JSON antes da transmissão
-2.  **Comunicação:** Envia dados via Wi-Fi (MQTT/HTTP) para o servidor central.
-3.  **Backend:** Normaliza, armazena e executa o Modelo de Decisão/IA.
-4.  **Frontend/Consumidor:** Apresenta alertas e *dashboards* em tempo real para o usuário final.
+* **Processamento de Sinal:** Implementação de Filtro de Média Móvel Exponencial (EMA) para filtragem de ruído térmico e flutuações elétricas.
 
-### Componentes Chave
+  * *Rigor Amostral*: O filtro mantém a flutuação do sinal bruto abaixo de 100 pontos ADC.
 
-| Componente | Função no Projeto | Critério de Escolha / Detalhe Técnico |
-| :--- | :--- | :--- |
-| **Microcontrolador** | **ESP32 Dev Module** (Bluetooth/Wi-Fi) | Módulo Edge com capacidade de processamento e conectividade embarcada. |
-| **Sensor de Gás** | **MQ-3 (Álcool/Etanol)**  | Utilizado como **proxy de baixo custo** para detectar Etanol e outros VOCs associados à deterioração e Etileno. |
-| **Sensor Ambiental** | **DHT11** (Temperatura e Umidade) | Fornece dados essenciais, pois a temperatura e a umidade regulam o efeito catalítico do etileno. |
-| **Linguagem Embarcada**| C++ (Arduino Framework) | Código: `monitoramentoHF.ino`. |
-| **Comunicação** | HTTP POST | Endereço de Exemplo: `http://[SEU_IP_DO_SERVIDOR]:3000/api/sensores`. |
-| **Intervalo de Envio** | **10 segundos** | **Observação:** O código `monitoramentoHF.ino` tem um *delay* de leitura de 2 segundos. A transmissão HTTP deve ser configurada para ocorrer a cada 10 segundos. |
+* **Sensores:** 
+  * * **MQ-3**: Atua como proxy para detecção de gases voláteis de degradação.
 
-## Configuração e Instalação
+  * **DHT22**: Monitoramento termohigrométrico (Pino 19).
 
-### 1. Requisitos de Hardware
+* **Baseline Dinâmica**: Calibração baseada no tipo de fruta (ex: Tomate baseline ~1300 ADC).
 
-* 1x Módulo ESP32 Dev Module
-* 1x Sensor MQ-3
-* 1x Sensor DHT11 (ou DHT22)
-* 1x Resistor de Carga para o MQ-3 (Consultar datasheet, tipicamente 200 k$\Omega$)
-* Fios e Protoboard
+### Camada de Inteligência (IA e Analytics)
+#### Os dados são processados por modelos de Machine Learning treinados para predição de Shelf-life (Vida Útil).
 
-### 2. Configuração do Ambiente de Desenvolvimento (Arduino IDE)
+* **Modelo de Regressão**: Random Forest Regressor para estimar o `tempo_restante` (MAE de 6.67 horas no modelo otimizado com 10 inputs).
 
-Certifique-se de que o suporte à placa ESP32 esteja instalado no seu Arduino IDE.
+* **Modelo de Classificação**: Random Forest Classifier para rotulagem automática entre: `Sem Risco`, `Madura`, `Alerta` e `Risco`.
 
-#### A. Instalação de Bibliotecas
-Este projeto requer as seguintes bibliotecas:
+### Stack Tecnológica
+* **Linguagens**: `C++` (Arduino IDE), `Python 3.10`.
 
-| Biblioteca | Instalação | Observação |
-| :--- | :--- | :--- |
-| **WiFi.h** | Incluída no suporte do ESP32 | Não requer instalação manual. |
-| **HTTPClient.h** | Incluída no suporte do ESP32 | **Essencial** para requisições HTTP POST. |
-| **DHT.h** |Gerenciador de Bibliotecas (por Adafruit) | **Requer a dependência "Adafruit Unified Sensor".** |
+* **Frameworks**: `Flask` (Backend), `Scikit-Learn` (ML), `SocketIO` (Real-time).
 
-#### B. Setup do Código (`monitoramentoHF.ino`)
+* **Banco de Dados**: `MongoDB` (Persistência de séries temporais).
 
-Antes de carregar o código no ESP32, as seguintes linhas devem ser atualizadas:
+### Estrutura do Projeto
 
-1.  **Credenciais Wi-Fi:**
-    ```cpp
-    const char* ssid = "NOME_DA_REDE"; 
-    const char* password = "SENHA_DA_REDE"; 
-    ```
-2.  **Endpoint do Servidor:**
-    ```cpp
-    const char* serverURL = "http://[SEU_IP_DO_SERVIDOR]:3000/api/sensores"; 
-    ```
-3.  **Lote de Frutas (Teste):**
-    ```cpp
-    String fruta = "banana"; // Altere entre 'banana', 'maca' ou 'tomate'
-    ```
-4.  **Thresholds do Algoritmo de Regras (Leitura Bruta):**
-    > Estes são os valores brutos (0-4095) utilizados pelo algoritmo de regras para classificar o status inicial da fruta no módulo Edge:
-    ```cpp
-    // Valores de referência do gasValue (MQ3_ANALOG)
-    if (gasValue < 1000) { /* Verde */ } 
-    else if (gasValue < 2000) { /* Amadurecendo */ } 
-    else { /* Madura/Passada */ } 
-    ```
+├──.venv/
+├──.vscode/
+├──data/
+├──esp32/DADOS/
+├──modelos/
+├──static/
+├──.env example
+├──.gitignore
+├──README.MD
+├──app.py
+├──config.h.example
+├──machine.py
+├──machinelearning.py
+├──modelo_1_estado.pkl
+├──modelo_2_tempo_restante.pkl
+├──modelo_4_identificacao_fruta.pkl
+├──modelo_extra_alerta.pkl
+├──requirements.txt
 
-### 3. Conexão dos Sensores (Pinagem)
+## Instalação e Configuração
+### Requisitos de Hardware
+* **ESP32 DevKit V1**
+* **Sensor MQ-3** (Aquecido previamente por 24h para estabilização)
+* **Sensor DHT11**
 
-| Sensor | Pino do Sensor | Pino do ESP32 (GPIO) | Tipo |
-| :--- | :--- | :--- | :--- |
-| **MQ-3 (Saída Analógica)** | A0 | **34** (`#define MQ3_PIN 34`) | Entrada Analógica |
-| **DHT11 (Data)** | Vcc, GND, Data | **4** (`#define DHTPIN 4`) | Entrada/Saída Digital |
-> *Observação:* O código utiliza `MQ3_ANALOG 25` e `DHTPIN 4` nas definições. Garanta que a sua placa ESP32 e a sua ligação física estejam mapeadas corretamente, sendo GPIO 34 e GPIO 4 os pinos físicos recomendados.
+### Configuração do Ambiente
+* **Workstation**: Rodar o `app.py` e treinamento de modelos 
 
-## Como Executar e Monitorar
+* **Variáveis de Ambiente**: Configure o arquivo `.env` com as credenciais do MongoDB e a `API_KEY` (deve coincidir com a definida no `config.h` do firmware).
 
-1.  **Carregar:** Selecione a porta serial e o modelo do ESP32 no Arduino IDE e carregue o `monitoramentoHF.ino`.
-2.  **Monitor Serial:** Abra o monitor serial (115200 baud) para verificar a conexão Wi-Fi e os dados crus coletados (Temperatura, Umidade, `gasValor`).
-3.  **Backend:** Certifique-se de que o servidor Node.js (ou similar) esteja ativo no endereço IP configurado para receber o payload JSON via HTTP POST.
-4.  **Análise:** O servidor processará o `gasValor` (dado bruto) em relação aos parâmetros de temperatura e umidade, gerando o alerta de amadurecimento/descarte.
+## Resultados Obtidos
+### Conforme documentado no relatório de validação e no artigo:
 
-## Segurança e Protocolo de Acesso
-### 1. Camada de Banco de Dados (MongoDB RBAC)
+* A elevação de **4°C** na temperatura ambiente resultou em um aumento de **50%** na emissão de gases voláteis detectados.
 
-O MongoDB opera com o controle de acesso baseado em funções (RBAC). **Administração** ocorre pelo acesso restrito aos usuários `LucaADM` e `PabloADM` no banco `admin`. **Aplicação** do backend utiliza o usuário `fruta_app` com permissões limitadas de `readWrite` exclusivas para o banco `FRUTAS_DB`.
-
-### 2. Camada de API (X-API-KEY)
-A comunicação entre o **ESP32** e o **Flask** é validada por uma chave de segurança enviada no Header HTTP. **Header** `X-API-KEY` e **Validação** onde o servidor Flask retornará `HTTP 403 (Acesso Negado)` se a chave estiver ausente ou incorreta.
-
-### 3. Configuração de Variáveis de Ambiente
-O projeto utiliza um arquivo .env para gerenciar segredos. Nunca suba o arquivo .env para o repositório.
-
-1. Copie o arquivo .env.example (se disponível) e renomeie para .env.   
- - Preencha as seguintes chaves:
-
-        MONGO_USER: Usuário do banco de dados.
-
-        MONGO_PASS: Senha do banco de dados.
-
-        API_KEY: Chave de autenticação da API (o mesmo da app.py e DadosMedia.ino).
+* O sistema demonstrou capacidade de gerar alertas de "Venda Rápida" com antecedência mínima de 12 horas antes da perda total do produto.
 
 ## Contribuições
 
