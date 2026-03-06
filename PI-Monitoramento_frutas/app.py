@@ -8,17 +8,30 @@ import joblib
 import csv
 from sklearn.linear_model import LinearRegression
 import numpy as np
-
+from dotenv import load_dotenv
+import os
 # ============================================================
 # CONFIGURAÇÕES
 # ============================================================
-MONGO_URI = "mongodb://localhost:27017/"
-DB_NAME = "FRUTAS_DB"
+load_dotenv()
+
+USER = os.getenv("MONGO_USER")
+PASS = os.getenv("MONGO_PASS")
+HOST = os.getenv("MONGO_HOST")
+DB = os.getenv("MONGO_DB")
+API_KEY = os.getenv("API_KEY")
+
+# URI Dinâmica e Segura
+MONGO_URI = f"mongodb://{USER}:{PASS}@{HOST}:27017/{DB}?authSource={DB}"
+
+DB_NAME = DB
 COLLECTION = "sensores"
 
+# Definição dos diretórios 
 DATA_DIR = "data"
 STATIC_DIR = "static"
 
+# Cria as pastas se não existirem
 os.makedirs(DATA_DIR, exist_ok=True)
 os.makedirs(STATIC_DIR, exist_ok=True)
 
@@ -217,6 +230,11 @@ def regressao_linear(df):
 
 @app.route("/api/sensores", methods=["POST"])
 def receber_dados():
+    # VERIFICAÇÃO DE SEGURANÇA
+    key = request.headers.get("X-API-KEY")
+    if key != API_KEY:
+        return jsonify({"erro": "Acesso negado"}), 403
+    
     try:
         data = request.get_json()
 

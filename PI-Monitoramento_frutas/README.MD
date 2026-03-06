@@ -96,6 +96,26 @@ Antes de carregar o código no ESP32, as seguintes linhas devem ser atualizadas:
 3.  **Backend:** Certifique-se de que o servidor Node.js (ou similar) esteja ativo no endereço IP configurado para receber o payload JSON via HTTP POST.
 4.  **Análise:** O servidor processará o `gasValor` (dado bruto) em relação aos parâmetros de temperatura e umidade, gerando o alerta de amadurecimento/descarte.
 
+## Segurança e Protocolo de Acesso
+### 1. Camada de Banco de Dados (MongoDB RBAC)
+
+O MongoDB opera com o controle de acesso baseado em funções (RBAC). **Administração** ocorre pelo acesso restrito aos usuários `LucaADM` e `PabloADM` no banco `admin`. **Aplicação** do backend utiliza o usuário `fruta_app` com permissões limitadas de `readWrite` exclusivas para o banco `FRUTAS_DB`.
+
+### 2. Camada de API (X-API-KEY)
+A comunicação entre o **ESP32** e o **Flask** é validada por uma chave de segurança enviada no Header HTTP. **Header** `X-API-KEY` e **Validação** onde o servidor Flask retornará `HTTP 403 (Acesso Negado)` se a chave estiver ausente ou incorreta.
+
+### 3. Configuração de Variáveis de Ambiente
+O projeto utiliza um arquivo .env para gerenciar segredos. Nunca suba o arquivo .env para o repositório.
+
+1. Copie o arquivo .env.example (se disponível) e renomeie para .env.   
+ - Preencha as seguintes chaves:
+
+        MONGO_USER: Usuário do banco de dados.
+
+        MONGO_PASS: Senha do banco de dados.
+
+        API_KEY: Chave de autenticação da API (o mesmo da app.py e DadosMedia.ino).
+
 ## Contribuições
 
 Este projeto foi desenvolvido pelos aludas do curso de *Inteligência Artificial* do 2° semestre na *SENAI FATESG* como trabalho de conclusão das disciplinas *(Internet das coisas / Projeto de Extensão Integrador)*.

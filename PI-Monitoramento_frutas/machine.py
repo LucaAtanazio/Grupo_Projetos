@@ -11,10 +11,11 @@ import os
 # ============================================================
 # 1. CONFIGURAÇÃO E CONEXÃO MONGO
 # ============================================================
-MONGO_URI = "mongodb://localhost:27017/"
+MONGO_URI = "mongodb://fruta_app:editCode4@localhost:27017/FRUTAS_DB?authSource=FRUTAS_DB"
 DB_NAME = "FRUTAS_DB"
 COLLECTION_NAME = "sensores"
 MODEL_DIR = "./modelos" # Diretório para salvar os modelos
+
 
 # ============================================================
 # 2. FUNÇÕES DE CRIAÇÃO DE TARGETS (Regras Manuais - Rule-Based System)

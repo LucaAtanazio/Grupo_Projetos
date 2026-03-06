@@ -177,6 +177,8 @@ void loop() {
         http.begin(serverURL);
         http.addHeader("Content-Type", "application/json");
 
+        http.addHeader("X-API-KEY", "editKey5");
+
         int httpCode = http.POST(json);
 
         Serial.print("HTTP Code: ");

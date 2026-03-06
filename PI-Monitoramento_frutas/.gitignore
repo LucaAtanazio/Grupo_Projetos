@@ -1,2 +1,7 @@
 *.db
 __pycache__/
+.env
+config.h
+data/*.csv
+*.pyc
+.vscode/

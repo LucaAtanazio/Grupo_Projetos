@@ -1,0 +1,8 @@
+# Configurações do Banco de Dados 
+MONGO_USER=seu_usuario_aqui
+MONGO_PASS=sua_senha_aqui
+MONGO_HOST=localhost
+MONGO_DB=FRUTAS_DB
+
+# Segurança da API (Header X-API-KEY)
+API_KEY=sua_chave_secreta_aqui
