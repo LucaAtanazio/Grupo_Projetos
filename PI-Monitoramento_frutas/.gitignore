@@ -1,7 +1,9 @@
 *.db
 __pycache__/
-.env
-config.h
 data/*.csv
 *.pyc
 .vscode/
+
+.env
+config.h
+DadosMedia.ino

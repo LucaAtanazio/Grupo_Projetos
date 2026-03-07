@@ -6,8 +6,8 @@
 // =========================================
 // CONFIGURAÇÃO DO WI-FI
 // =========================================
-const char* ssid = SECRET_SSID;
-const char* password = SECRET_PASS;
+const char* ssid = "NOME_DA_REDE";
+const char* password = "NOME_DA_REDE";
 // =========================================
 // CONFIGURAÇÃO DOS SENSORES
 // =========================================
@@ -27,7 +27,7 @@ String estado_real = "sem risco"; // Mudar a cada monitoramento = [ Sem risco - 
 // ENDPOINT DO SERVIDOR FLASK (VERIFIQUE O IP!)
 // =========================================
 // Se o seu IP mudar, atualize esta linha para o IP real da sua máquina.
-String serverURL = SECRET_SERVER_URL; 
+String serverURL = "http://IP:8080/api/sensores"; 
 // =========================================
 // RECONEXÃO MÉDIA
 // =========================================

@@ -23,7 +23,7 @@ O sistema foca em **frutos climatéricos**, que apresentam pico respiratório e 
 * **Sensores:** 
   * * **MQ-3**: Atua como proxy para detecção de gases voláteis de degradação.
 
-  * **DHT22**: Monitoramento termohigrométrico (Pino 19).
+  * **DHT11**: Monitoramento termohigrométrico (Pino 19).
 
 * **Baseline Dinâmica**: Calibração baseada no tipo de fruta (ex: Tomate baseline ~1300 ADC).
 
