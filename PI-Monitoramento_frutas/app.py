@@ -24,8 +24,8 @@ API_KEY = os.getenv("API_KEY")
 # URI Dinâmica e Segura
 MONGO_URI = f"mongodb://{USER}:{PASS}@{HOST}:27017/{DB}?authSource={DB}"
 
-DB_NAME = DB
-COLLECTION = "sensores"
+DB_NAME = os.getenv("MONGO_DB")
+COLLECTION = "novo_monitoramento"
 
 # Definição dos diretórios 
 DATA_DIR = "data"
