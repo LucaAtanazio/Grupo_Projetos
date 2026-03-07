@@ -19,8 +19,8 @@ DHT dht(DHTPIN, DHTTYPE);
 // VARIÁVEIS CONFIGURÁVEIS
 // =========================================
 String tipoFruta = "banana_terra";
-String lote = "lote_[teste_banana_passada]";
-String estado_real = "sem risco";
+String lote = "lote_[teste_banana_passada]"; // Mudar a cada monitoramento
+String estado_real = "sem risco"; // Mudar a cada monitoramento = [ Sem risco - Madura - Alerda - Risco de perda ]
 
 // =========================================
 // ENDPOINT DO SERVIDOR FLASK (VERIFIQUE O IP!)
@@ -200,7 +200,7 @@ void loop() {
         Serial.println("WiFi OFF → Não enviado. Tentará de novo no próximo ciclo.");
     }
 
-    // --------- 60 segundos de ciclo ----------
+    // --------- 5 minutos de ciclo ----------
     unsigned long cicloFim = millis();
     unsigned long tempoPassado = cicloFim - cicloInicio;
 
