@@ -19,8 +19,8 @@ DHT dht(DHTPIN, DHTTYPE);
 // =========================================
 // VARIÁVEIS CONFIGURÁVEIS
 // =========================================
-String tipoFruta = "banana_terra";
-String lote = "lote_[teste_banana_passada]"; // Mudar a cada monitoramento
+String tipoFruta = "ambiente";
+String lote = "07/03_18h"; // Mudar a cada monitoramento
 String estado_real = "sem risco"; // Mudar a cada monitoramento = [ Sem risco - Madura - Alerda - Risco de perda ]
 
 // =========================================
