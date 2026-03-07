@@ -5,5 +5,5 @@ data/*.csv
 .vscode/
 
 .env
-config.h
-DadosMedia.ino
+**/config.h
+**/DadosMedia.ino
