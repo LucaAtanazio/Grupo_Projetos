@@ -204,7 +204,7 @@ void loop() {
     unsigned long cicloFim = millis();
     unsigned long tempoPassado = cicloFim - cicloInicio;
 
-    if (tempoPassado < 60000) {
-        delay(60000 - tempoPassado);
+    if (tempoPassado < 300000) {
+        delay(300000 - tempoPassado);
     }
 }
