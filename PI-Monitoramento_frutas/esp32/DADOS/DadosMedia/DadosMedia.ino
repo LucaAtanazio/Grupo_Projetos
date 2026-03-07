@@ -52,14 +52,14 @@ void reconectaWiFi() {
 }
 
 // =========================================
-// Função: EMA + 100 leituras em 45s
+// Função: EMA + 100 leituras em 3,75 min
 // =========================================
 int readMQ3_EMA(int pin) {
 
     const int totalLeituras = 100;
     // agora 100 leituras
-    const int intervalo = 450;
-    // 450 ms → 100 leituras ≈ 45s
+    const int intervalo = 225000;
+    // 225000 ms → 3.75 leituras ≈ 75% de 5 min
     const float alpha = 0.05;
     // suavização do EMA (5%)
 
