@@ -15,16 +15,16 @@ import os
 # ============================================================
 load_dotenv()
 
-USER = os.getenv("MONGO_USER")
-PASS = os.getenv("MONGO_PASS")
-HOST = os.getenv("MONGO_HOST")
-DB = os.getenv("MONGO_DB")
-API_KEY = os.getenv("API_KEY")
+USER = "fruta_app"
+PASS = "editCode4"
+HOST = "localhost"
+DB = "FRUTAS_DB"
+API_KEY = "editKey5"
 
 # URI Dinâmica e Segura
 MONGO_URI = f"mongodb://{USER}:{PASS}@{HOST}:27017/{DB}?authSource={DB}"
 
-DB_NAME = os.getenv("MONGO_DB")
+DB_NAME = DB
 COLLECTION = "novo_monitoramento"
 
 # Definição dos diretórios 

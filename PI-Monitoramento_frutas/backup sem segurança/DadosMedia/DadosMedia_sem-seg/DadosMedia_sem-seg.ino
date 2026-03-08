@@ -1,13 +1,13 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
 #include "DHT.h"
-#include "config.h"
+
 
 // =========================================
 // CONFIGURAÇÃO DO WI-FI
 // =========================================
-const char* ssid = SECRET_SSID;
-const char* password = SECRET_PASS;
+const char* ssid = "FRAN_2G";
+const char* password = "Mfpt161921";
 // =========================================
 // CONFIGURAÇÃO DOS SENSORES
 // =========================================
@@ -27,7 +27,7 @@ String estado_real = "sem risco"; // Mudar a cada monitoramento = [ Sem risco - 
 // ENDPOINT DO SERVIDOR FLASK (VERIFIQUE O IP!)
 // =========================================
 // Se o seu IP mudar, atualize esta linha para o IP real da sua máquina.
-String serverURL = SECRET_SERVER_URL; 
+String serverURL = "http://192.168.0.5:8080/api/novo_monitoramento"; 
 // =========================================
 // RECONEXÃO MÉDIA
 // =========================================
