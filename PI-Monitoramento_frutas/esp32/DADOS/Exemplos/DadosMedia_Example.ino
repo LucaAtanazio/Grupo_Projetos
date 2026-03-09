@@ -11,10 +11,10 @@ const char* password = "NOME_DA_REDE";
 // =========================================
 // CONFIGURAÇÃO DOS SENSORES
 // =========================================
-#define DHTPIN 19
+#define DHTPIN 4
 #define DHTTYPE DHT11
 DHT dht(DHTPIN, DHTTYPE);
-#define MQ3_PIN 32   // Sensor MQ-3
+#define MQ3_PIN 34   // Sensor MQ-3
 
 // =========================================
 // VARIÁVEIS CONFIGURÁVEIS

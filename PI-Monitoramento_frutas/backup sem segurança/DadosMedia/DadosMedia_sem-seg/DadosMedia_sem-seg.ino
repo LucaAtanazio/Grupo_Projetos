@@ -14,7 +14,7 @@ const char* password = "Mfpt161921";
 #define DHTPIN 4
 #define DHTTYPE DHT11
 DHT dht(DHTPIN, DHTTYPE);
-#define MQ3_PIN 32   // Sensor MQ-3
+#define MQ3_PIN 34   // Sensor MQ-3
 
 // =========================================
 // VARIÁVEIS CONFIGURÁVEIS

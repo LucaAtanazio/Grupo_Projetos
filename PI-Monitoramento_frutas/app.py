@@ -22,7 +22,7 @@ DB = os.getenv("MONGO_DB")
 API_KEY = os.getenv("API_KEY")
 
 # URI Dinâmica e Segura
-MONGO_URI = f"mongodb://{USER}:{PASS}@{HOST}:27017/{DB}?authSource={DB}"
+MONGO_URI = f"mongodb://{HOST}:27017/{DB}"
 
 DB_NAME = os.getenv("MONGO_DB")
 COLLECTION = "novo_monitoramento"
@@ -349,4 +349,6 @@ if __name__ == "__main__":
     # O endereço 0.0.0.0 garante que o Flask aceite conexões de
     # outros dispositivos na rede local (como o ESP32 no 192.168.0.15).
     print("Servidor rodando na sua rede local (verifique seu IP): Porta 8080")
-    socketio.run(app, host="0.0.0.0", port=8080)
+    socketio.run(app, host=os.getenv("IP"), port=8080)
+    
+    
