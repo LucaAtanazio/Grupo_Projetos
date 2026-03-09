@@ -7,3 +7,4 @@ data/*.csv
 .env
 **/config.h
 **/DadosMedia.ino
+backup sem segurança/

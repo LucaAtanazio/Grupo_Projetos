@@ -80,7 +80,7 @@ def definir_estado_predito(d):
             return "risco de perda"
 
     # ===========================
-    # OUTRAS FRUTAS (Ex: BANANA) → seu sistema atual
+    # OUTRAS FRUTAS (Ex: BANANA)
     # Esta seção é usada para qualquer outra fruta (exceto tomate)
     # ===========================
     if mq3 < 1900:
@@ -230,10 +230,6 @@ def regressao_linear(df):
 
 @app.route("/api/novo_monitoramento", methods=["POST"])
 def receber_dados():
-    # VERIFICAÇÃO DE SEGURANÇA
-    key = request.headers.get("X-API-KEY")
-    if key != API_KEY:
-        return jsonify({"erro": "Acesso negado"}), 403
     
     try:
         data = request.get_json()

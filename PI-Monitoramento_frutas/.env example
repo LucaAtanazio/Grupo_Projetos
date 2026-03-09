@@ -2,7 +2,9 @@
 MONGO_USER=seu_usuario_aqui
 MONGO_PASS=sua_senha_aqui
 MONGO_HOST=localhost
-MONGO_DB=FRUTAS_DB
+MONGO_DB=nome_banco_de_dados
 
 # Segurança da API (Header X-API-KEY)
 API_KEY=sua_chave_secreta_aqui
+
+IP=IPv4_da_rede

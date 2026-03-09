@@ -80,7 +80,7 @@ def definir_estado_predito(d):
             return "risco de perda"
 
     # ===========================
-    # OUTRAS FRUTAS (Ex: BANANA) → seu sistema atual
+    # OUTRAS FRUTAS (Ex: BANANA) 
     # Esta seção é usada para qualquer outra fruta (exceto tomate)
     # ===========================
     if mq3 < 1900:
@@ -258,15 +258,12 @@ def receber_dados():
         data["estado_previsto"] = estado_prev
         data["validade"] = validade
 
-        # HORÁRIO DO BRASIL (datetime)
+        # HORÁRIO DO BRASIL 
         data["dataRegistro"] = datetime.now(BRASIL)
 
         # SALVAR NO MONGO
         result = colecao.insert_one(data)
         
-        # =======================================================
-        # CORREÇÃO PARA O ERRO: ObjectId is not JSON serializable (HTTP 500)
-        # -------------------------------------------------------
         # Converte o ObjectId gerado pelo MongoDB para string,
         # resolvendo o problema de serialização na resposta JSON.
         data["_id"] = str(result.inserted_id)
@@ -294,8 +291,8 @@ def receber_dados():
 
 @app.route("/exportar/<tipo>")
 def exportar_tipo(tipo):
-    # Rota usada para exportar: http://192.168.0.15:8080/exportar/banana
-    # Também pode ser usada para http://192.168.0.15:8080/exportar/tomate
+    # Rota usada para exportar: http://"IP":8080/exportar/banana
+    # Também pode ser usada para http://"IP":8080/exportar/tomate
     if tipo == "todas":
         frutas = colecao.distinct("tipoFruta")
         return jsonify({
@@ -346,8 +343,6 @@ def static_files(path):
 # ============================================================
 
 if __name__ == "__main__":
-    # O endereço 0.0.0.0 garante que o Flask aceite conexões de
-    # outros dispositivos na rede local (como o ESP32 no 192.168.0.15).
     print("Servidor rodando na sua rede local (verifique seu IP): Porta 8080")
     socketio.run(app, host=os.getenv("IP"), port=8080)
     

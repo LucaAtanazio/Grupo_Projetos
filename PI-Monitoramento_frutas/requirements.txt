@@ -1,9 +1,15 @@
-
 Flask
 Flask-SocketIO
-pymongo
+eventlet  
+
 pandas
 numpy
 scikit-learn
 joblib
+
+pymongo[srv]  
+python-dotenv  
+
+gunicorn
+
 EOF
