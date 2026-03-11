@@ -1,4 +1,0 @@
-#define SECRET_SSID ""
-#define SECRET_PASS ""
-#define SECRET_SERVER_URL "http://"IP":8080/api/novo_monitoramento"
-#define API_KEY ""

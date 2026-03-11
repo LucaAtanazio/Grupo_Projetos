@@ -1,10 +1,13 @@
 *.db
 __pycache__/
+data/monitoramento/
+data/*.ipynb
 data/*.csv
 *.pyc
 .vscode/
+code_seg/
 
-.env
-**/config.h
-**/DadosMedia.ino
-backup sem segurança/
+code_seg/DadosMedia/config.h
+code_seg/.env
+
+backup_sem_seg/

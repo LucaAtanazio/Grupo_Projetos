@@ -1,7 +1,7 @@
 #include "DHT.h"
 
 // Definições de Hardware
-#define DHTPIN 15       
+#define DHTPIN 19       
 #define DHTTYPE DHT11
 #define MQ3PIN 34      // ADC1_CH6 - Seguro para uso com Wi-Fi
 
