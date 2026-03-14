@@ -1,8 +1,6 @@
 *.db
 __pycache__/
-data/monitoramento/
-data/*.ipynb
-data/*.csv
+
 *.pyc
 .vscode/
 code_seg/
