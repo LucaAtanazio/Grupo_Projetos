@@ -1,0 +1,934 @@
+_id,tipoFruta,temperatura,umidade_ar,mq3_raw,mq3_tensao,lote,estado_real,estado_previsto,validade,dataRegistro
+69b05427e8fc2c9b2799183e,ambiente,31.3,62,500,0.40293,lote_A,sem risco,sem risco,,2026-03-10T17:25:59.043Z
+69b05552e8fc2c9b2799183f,ambiente,31.3,62,507,0.408571,lote_A,sem risco,sem risco,,2026-03-10T17:30:58.961Z
+69b0567ee8fc2c9b27991840,ambiente,31.8,62,528,0.425494,lote_A,sem risco,sem risco,,2026-03-10T17:35:58.793Z
+69b057aae8fc2c9b27991841,ambiente,31.8,61,557,0.448864,lote_A,sem risco,sem risco,,2026-03-10T17:40:58.776Z
+69b058d6e8fc2c9b27991842,ambiente,31.8,61,558,0.44967,lote_A,sem risco,sem risco,,2026-03-10T17:45:58.920Z
+69b05a02e8fc2c9b27991843,ambiente,31.8,61,561,0.452088,lote_A,sem risco,sem risco,,2026-03-10T17:50:58.965Z
+69b05b2ee8fc2c9b27991844,ambiente,31.8,60,519,0.418242,lote_A,sem risco,sem risco,,2026-03-10T17:55:58.927Z
+69b05c5ae8fc2c9b27991845,ambiente,31.8,60,535,0.431136,lote_A,sem risco,sem risco,,2026-03-10T18:00:58.959Z
+69b05d86e8fc2c9b27991846,ambiente,31.8,59,565,0.455311,lote_A,sem risco,sem risco,,2026-03-10T18:05:58.966Z
+69b05eb2e8fc2c9b27991847,ambiente,31.8,59,589,0.474652,lote_A,sem risco,sem risco,,2026-03-10T18:10:58.826Z
+69b05fdee8fc2c9b27991848,ambiente,31.8,59,610,0.491575,lote_A,sem risco,sem risco,,2026-03-10T18:15:58.965Z
+69b0610be8fc2c9b27991849,ambiente,32.3,59,634,0.510916,lote_A,sem risco,sem risco,,2026-03-10T18:20:59.020Z
+69b06237e8fc2c9b2799184a,ambiente,32.3,60,661,0.532674,lote_A,sem risco,sem risco,,2026-03-10T18:25:59.460Z
+69b063eee8fc2c9b2799184b,ambiente,32.3,61,1402,1.129817,lote_A,sem risco,sem risco,,2026-03-10T18:33:18.577Z
+69b069c3e8fc2c9b27991850,banana,32.8,83,2952,2.378901,lote_B,Alerta,alerta,12,2026-03-10T18:58:11.767Z
+69b06aefe8fc2c9b27991851,banana,32.8,85,3071,2.474798,lote_B,Alerta,alerta,12,2026-03-10T19:03:11.139Z
+69b06c1be8fc2c9b27991852,banana,32.8,86,3163,2.548938,lote_B,Alerta,risco de perda,0,2026-03-10T19:08:11.427Z
+69b06d47e8fc2c9b27991853,banana,32.8,87,3230,2.60293,lote_B,Alerta,risco de perda,0,2026-03-10T19:13:11.180Z
+69b06e73e8fc2c9b27991854,banana,32.8,87,3301,2.660146,lote_B,Alerta,risco de perda,0,2026-03-10T19:18:11.460Z
+69b06f9fe8fc2c9b27991855,banana,32.8,87,3363,2.71011,lote_B,Alerta,risco de perda,0,2026-03-10T19:23:11.443Z
+69b070cbe8fc2c9b27991856,banana,32.8,87,3431,2.764908,lote_B,Alerta,risco de perda,0,2026-03-10T19:28:11.944Z
+69b071f7e8fc2c9b27991857,banana,32.8,87,3484,2.807619,lote_B,Alerta,risco de perda,0,2026-03-10T19:33:11.329Z
+69b07323e8fc2c9b27991858,banana,32.8,87,3536,2.849524,lote_B,Alerta,risco de perda,0,2026-03-10T19:38:11.748Z
+69b0744fe8fc2c9b27991859,banana,32.8,88,3577,2.882564,lote_B,Alerta,risco de perda,0,2026-03-10T19:43:11.489Z
+69b0757de8fc2c9b2799185a,banana,32.8,88,3614,2.912381,lote_B,Alerta,risco de perda,0,2026-03-10T19:48:13.047Z
+69b076a7e8fc2c9b2799185b,banana,33.3,87,3656,2.946227,lote_B,Alerta,risco de perda,0,2026-03-10T19:53:11.267Z
+69b077d3e8fc2c9b2799185c,banana,33.3,87,3695,2.977656,lote_B,Alerta,risco de perda,0,2026-03-10T19:58:11.277Z
+69b078ffe8fc2c9b2799185d,banana,33.3,87,3723,3.00022,lote_B,Alerta,risco de perda,0,2026-03-10T20:03:11.398Z
+69b07a2be8fc2c9b2799185e,banana,33.3,87,3746,3.018754,lote_B,Alerta,risco de perda,0,2026-03-10T20:08:11.252Z
+69b07b5de8fc2c9b2799185f,banana,33.3,87,3785,3.050183,lote_B,Alerta,risco de perda,0,2026-03-10T20:13:17.370Z
+69b07c83e8fc2c9b27991860,banana,33.3,88,3784,3.049377,lote_B,Alerta,risco de perda,0,2026-03-10T20:18:11.315Z
+69b07dafe8fc2c9b27991861,banana,33.3,88,3809,3.069524,lote_B,Alerta,risco de perda,0,2026-03-10T20:23:11.576Z
+69b07edbe8fc2c9b27991862,banana,33.3,88,3786,3.050989,lote_B,Alerta,risco de perda,0,2026-03-10T20:28:11.257Z
+69b08007e8fc2c9b27991863,banana,32.8,89,3772,3.039707,lote_B,Alerta,risco de perda,0,2026-03-10T20:33:11.329Z
+69b08133e8fc2c9b27991864,banana,32.8,89,3658,2.947839,lote_B,Alerta,risco de perda,0,2026-03-10T20:38:11.475Z
+69b0825fe8fc2c9b27991865,banana,32.8,89,3678,2.963956,lote_B,Alerta,risco de perda,0,2026-03-10T20:43:11.703Z
+69b0838be8fc2c9b27991866,banana,32.3,88,3606,2.905934,lote_B,Alerta,risco de perda,0,2026-03-10T20:48:11.342Z
+69b084b7e8fc2c9b27991867,banana,32.3,89,3532,2.8463,lote_B,Alerta,risco de perda,0,2026-03-10T20:53:11.573Z
+69b085e3e8fc2c9b27991868,banana,32.3,89,3452,2.781832,lote_B,Alerta,risco de perda,0,2026-03-10T20:58:11.509Z
+69b0870fe8fc2c9b27991869,banana,32.3,89,3458,2.786667,lote_B,Alerta,risco de perda,0,2026-03-10T21:03:11.442Z
+69b0883be8fc2c9b2799186a,banana,31.8,88,3321,2.676264,lote_B,Alerta,risco de perda,0,2026-03-10T21:08:11.577Z
+69b08968e8fc2c9b2799186b,banana,31.8,88,3326,2.680293,lote_B,Alerta,risco de perda,0,2026-03-10T21:13:12.077Z
+69b08a8fe8fc2c9b2799186c,banana,31.8,87,2852,2.298315,lote_B,Alerta,alerta,12,2026-03-10T21:18:07.809Z
+69b08bbbe8fc2c9b2799186d,banana,31.3,87,2972,2.395018,lote_B,Alerta,alerta,12,2026-03-10T21:23:07.652Z
+69b08ce7e8fc2c9b2799186e,banana,30.8,86,2969,2.392601,lote_B,Alerta,alerta,12,2026-03-10T21:28:07.763Z
+69b08e13e8fc2c9b2799186f,banana,30.8,87,3008,2.424029,lote_B,Alerta,alerta,12,2026-03-10T21:33:07.946Z
+69b08f40e8fc2c9b27991870,banana,30.8,87,3136,2.527179,lote_B,Alerta,risco de perda,0,2026-03-10T21:38:08.004Z
+69b0906be8fc2c9b27991871,banana,30.8,88,3247,2.61663,lote_B,Alerta,risco de perda,0,2026-03-10T21:43:07.686Z
+69b09197e8fc2c9b27991872,banana,30.8,89,3308,2.665787,lote_B,Alerta,risco de perda,0,2026-03-10T21:48:07.719Z
+69b092c3e8fc2c9b27991873,banana,30.8,90,3245,2.615018,lote_B,Alerta,risco de perda,0,2026-03-10T21:53:07.815Z
+69b093efe8fc2c9b27991874,banana,30.2,90,3271,2.635971,lote_B,Alerta,risco de perda,0,2026-03-10T21:58:07.697Z
+69b0951be8fc2c9b27991875,banana,30.2,89,3360,2.707692,lote_B,Alerta,risco de perda,0,2026-03-10T22:03:07.788Z
+69b09647e8fc2c9b27991876,banana,30.2,90,3330,2.683517,lote_B,Alerta,risco de perda,0,2026-03-10T22:08:07.973Z
+69b09776e8fc2c9b27991877,banana,30.2,91,3344,2.694798,lote_B,Alerta,risco de perda,0,2026-03-10T22:13:10.669Z
+69b0989fe8fc2c9b27991878,banana,30.2,90,3405,2.743956,lote_B,Alerta,risco de perda,0,2026-03-10T22:18:07.740Z
+69b099cbe8fc2c9b27991879,banana,29.8,91,3470,2.796337,lote_B,Alerta,risco de perda,0,2026-03-10T22:23:07.982Z
+69b09af7e8fc2c9b2799187a,banana,30.2,91,3525,2.840659,lote_B,Alerta,risco de perda,0,2026-03-10T22:28:07.909Z
+69b09c23e8fc2c9b2799187b,banana,30.2,91,3475,2.800366,lote_B,Alerta,risco de perda,0,2026-03-10T22:33:07.739Z
+69b09d50e8fc2c9b2799187c,banana,30.2,91,3550,2.860806,lote_B,Alerta,risco de perda,0,2026-03-10T22:38:08.549Z
+69b09e7ee8fc2c9b2799187d,banana,30.2,90,3605,2.905128,lote_B,Alerta,risco de perda,0,2026-03-10T22:43:10.949Z
+69b09faae8fc2c9b2799187e,banana,30.2,91,3585,2.889011,lote_B,Alerta,risco de perda,0,2026-03-10T22:48:10.443Z
+69b0a0d3e8fc2c9b2799187f,banana,30.2,91,3595,2.89707,lote_B,Alerta,risco de perda,0,2026-03-10T22:53:07.822Z
+69b0a200e8fc2c9b27991880,banana,29.8,91,3644,2.936557,lote_B,Alerta,risco de perda,0,2026-03-10T22:58:08.447Z
+69b0a32ce8fc2c9b27991881,banana,29.8,91,3672,2.959121,lote_B,Alerta,risco de perda,0,2026-03-10T23:03:08.119Z
+69b0a457e8fc2c9b27991882,banana,30.2,91,3609,2.908352,lote_B,Alerta,risco de perda,0,2026-03-10T23:08:07.791Z
+69b0a584e8fc2c9b27991883,banana,29.8,91,3660,2.94945,lote_B,Alerta,risco de perda,0,2026-03-10T23:13:08.058Z
+69b0a6afe8fc2c9b27991884,banana,29.8,91,3686,2.970403,lote_B,Alerta,risco de perda,0,2026-03-10T23:18:07.971Z
+69b0a7dbe8fc2c9b27991885,banana,29.8,92,3656,2.946227,lote_B,Alerta,risco de perda,0,2026-03-10T23:23:07.922Z
+69b0a908e8fc2c9b27991886,banana,29.8,91,3674,2.960733,lote_B,Alerta,risco de perda,0,2026-03-10T23:28:08.066Z
+69b0aa33e8fc2c9b27991887,banana,29.8,91,3549,2.86,lote_B,Alerta,risco de perda,0,2026-03-10T23:33:07.933Z
+69b0ab60e8fc2c9b27991888,banana,29.8,91,3492,2.814066,lote_B,Alerta,risco de perda,0,2026-03-10T23:38:08.024Z
+69b0ac8ce8fc2c9b27991889,banana,29.3,90,3548,2.859194,lote_B,Alerta,risco de perda,0,2026-03-10T23:43:08.666Z
+69b0adb8e8fc2c9b2799188a,banana,29.3,91,3598,2.899487,lote_B,Alerta,risco de perda,0,2026-03-10T23:48:08.104Z
+69b0aee4e8fc2c9b2799188b,banana,29.3,91,3627,2.922857,lote_B,Alerta,risco de perda,0,2026-03-10T23:53:08.169Z
+69b0b00fe8fc2c9b2799188c,banana,29.8,91,3654,2.944615,lote_B,Alerta,risco de perda,0,2026-03-10T23:58:07.932Z
+69b0b13ce8fc2c9b2799188d,banana,29.7,91,3671,2.958315,lote_B,Alerta,risco de perda,0,2026-03-11T00:03:08.198Z
+69b0b267e8fc2c9b2799188e,banana,29.8,92,3691,2.974432,lote_B,Alerta,risco de perda,0,2026-03-11T00:08:07.813Z
+69b0b393e8fc2c9b2799188f,banana,29.8,92,3731,3.006667,lote_B,Alerta,risco de perda,0,2026-03-11T00:13:07.855Z
+69b0b4bfe8fc2c9b27991890,banana,29.8,92,3740,3.013919,lote_B,Alerta,risco de perda,0,2026-03-11T00:18:07.894Z
+69b0b5ebe8fc2c9b27991891,banana,29.8,92,3763,3.032454,lote_B,Alerta,risco de perda,0,2026-03-11T00:23:07.929Z
+69b0b718e8fc2c9b27991892,banana,29.8,92,3777,3.043736,lote_B,Alerta,risco de perda,0,2026-03-11T00:28:08.035Z
+69b0b844e8fc2c9b27991893,banana,29.8,92,3719,2.996996,lote_B,Alerta,risco de perda,0,2026-03-11T00:33:08.000Z
+69b0b970e8fc2c9b27991894,banana,29.8,92,3757,3.027619,lote_B,Alerta,risco de perda,0,2026-03-11T00:38:08.160Z
+69b0ba9ce8fc2c9b27991895,banana,29.3,92,3669,2.956703,lote_B,Alerta,risco de perda,0,2026-03-11T00:43:08.037Z
+69b0bbc8e8fc2c9b27991896,banana,29.3,92,3635,2.929304,lote_B,Alerta,risco de perda,0,2026-03-11T00:48:08.062Z
+69b0bcf4e8fc2c9b27991897,banana,29.3,92,3562,2.870476,lote_B,Alerta,risco de perda,0,2026-03-11T00:53:08.067Z
+69b0be20e8fc2c9b27991898,banana,28.9,91,3311,2.668205,lote_B,Alerta,risco de perda,0,2026-03-11T00:58:08.079Z
+69b0bf4ce8fc2c9b27991899,banana,28.9,92,3361,2.708498,lote_B,Alerta,risco de perda,0,2026-03-11T01:03:08.282Z
+69b0c078e8fc2c9b2799189a,banana,28.5,91,3037,2.447399,lote_B,Alerta,alerta,12,2026-03-11T01:08:08.265Z
+69b0c1a4e8fc2c9b2799189b,banana,28.5,91,2759,2.22337,lote_B,Alerta,alerta,12,2026-03-11T01:13:08.089Z
+69b0c2d0e8fc2c9b2799189c,banana,28,90,2769,2.231429,lote_B,Alerta,alerta,12,2026-03-11T01:18:08.128Z
+69b0c3fce8fc2c9b2799189d,banana,27.6,89,2792,2.249963,lote_B,Alerta,alerta,12,2026-03-11T01:23:08.131Z
+69b0c528e8fc2c9b2799189e,banana,28,89,2761,2.224982,lote_B,Alerta,alerta,12,2026-03-11T01:28:08.013Z
+69b0c654e8fc2c9b2799189f,banana,28,90,2868,2.311209,lote_B,Alerta,alerta,12,2026-03-11T01:33:08.248Z
+69b0c8afe8fc2c9b279918a0,banana,28,91,3066,2.470769,lote_B,Alerta,alerta,12,2026-03-11T01:43:11.095Z
+69b0c9d7e8fc2c9b279918a1,banana,28,91,3122,2.515898,lote_B,Alerta,risco de perda,0,2026-03-11T01:48:07.970Z
+69b0cb04e8fc2c9b279918a2,banana,28.5,91,3215,2.590842,lote_B,Alerta,risco de perda,0,2026-03-11T01:53:08.175Z
+69b0cc30e8fc2c9b279918a3,banana,28.5,91,3178,2.561026,lote_B,Alerta,risco de perda,0,2026-03-11T01:58:08.312Z
+69b0cd5ce8fc2c9b279918a4,banana,28.5,92,3095,2.494139,lote_B,Alerta,alerta,12,2026-03-11T02:03:08.035Z
+69b0ce88e8fc2c9b279918a5,banana,28.5,91,2955,2.381319,lote_B,Alerta,alerta,12,2026-03-11T02:08:08.322Z
+69b0cfb4e8fc2c9b279918a6,banana,28,90,2942,2.370842,lote_B,Alerta,alerta,12,2026-03-11T02:13:08.229Z
+69b0d0e0e8fc2c9b279918a7,banana,27.6,90,3056,2.462711,lote_B,Alerta,alerta,12,2026-03-11T02:18:08.231Z
+69b0d20ce8fc2c9b279918a8,banana,27.6,91,3158,2.544909,lote_B,Alerta,risco de perda,0,2026-03-11T02:23:08.105Z
+69b0d338e8fc2c9b279918a9,banana,28,91,3240,2.610989,lote_B,Alerta,risco de perda,0,2026-03-11T02:28:08.340Z
+69b0d464e8fc2c9b279918aa,banana,28,91,3315,2.671429,lote_B,Alerta,risco de perda,0,2026-03-11T02:33:08.226Z
+69b0d590e8fc2c9b279918ab,banana,28.5,91,3365,2.711722,lote_B,Alerta,risco de perda,0,2026-03-11T02:38:08.114Z
+69b0d6bce8fc2c9b279918ac,banana,28.5,91,3405,2.743956,lote_B,Alerta,risco de perda,0,2026-03-11T02:43:08.290Z
+69b0d7e8e8fc2c9b279918ad,banana,28.5,91,3457,2.785861,lote_B,Alerta,risco de perda,0,2026-03-11T02:48:08.284Z
+69b0d914e8fc2c9b279918ae,banana,28.5,91,3492,2.814066,lote_B,Alerta,risco de perda,0,2026-03-11T02:53:08.271Z
+69b0da40e8fc2c9b279918af,banana,28.5,91,3531,2.845495,lote_B,Alerta,risco de perda,0,2026-03-11T02:58:08.343Z
+69b0db6ce8fc2c9b279918b0,banana,28.5,92,3561,2.86967,lote_B,Alerta,risco de perda,0,2026-03-11T03:03:08.250Z
+69b0dc98e8fc2c9b279918b1,banana,28.5,92,3591,2.893846,lote_B,Alerta,risco de perda,0,2026-03-11T03:08:08.319Z
+69b0ddc4e8fc2c9b279918b2,banana,28.5,92,3617,2.914798,lote_B,Alerta,risco de perda,0,2026-03-11T03:13:08.158Z
+69b0def0e8fc2c9b279918b3,banana,28.5,92,3649,2.940586,lote_B,Alerta,risco de perda,0,2026-03-11T03:18:08.286Z
+69b0e01ce8fc2c9b279918b4,banana,28.5,92,3680,2.965568,lote_B,Alerta,risco de perda,0,2026-03-11T03:23:08.426Z
+69b0e148e8fc2c9b279918b5,banana,28.5,92,3709,2.988938,lote_B,Alerta,risco de perda,0,2026-03-11T03:28:08.358Z
+69b0e274e8fc2c9b279918b6,banana,28.5,92,3732,3.007473,lote_B,Alerta,risco de perda,0,2026-03-11T03:33:08.409Z
+69b0e3a0e8fc2c9b279918b7,banana,28.5,92,3754,3.025202,lote_B,Alerta,risco de perda,0,2026-03-11T03:38:08.769Z
+69b0e4cce8fc2c9b279918b8,banana,28.5,92,3784,3.049377,lote_B,Alerta,risco de perda,0,2026-03-11T03:43:08.325Z
+69b0e5f8e8fc2c9b279918b9,banana,28.5,92,3800,3.062271,lote_B,Alerta,risco de perda,0,2026-03-11T03:48:08.220Z
+69b0e724e8fc2c9b279918ba,banana,28.5,92,3819,3.077582,lote_B,Alerta,risco de perda,0,2026-03-11T03:53:08.447Z
+69b0e850e8fc2c9b279918bb,banana,28.5,92,3852,3.104176,lote_B,Alerta,risco de perda,0,2026-03-11T03:58:08.402Z
+69b0e97fe8fc2c9b279918bc,banana,28.5,92,3844,3.097729,lote_B,Alerta,risco de perda,0,2026-03-11T04:03:11.867Z
+69b0eaa8e8fc2c9b279918bd,banana,28.5,92,3849,3.101758,lote_B,Alerta,risco de perda,0,2026-03-11T04:08:08.199Z
+69b0ebd4e8fc2c9b279918be,banana,28.5,92,3827,3.084029,lote_B,Alerta,risco de perda,0,2026-03-11T04:13:08.332Z
+69b0ed00e8fc2c9b279918bf,banana,28.4,92,3857,3.108205,lote_B,Alerta,risco de perda,0,2026-03-11T04:18:08.488Z
+69b0ee2ce8fc2c9b279918c0,banana,28.4,92,3855,3.106593,lote_B,Alerta,risco de perda,0,2026-03-11T04:23:08.347Z
+69b0ef59e8fc2c9b279918c1,banana,28,92,3875,3.122711,lote_B,Alerta,risco de perda,0,2026-03-11T04:28:09.001Z
+69b0f084e8fc2c9b279918c2,banana,28,92,3878,3.125128,lote_B,Alerta,risco de perda,0,2026-03-11T04:33:08.323Z
+69b0f1b0e8fc2c9b279918c3,banana,28,92,3885,3.130769,lote_B,Alerta,risco de perda,0,2026-03-11T04:38:08.459Z
+69b0f2dce8fc2c9b279918c4,banana,28.5,92,3885,3.130769,lote_B,Alerta,risco de perda,0,2026-03-11T04:43:08.253Z
+69b0f408e8fc2c9b279918c5,banana,28.5,92,3902,3.144469,lote_B,Alerta,risco de perda,0,2026-03-11T04:48:08.427Z
+69b0f538e8fc2c9b279918c6,banana,28.1,92,3905,3.146886,lote_B,Alerta,risco de perda,0,2026-03-11T04:53:12.559Z
+69b0f660e8fc2c9b279918c7,banana,28,92,3906,3.147692,lote_B,Alerta,risco de perda,0,2026-03-11T04:58:08.396Z
+69b0f78ce8fc2c9b279918c8,banana,28,92,3916,3.155751,lote_B,Alerta,risco de perda,0,2026-03-11T05:03:08.330Z
+69b0f8b8e8fc2c9b279918c9,banana,28,92,3929,3.166227,lote_B,Alerta,risco de perda,0,2026-03-11T05:08:08.467Z
+69b0f9e5e8fc2c9b279918ca,banana,28,92,3925,3.163004,lote_B,Alerta,risco de perda,0,2026-03-11T05:13:09.011Z
+69b0fb10e8fc2c9b279918cb,banana,28,92,3910,3.150916,lote_B,Alerta,risco de perda,0,2026-03-11T05:18:08.329Z
+69b0fc3ce8fc2c9b279918cc,banana,28,92,3921,3.15978,lote_B,Alerta,risco de perda,0,2026-03-11T05:23:08.373Z
+69b0fd68e8fc2c9b279918cd,banana,28,92,3952,3.184762,lote_B,Alerta,risco de perda,0,2026-03-11T05:28:08.458Z
+69b0fe94e8fc2c9b279918ce,banana,28,92,3916,3.155751,lote_B,Alerta,risco de perda,0,2026-03-11T05:33:08.503Z
+69b0ffc0e8fc2c9b279918cf,banana,28,92,3921,3.15978,lote_B,Alerta,risco de perda,0,2026-03-11T05:38:08.365Z
+69b100ece8fc2c9b279918d0,banana,28,92,3952,3.184762,lote_B,Alerta,risco de perda,0,2026-03-11T05:43:08.467Z
+69b10218e8fc2c9b279918d1,banana,28,92,3966,3.196044,lote_B,Alerta,risco de perda,0,2026-03-11T05:48:08.555Z
+69b10344e8fc2c9b279918d2,banana,28,92,3978,3.205714,lote_B,Alerta,risco de perda,0,2026-03-11T05:53:08.388Z
+69b10470e8fc2c9b279918d3,banana,28,92,3966,3.196044,lote_B,Alerta,risco de perda,0,2026-03-11T05:58:08.515Z
+69b1059ce8fc2c9b279918d4,banana,28,92,3944,3.178315,lote_B,Alerta,risco de perda,0,2026-03-11T06:03:08.677Z
+69b106c8e8fc2c9b279918d5,banana,27.6,93,3950,3.18315,lote_B,Alerta,risco de perda,0,2026-03-11T06:08:08.561Z
+69b107f4e8fc2c9b279918d6,banana,27.6,93,3955,3.18718,lote_B,Alerta,risco de perda,0,2026-03-11T06:13:08.557Z
+69b10920e8fc2c9b279918d7,banana,27.6,93,3951,3.183956,lote_B,Alerta,risco de perda,0,2026-03-11T06:18:08.554Z
+69b10a4ce8fc2c9b279918d8,banana,27.6,93,3964,3.194432,lote_B,Alerta,risco de perda,0,2026-03-11T06:23:08.564Z
+69b10b78e8fc2c9b279918d9,banana,27.6,93,3949,3.182344,lote_B,Alerta,risco de perda,0,2026-03-11T06:28:08.640Z
+69b10ca4e8fc2c9b279918da,banana,27.6,93,3957,3.188791,lote_B,Alerta,risco de perda,0,2026-03-11T06:33:08.475Z
+69b10dd1e8fc2c9b279918db,banana,27.6,93,3960,3.191209,lote_B,Alerta,risco de perda,0,2026-03-11T06:38:09.324Z
+69b10efce8fc2c9b279918dc,banana,27.8,93,3959,3.190403,lote_B,Alerta,risco de perda,0,2026-03-11T06:43:08.389Z
+69b11028e8fc2c9b279918dd,banana,27.6,93,3981,3.208132,lote_B,Alerta,risco de perda,0,2026-03-11T06:48:08.474Z
+69b11154e8fc2c9b279918de,banana,27.6,93,3967,3.19685,lote_B,Alerta,risco de perda,0,2026-03-11T06:53:08.612Z
+69b11280e8fc2c9b279918df,banana,27.6,93,3973,3.201685,lote_B,Alerta,risco de perda,0,2026-03-11T06:58:08.696Z
+69b113ace8fc2c9b279918e0,banana,27.6,93,3977,3.204908,lote_B,Alerta,risco de perda,0,2026-03-11T07:03:08.606Z
+69b114d8e8fc2c9b279918e1,banana,27.6,93,3986,3.212161,lote_B,Alerta,risco de perda,0,2026-03-11T07:08:08.627Z
+69b11604e8fc2c9b279918e2,banana,27.6,93,3976,3.204103,lote_B,Alerta,risco de perda,0,2026-03-11T07:13:08.666Z
+69b11730e8fc2c9b279918e3,banana,27.6,93,3993,3.217802,lote_B,Alerta,risco de perda,0,2026-03-11T07:18:08.695Z
+69b1185ce8fc2c9b279918e4,banana,27.6,93,3957,3.188791,lote_B,Alerta,risco de perda,0,2026-03-11T07:23:08.644Z
+69b11988e8fc2c9b279918e5,banana,27.6,93,3960,3.191209,lote_B,Alerta,risco de perda,0,2026-03-11T07:28:08.628Z
+69b11ab4e8fc2c9b279918e6,banana,27.6,93,3968,3.197656,lote_B,Alerta,risco de perda,0,2026-03-11T07:33:08.891Z
+69b11be0e8fc2c9b279918e7,banana,27.6,93,3987,3.212967,lote_B,Alerta,risco de perda,0,2026-03-11T07:38:08.539Z
+69b11d0ce8fc2c9b279918e8,banana,27.6,93,3965,3.195238,lote_B,Alerta,risco de perda,0,2026-03-11T07:43:08.670Z
+69b11e38e8fc2c9b279918e9,banana,27.6,93,3968,3.197656,lote_B,Alerta,risco de perda,0,2026-03-11T07:48:08.715Z
+69b11f64e8fc2c9b279918ea,banana,27.6,93,3990,3.215385,lote_B,Alerta,risco de perda,0,2026-03-11T07:53:08.743Z
+69b12090e8fc2c9b279918eb,banana,27.6,93,3965,3.195238,lote_B,Alerta,risco de perda,0,2026-03-11T07:58:08.583Z
+69b121bce8fc2c9b279918ec,banana,27.6,93,3988,3.213773,lote_B,Alerta,risco de perda,0,2026-03-11T08:03:08.755Z
+69b122e8e8fc2c9b279918ed,banana,27.6,93,3974,3.202491,lote_B,Alerta,risco de perda,0,2026-03-11T08:08:08.751Z
+69b12414e8fc2c9b279918ee,banana,27.1,93,3989,3.214579,lote_B,Alerta,risco de perda,0,2026-03-11T08:13:08.550Z
+69b12540e8fc2c9b279918ef,banana,27.1,93,3990,3.215385,lote_B,Alerta,risco de perda,0,2026-03-11T08:18:08.729Z
+69b1266ce8fc2c9b279918f0,banana,27.1,93,3973,3.201685,lote_B,Alerta,risco de perda,0,2026-03-11T08:23:08.776Z
+69b12798e8fc2c9b279918f1,banana,27.1,93,3961,3.192015,lote_B,Alerta,risco de perda,0,2026-03-11T08:28:08.589Z
+69b128c4e8fc2c9b279918f2,banana,27.1,93,3981,3.208132,lote_B,Alerta,risco de perda,0,2026-03-11T08:33:08.574Z
+69b129f3e8fc2c9b279918f3,banana,27.1,93,3971,3.200073,lote_B,Alerta,risco de perda,0,2026-03-11T08:38:11.570Z
+69b12b1ce8fc2c9b279918f4,banana,27.1,93,3973,3.201685,lote_B,Alerta,risco de perda,0,2026-03-11T08:43:08.836Z
+69b12c48e8fc2c9b279918f5,banana,27.1,93,3969,3.198462,lote_B,Alerta,risco de perda,0,2026-03-11T08:48:08.741Z
+69b12d74e8fc2c9b279918f6,banana,27.1,93,3961,3.192015,lote_B,Alerta,risco de perda,0,2026-03-11T08:53:08.783Z
+69b12ea0e8fc2c9b279918f7,banana,27.1,93,3968,3.197656,lote_B,Alerta,risco de perda,0,2026-03-11T08:58:08.816Z
+69b12fcce8fc2c9b279918f8,banana,27.1,93,3947,3.180732,lote_B,Alerta,risco de perda,0,2026-03-11T09:03:08.647Z
+69b130f8e8fc2c9b279918f9,banana,27.1,93,3950,3.18315,lote_B,Alerta,risco de perda,0,2026-03-11T09:08:08.688Z
+69b13224e8fc2c9b279918fa,banana,26.8,93,3950,3.18315,lote_B,Alerta,risco de perda,0,2026-03-11T09:13:08.827Z
+69b13350e8fc2c9b279918fb,banana,27.1,93,3939,3.174286,lote_B,Alerta,risco de perda,0,2026-03-11T09:18:08.857Z
+69b1347ce8fc2c9b279918fc,banana,27.1,93,3950,3.18315,lote_B,Alerta,risco de perda,0,2026-03-11T09:23:08.688Z
+69b135a8e8fc2c9b279918fd,banana,26.7,93,3944,3.178315,lote_B,Alerta,risco de perda,0,2026-03-11T09:28:08.824Z
+69b136d5e8fc2c9b279918fe,banana,27.1,93,3939,3.174286,lote_B,Alerta,risco de perda,0,2026-03-11T09:33:09.063Z
+69b13800e8fc2c9b279918ff,banana,27.1,93,3943,3.177509,lote_B,Alerta,risco de perda,0,2026-03-11T09:38:08.868Z
+69b1392fe8fc2c9b27991900,banana,26.7,93,3943,3.177509,lote_B,Alerta,risco de perda,0,2026-03-11T09:43:11.702Z
+69b13a58e8fc2c9b27991901,banana,27,93,3947,3.180732,lote_B,Alerta,risco de perda,0,2026-03-11T09:48:08.865Z
+69b13b84e8fc2c9b27991902,banana,27.1,93,3943,3.177509,lote_B,Alerta,risco de perda,0,2026-03-11T09:53:08.679Z
+69b13cb0e8fc2c9b27991903,banana,27.1,93,3936,3.171868,lote_B,Alerta,risco de perda,0,2026-03-11T09:58:08.716Z
+69b13ddce8fc2c9b27991904,banana,27.1,93,3936,3.171868,lote_B,Alerta,risco de perda,0,2026-03-11T10:03:08.874Z
+69b13f08e8fc2c9b27991905,banana,27.1,93,3907,3.148498,lote_B,Alerta,risco de perda,0,2026-03-11T10:08:08.898Z
+69b1403ae8fc2c9b27991906,banana,27.1,93,3943,3.177509,lote_B,Alerta,risco de perda,0,2026-03-11T10:13:14.111Z
+69b14160e8fc2c9b27991907,banana,27.1,93,3913,3.153333,lote_B,Alerta,risco de perda,0,2026-03-11T10:18:08.852Z
+69b1428de8fc2c9b27991908,banana,27.1,93,3913,3.153333,lote_B,Alerta,risco de perda,0,2026-03-11T10:23:09.029Z
+69b143b8e8fc2c9b27991909,banana,27.1,93,3916,3.155751,lote_B,Alerta,risco de perda,0,2026-03-11T10:28:08.884Z
+69b144e5e8fc2c9b2799190a,banana,27.1,93,3923,3.161392,lote_B,Alerta,risco de perda,0,2026-03-11T10:33:09.001Z
+69b14610e8fc2c9b2799190b,banana,27.1,93,3927,3.164615,lote_B,Alerta,risco de perda,0,2026-03-11T10:38:08.928Z
+69b1473ce8fc2c9b2799190c,banana,27.1,93,3930,3.167033,lote_B,Alerta,risco de perda,0,2026-03-11T10:43:08.980Z
+69b14868e8fc2c9b2799190d,banana,27.1,93,3937,3.172674,lote_B,Alerta,risco de perda,0,2026-03-11T10:48:08.918Z
+69b14995e8fc2c9b2799190e,banana,27.1,93,3936,3.171868,lote_B,Alerta,risco de perda,0,2026-03-11T10:53:09.037Z
+69b14ac0e8fc2c9b2799190f,banana,27.1,93,3943,3.177509,lote_B,Alerta,risco de perda,0,2026-03-11T10:58:08.985Z
+69b14bece8fc2c9b27991910,banana,27.1,93,3939,3.174286,lote_B,Alerta,risco de perda,0,2026-03-11T11:03:08.762Z
+69b14d18e8fc2c9b27991911,banana,27.1,93,3935,3.171062,lote_B,Alerta,risco de perda,0,2026-03-11T11:08:08.822Z
+69b14e45e8fc2c9b27991912,banana,27.1,93,3940,3.175092,lote_B,Alerta,risco de perda,0,2026-03-11T11:13:09.182Z
+69b17b22ccefde144fa91e93,banana,29,85,2477,1.996117,lote_C,alerta,madura,42,2026-03-11T14:24:34.728Z
+69b17c4eccefde144fa91e94,banana,29.3,86,2547,2.052527,lote_C,alerta,madura,42,2026-03-11T14:29:34.810Z
+69b17d7accefde144fa91e95,banana,29.3,87,2675,2.155678,lote_C,alerta,alerta,12,2026-03-11T14:34:34.985Z
+69b17ea8ccefde144fa91e96,banana,29.3,87,2863,2.307179,lote_C,alerta,alerta,12,2026-03-11T14:39:36.110Z
+69b17fdfccefde144fa91e97,banana,29.5,88,2970,2.393407,lote_C,alerta,alerta,12,2026-03-11T14:44:47.447Z
+69b180feccefde144fa91e98,banana,29.8,89,3034,2.444982,lote_C,alerta,alerta,12,2026-03-11T14:49:34.793Z
+69b1822accefde144fa91e99,banana,29.8,89,3076,2.478828,lote_C,alerta,alerta,12,2026-03-11T14:54:34.808Z
+69b18356ccefde144fa91e9a,banana,29.8,89,3187,2.568278,lote_C,alerta,risco de perda,0,2026-03-11T14:59:34.637Z
+69b18483ccefde144fa91e9b,banana,29.8,89,3279,2.642418,lote_C,alerta,risco de perda,0,2026-03-11T15:04:35.902Z
+69b185aeccefde144fa91e9c,banana,30.2,88,3364,2.710916,lote_C,alerta,risco de perda,0,2026-03-11T15:09:34.838Z
+69b186daccefde144fa91e9d,banana,30.2,88,3448,2.778608,lote_C,alerta,risco de perda,0,2026-03-11T15:14:34.847Z
+69b18806ccefde144fa91e9e,banana,30.2,89,3515,2.832601,lote_C,alerta,risco de perda,0,2026-03-11T15:19:34.679Z
+69b18932ccefde144fa91e9f,banana,30.2,89,3579,2.884176,lote_C,alerta,risco de perda,0,2026-03-11T15:24:34.820Z
+69b18a5eccefde144fa91ea0,banana,30.2,89,3652,2.943004,lote_C,alerta,risco de perda,0,2026-03-11T15:29:34.877Z
+69b18b8accefde144fa91ea1,banana,30.2,90,3693,2.976044,lote_C,alerta,risco de perda,0,2026-03-11T15:34:34.793Z
+69b18cb6ccefde144fa91ea2,banana,30.2,90,3736,3.010696,lote_C,alerta,risco de perda,0,2026-03-11T15:39:34.723Z
+69b18de2ccefde144fa91ea3,banana,30.2,90,3784,3.049377,lote_C,alerta,risco de perda,0,2026-03-11T15:44:34.881Z
+69b18f0eccefde144fa91ea4,banana,30.8,90,3825,3.082417,lote_C,alerta,risco de perda,0,2026-03-11T15:49:34.796Z
+69b1903dccefde144fa91ea5,banana,30.8,90,3862,3.112234,lote_C,alerta,risco de perda,0,2026-03-11T15:54:37.376Z
+69b19166ccefde144fa91ea6,banana,30.8,89,3894,3.138022,lote_C,alerta,risco de perda,0,2026-03-11T15:59:34.874Z
+69b19292ccefde144fa91ea7,banana,30.8,90,3928,3.165421,lote_C,alerta,risco de perda,0,2026-03-11T16:04:34.915Z
+69b193bfccefde144fa91ea8,banana,30.8,90,3962,3.192821,lote_C,alerta,risco de perda,0,2026-03-11T16:09:35.005Z
+69b194eaccefde144fa91ea9,banana,31.3,90,3986,3.212161,lote_C,alerta,risco de perda,0,2026-03-11T16:14:34.878Z
+69b19616ccefde144fa91eaa,banana,31.3,89,4010,3.231502,lote_C,alerta,risco de perda,0,2026-03-11T16:19:34.785Z
+69b19742ccefde144fa91eab,banana,31.3,89,4039,3.254872,lote_C,alerta,risco de perda,0,2026-03-11T16:24:34.840Z
+69b1986eccefde144fa91eac,banana,31.3,89,4065,3.275824,lote_C,alerta,risco de perda,0,2026-03-11T16:29:34.880Z
+69b1999accefde144fa91ead,banana,31.3,89,4080,3.287912,lote_C,alerta,risco de perda,0,2026-03-11T16:34:34.911Z
+69b19acaccefde144fa91eae,banana,31.8,89,4089,3.295165,lote_C,alerta,risco de perda,0,2026-03-11T16:39:38.194Z
+69b19bf2ccefde144fa91eaf,banana,31.8,89,4093,3.298388,lote_C,alerta,risco de perda,0,2026-03-11T16:44:34.778Z
+69b19d1fccefde144fa91eb0,banana,31.8,89,4093,3.298388,lote_C,alerta,risco de perda,0,2026-03-11T16:49:35.454Z
+69b19e4accefde144fa91eb1,banana,31.8,89,4094,3.299194,lote_C,alerta,risco de perda,0,2026-03-11T16:54:34.752Z
+69b19f76ccefde144fa91eb2,banana,32.3,89,4095,3.3,lote_C,alerta,risco de perda,0,2026-03-11T16:59:34.785Z
+69b1a0a2ccefde144fa91eb3,banana,32,89,4095,3.3,lote_C,alerta,risco de perda,0,2026-03-11T17:04:34.821Z
+69b1a1ceccefde144fa91eb4,banana,31.8,89,4095,3.3,lote_C,alerta,risco de perda,0,2026-03-11T17:09:34.964Z
+69b1a2fbccefde144fa91eb5,banana,31.8,90,4095,3.3,lote_C,alerta,risco de perda,0,2026-03-11T17:14:35.415Z
+69b1a426ccefde144fa91eb6,banana,32.3,90,4095,3.3,lote_C,alerta,risco de perda,0,2026-03-11T17:19:34.732Z
+69b1a552ccefde144fa91eb7,banana,32.3,90,4095,3.3,lote_C,alerta,risco de perda,0,2026-03-11T17:24:34.967Z
+69b1a67fccefde144fa91eb8,banana,32.3,90,4095,3.3,lote_C,alerta,risco de perda,0,2026-03-11T17:29:35.011Z
+69b1a7abccefde144fa91eb9,banana,32.3,90,4095,3.3,lote_C,alerta,risco de perda,0,2026-03-11T17:34:35.147Z
+69b1a8d7ccefde144fa91eba,banana,32.3,90,4095,3.3,lote_C,alerta,risco de perda,0,2026-03-11T17:39:35.148Z
+69b1aa02ccefde144fa91ebb,banana,32.3,90,4094,3.299194,lote_C,alerta,risco de perda,0,2026-03-11T17:44:34.913Z
+69b1ab2fccefde144fa91ebc,banana,32.3,89,4095,3.3,lote_C,alerta,risco de perda,0,2026-03-11T17:49:35.616Z
+69b1ac5accefde144fa91ebd,banana,32.8,89,4095,3.3,lote_C,alerta,risco de perda,0,2026-03-11T17:54:34.879Z
+69b1add1ccefde144fa91ebe,banana,32.3,79,1923,1.54967,lote_D,risco de perda,madura,30,2026-03-11T18:00:49.070Z
+69b1aef7ccefde144fa91ebf,banana,31.8,76,2355,1.897802,lote_D,risco de perda,madura,48,2026-03-11T18:05:43.579Z
+69b1b023ccefde144fa91ec0,banana,31.8,78,2658,2.141978,lote_D,risco de perda,alerta,12,2026-03-11T18:10:43.304Z
+69b1b14fccefde144fa91ec1,banana,31.8,82,2886,2.325714,lote_D,risco de perda,alerta,12,2026-03-11T18:15:43.694Z
+69b1b27bccefde144fa91ec2,banana,31.8,84,3069,2.473187,lote_D,risco de perda,alerta,12,2026-03-11T18:20:43.479Z
+69b1b3a7ccefde144fa91ec3,banana,31.8,86,3220,2.594872,lote_D,risco de perda,risco de perda,0,2026-03-11T18:25:43.714Z
+69b1b4d3ccefde144fa91ec4,banana,32.3,87,3348,2.698022,lote_D,risco de perda,risco de perda,0,2026-03-11T18:30:43.457Z
+69b1b5ffccefde144fa91ec5,banana,32.3,87,3465,2.792308,lote_D,risco de perda,risco de perda,0,2026-03-11T18:35:43.610Z
+69b1b72bccefde144fa91ec6,banana,32.3,87,3564,2.872088,lote_D,risco de perda,risco de perda,0,2026-03-11T18:40:43.639Z
+69b1b857ccefde144fa91ec7,banana,32.3,88,3656,2.946227,lote_D,risco de perda,risco de perda,0,2026-03-11T18:45:43.572Z
+69b1b983ccefde144fa91ec8,banana,32.3,88,3728,3.004249,lote_D,risco de perda,risco de perda,0,2026-03-11T18:50:43.598Z
+69b1bab2ccefde144fa91ec9,banana,32.3,88,3796,3.059048,lote_D,risco de perda,risco de perda,0,2026-03-11T18:55:46.704Z
+69b1bbdbccefde144fa91eca,banana,32.3,89,3861,3.111428,lote_D,risco de perda,risco de perda,0,2026-03-11T19:00:43.368Z
+69b1bd07ccefde144fa91ecb,banana,32.3,89,3920,3.158974,lote_D,risco de perda,risco de perda,0,2026-03-11T19:05:43.488Z
+69b1be34ccefde144fa91ecc,banana,32.3,90,3973,3.201685,lote_D,risco de perda,risco de perda,0,2026-03-11T19:10:44.241Z
+69b1bf5fccefde144fa91ecd,banana,32.3,90,4022,3.241172,lote_D,risco de perda,risco de perda,0,2026-03-11T19:15:43.453Z
+69b1c08cccefde144fa91ece,banana,32.3,90,4069,3.279048,lote_D,risco de perda,risco de perda,0,2026-03-11T19:20:44.256Z
+69b1c1baccefde144fa91ecf,banana,32.3,90,4093,3.298388,lote_D,risco de perda,risco de perda,0,2026-03-11T19:25:46.392Z
+69b1c2e3ccefde144fa91ed0,banana,32.3,90,4094,3.299194,lote_D,risco de perda,risco de perda,0,2026-03-11T19:30:43.664Z
+69b1c40fccefde144fa91ed1,banana,32.8,90,4095,3.3,lote_D,risco de perda,risco de perda,0,2026-03-11T19:35:43.544Z
+69b1c53bccefde144fa91ed2,banana,32.8,90,4094,3.299194,lote_D,risco de perda,risco de perda,0,2026-03-11T19:40:43.530Z
+69b1c667ccefde144fa91ed3,banana,32.8,90,4095,3.3,lote_D,risco de perda,risco de perda,0,2026-03-11T19:45:43.669Z
+69b1c793ccefde144fa91ed4,banana,32.8,90,4095,3.3,lote_D,risco de perda,risco de perda,0,2026-03-11T19:50:43.508Z
+69b1c8c2ccefde144fa91ed5,banana,32.8,90,4095,3.3,lote_D,risco de perda,risco de perda,0,2026-03-11T19:55:46.821Z
+69b1c9ebccefde144fa91ed6,banana,32.8,90,4095,3.3,lote_D,risco de perda,risco de perda,0,2026-03-11T20:00:43.576Z
+69b1cb17ccefde144fa91ed7,banana,33.3,89,4095,3.3,lote_D,risco de perda,risco de perda,0,2026-03-11T20:05:43.720Z
+69b1cc43ccefde144fa91ed8,banana,33.3,89,4095,3.3,lote_D,risco de perda,risco de perda,0,2026-03-11T20:10:43.651Z
+69b1cd6fccefde144fa91ed9,banana,33.8,89,4095,3.3,lote_D,risco de perda,risco de perda,0,2026-03-11T20:15:43.686Z
+69b1ce9bccefde144fa91eda,banana,33.8,89,4095,3.3,lote_D,risco de perda,risco de perda,0,2026-03-11T20:20:43.819Z
+69b1cfc8ccefde144fa91edb,banana,33.8,89,4095,3.3,lote_D,risco de perda,risco de perda,0,2026-03-11T20:25:44.165Z
+69b1d0f3ccefde144fa91edc,banana,33.8,89,4095,3.3,lote_D,risco de perda,risco de perda,0,2026-03-11T20:30:43.491Z
+69b1d21fccefde144fa91edd,banana,33.8,89,4095,3.3,lote_D,risco de perda,risco de perda,0,2026-03-11T20:35:43.626Z
+69b1d34bccefde144fa91ede,banana,33.8,89,4095,3.3,lote_D,risco de perda,risco de perda,0,2026-03-11T20:40:43.761Z
+69b1d477ccefde144fa91edf,banana,33.8,89,4095,3.3,lote_D,risco de perda,risco de perda,0,2026-03-11T20:45:43.707Z
+69b1d5a3ccefde144fa91ee0,banana,33.8,89,4095,3.3,lote_D,risco de perda,risco de perda,0,2026-03-11T20:50:43.745Z
+69b1d6cfccefde144fa91ee1,banana,33.8,89,4095,3.3,lote_D,risco de perda,risco de perda,0,2026-03-11T20:55:43.573Z
+69b1d7fbccefde144fa91ee2,banana,33.8,89,4095,3.3,lote_D,risco de perda,risco de perda,0,2026-03-11T21:00:43.611Z
+69b1d92accefde144fa91ee3,banana,33.8,90,4095,3.3,lote_D,risco de perda,risco de perda,0,2026-03-11T21:05:46.510Z
+69b1da54ccefde144fa91ee4,banana,33.8,90,4095,3.3,lote_D,risco de perda,risco de perda,0,2026-03-11T21:10:44.392Z
+69b399ecd108c10efc5431ab,ambiente,28,76,707,0.569744,lote_E,sem risco,sem risco,,2026-03-13T05:00:28.837Z
+69b39b18d108c10efc5431ac,ambiente,28,76,739,0.595531,lote_E,sem risco,sem risco,,2026-03-13T05:05:28.887Z
+69b39c44d108c10efc5431ad,ambiente,28,76,758,0.610842,lote_E,sem risco,sem risco,,2026-03-13T05:10:28.986Z
+69b39d71d108c10efc5431ae,ambiente,28,75,771,0.621319,lote_E,sem risco,sem risco,,2026-03-13T05:15:29.065Z
+69b39e9cd108c10efc5431af,ambiente,28,75,791,0.637436,lote_E,sem risco,sem risco,,2026-03-13T05:20:28.948Z
+69b39fc8d108c10efc5431b0,ambiente,28,75,807,0.65033,lote_E,sem risco,sem risco,,2026-03-13T05:25:28.994Z
+69b3a0f5d108c10efc5431b1,ambiente,28,75,818,0.659194,lote_E,sem risco,sem risco,,2026-03-13T05:30:29.062Z
+69b3a220d108c10efc5431b2,ambiente,28,75,819,0.66,lote_E,sem risco,sem risco,,2026-03-13T05:35:28.899Z
+69b3a34cd108c10efc5431b3,ambiente,28,75,831,0.66967,lote_E,sem risco,sem risco,,2026-03-13T05:40:28.932Z
+69b3a479d108c10efc5431b4,ambiente,28,75,836,0.6737,lote_E,sem risco,sem risco,,2026-03-13T05:45:29.173Z
+69b3a5a5d108c10efc5431b5,ambiente,28,75,846,0.681758,lote_E,sem risco,sem risco,,2026-03-13T05:50:29.059Z
+69b3a6d1d108c10efc5431b6,ambiente,28,75,843,0.679341,lote_E,sem risco,sem risco,,2026-03-13T05:55:29.040Z
+69b3a7fdd108c10efc5431b7,ambiente,28,75,841,0.677729,lote_E,sem risco,sem risco,,2026-03-13T06:00:29.079Z
+69b3a929d108c10efc5431b8,ambiente,28,75,837,0.674505,lote_E,sem risco,sem risco,,2026-03-13T06:05:29.110Z
+69b3aa54d108c10efc5431b9,ambiente,28,75,820,0.660806,lote_E,sem risco,sem risco,,2026-03-13T06:10:28.946Z
+69b3ab80d108c10efc5431ba,ambiente,28,75,827,0.666447,lote_E,sem risco,sem risco,,2026-03-13T06:15:28.979Z
+69b3acadd108c10efc5431bb,ambiente,28,75,832,0.670476,lote_E,sem risco,sem risco,,2026-03-13T06:20:29.078Z
+69b3ae8cd108c10efc5431bc,banana,28,80,780,0.628571,lote_F,madura,sem risco,,2026-03-13T06:28:28.027Z
+69b3afb8d108c10efc5431bd,banana,28,80,850,0.684982,lote_F,madura,sem risco,,2026-03-13T06:33:28.109Z
+69b3b0e3d108c10efc5431be,banana,28,86,898,0.723663,lote_F,madura,sem risco,,2026-03-13T06:38:27.900Z
+69b3b20fd108c10efc5431bf,banana,28,89,936,0.754286,lote_F,madura,sem risco,,2026-03-13T06:43:27.970Z
+69b3b33cd108c10efc5431c0,banana,28,90,960,0.773626,lote_F,madura,sem risco,,2026-03-13T06:48:28.100Z
+69b3b468d108c10efc5431c1,banana,28,91,986,0.794579,lote_F,madura,sem risco,,2026-03-13T06:53:28.133Z
+69b3b594d108c10efc5431c2,banana,28,92,1002,0.807473,lote_F,madura,sem risco,,2026-03-13T06:58:28.165Z
+69b3b6c0d108c10efc5431c3,banana,28,92,1023,0.824396,lote_F,madura,sem risco,,2026-03-13T07:03:28.110Z
+69b3b7ecd108c10efc5431c4,banana,28,92,1039,0.837289,lote_F,madura,sem risco,,2026-03-13T07:08:28.140Z
+69b3b918d108c10efc5431c5,banana,28,92,1043,0.840513,lote_F,madura,sem risco,,2026-03-13T07:13:28.793Z
+69b3ba43d108c10efc5431c6,banana,28,92,1052,0.847766,lote_F,madura,sem risco,,2026-03-13T07:18:27.935Z
+69b3bb70d108c10efc5431c7,banana,28,92,1063,0.85663,lote_F,madura,sem risco,,2026-03-13T07:23:28.161Z
+69b3bc9cd108c10efc5431c8,banana,28,92,1071,0.863077,lote_F,madura,sem risco,,2026-03-13T07:28:28.147Z
+69b3bdc8d108c10efc5431c9,banana,28,92,1078,0.868718,lote_F,madura,sem risco,,2026-03-13T07:33:28.013Z
+69b3bef4d108c10efc5431ca,banana,28,92,1081,0.871136,lote_F,madura,sem risco,,2026-03-13T07:38:28.766Z
+69b3c020d108c10efc5431cb,banana,28,92,1093,0.880806,lote_F,madura,sem risco,,2026-03-13T07:43:28.092Z
+69b3c14cd108c10efc5431cc,banana,28,92,1095,0.882418,lote_F,madura,sem risco,,2026-03-13T07:48:28.226Z
+69b3c278d108c10efc5431cd,banana,28,92,1098,0.884835,lote_F,madura,sem risco,,2026-03-13T07:53:28.014Z
+69b3c3a4d108c10efc5431ce,banana,28,92,1109,0.8937,lote_F,madura,sem risco,,2026-03-13T07:58:28.146Z
+69b3c4ced108c10efc5431cf,banana,28,92,1115,0.898535,lote_F,madura,sem risco,,2026-03-13T08:03:26.420Z
+69b3c5fad108c10efc5431d0,banana,28,92,1112,0.896117,lote_F,madura,sem risco,,2026-03-13T08:08:26.202Z
+69b3c726d108c10efc5431d1,banana,28,92,1114,0.897729,lote_F,madura,sem risco,,2026-03-13T08:13:26.264Z
+69b3c852d108c10efc5431d2,banana,28,92,1111,0.895311,lote_F,madura,sem risco,,2026-03-13T08:18:26.421Z
+69b3c97ed108c10efc5431d3,banana,28,92,1118,0.900952,lote_F,madura,sem risco,,2026-03-13T08:23:26.461Z
+69b3caaad108c10efc5431d4,banana,28,92,1116,0.899341,lote_F,madura,sem risco,,2026-03-13T08:28:26.245Z
+69b3cbd6d108c10efc5431d5,banana,28,92,1117,0.900147,lote_F,madura,sem risco,,2026-03-13T08:33:26.428Z
+69b3cd02d108c10efc5431d6,banana,28,93,1123,0.904982,lote_F,madura,sem risco,,2026-03-13T08:38:26.462Z
+69b3ce2ed108c10efc5431d7,banana,28,93,1124,0.905788,lote_F,madura,sem risco,,2026-03-13T08:43:26.493Z
+69b3cf5ad108c10efc5431d8,banana,28,93,1124,0.905788,lote_F,madura,sem risco,,2026-03-13T08:48:26.331Z
+69b3d086d108c10efc5431d9,banana,28,93,1118,0.900952,lote_F,madura,sem risco,,2026-03-13T08:53:26.469Z
+69b3d1b2d108c10efc5431da,banana,28,93,1121,0.90337,lote_F,madura,sem risco,,2026-03-13T08:58:26.507Z
+69b3d2ded108c10efc5431db,banana,28,93,1118,0.900952,lote_F,madura,sem risco,,2026-03-13T09:03:26.336Z
+69b3d40ad108c10efc5431dc,banana,28,93,1121,0.90337,lote_F,madura,sem risco,,2026-03-13T09:08:26.945Z
+69b3d536d108c10efc5431dd,banana,28,93,1115,0.898535,lote_F,madura,sem risco,,2026-03-13T09:13:26.306Z
+69b3d662d108c10efc5431de,banana,28,93,1124,0.905788,lote_F,madura,sem risco,,2026-03-13T09:18:26.311Z
+69b3d78ed108c10efc5431df,banana,28,93,1115,0.898535,lote_F,madura,sem risco,,2026-03-13T09:23:26.379Z
+69b3d8bad108c10efc5431e0,banana,28,93,1122,0.904176,lote_F,madura,sem risco,,2026-03-13T09:28:26.516Z
+69b3d9e6d108c10efc5431e1,banana,28,93,1121,0.90337,lote_F,madura,sem risco,,2026-03-13T09:33:26.551Z
+69b3db12d108c10efc5431e2,banana,28,93,1114,0.897729,lote_F,madura,sem risco,,2026-03-13T09:38:26.348Z
+69b3dc3ed108c10efc5431e3,banana,28,93,1118,0.900952,lote_F,madura,sem risco,,2026-03-13T09:43:26.476Z
+69b3dd6ad108c10efc5431e4,banana,28,93,1120,0.902564,lote_F,madura,sem risco,,2026-03-13T09:48:26.565Z
+69b3de96d108c10efc5431e5,banana,28,93,1115,0.898535,lote_F,madura,sem risco,,2026-03-13T09:53:26.397Z
+69b3dfc2d108c10efc5431e6,banana,28,93,1112,0.896117,lote_F,madura,sem risco,,2026-03-13T09:58:26.533Z
+69b3e0eed108c10efc5431e7,banana,28,93,1119,0.901758,lote_F,madura,sem risco,,2026-03-13T10:03:26.668Z
+69b3e21ad108c10efc5431e8,banana,28,93,1112,0.896117,lote_F,madura,sem risco,,2026-03-13T10:08:26.573Z
+69b3e346d108c10efc5431e9,banana,28,93,1112,0.896117,lote_F,madura,sem risco,,2026-03-13T10:13:26.444Z
+69b3e474d108c10efc5431ea,banana,28,93,1105,0.890476,lote_F,madura,sem risco,,2026-03-13T10:18:28.216Z
+69b3e59ed108c10efc5431eb,banana,28,93,1108,0.892894,lote_F,madura,sem risco,,2026-03-13T10:23:26.505Z
+69b3e6cad108c10efc5431ec,banana,28,93,1113,0.896923,lote_F,madura,sem risco,,2026-03-13T10:28:26.438Z
+69b3e7f6d108c10efc5431ed,banana,28,93,1107,0.892088,lote_F,madura,sem risco,,2026-03-13T10:33:26.478Z
+69b3e922d108c10efc5431ee,banana,28,93,1108,0.892894,lote_F,madura,sem risco,,2026-03-13T10:38:26.722Z
+69b3ea4ed108c10efc5431ef,banana,28,93,1113,0.896923,lote_F,madura,sem risco,,2026-03-13T10:43:26.652Z
+69b3eb7ad108c10efc5431f0,banana,28,93,1109,0.8937,lote_F,madura,sem risco,,2026-03-13T10:48:26.485Z
+69b3eca6d108c10efc5431f1,banana,28,93,1111,0.895311,lote_F,madura,sem risco,,2026-03-13T10:53:26.518Z
+69b3edd2d108c10efc5431f2,banana,28,93,1100,0.886447,lote_F,madura,sem risco,,2026-03-13T10:58:26.667Z
+69b3eefed108c10efc5431f3,banana,28,93,1109,0.8937,lote_F,madura,sem risco,,2026-03-13T11:03:26.693Z
+69b3f02ad108c10efc5431f4,banana,27.6,94,1104,0.88967,lote_F,madura,sem risco,,2026-03-13T11:08:26.485Z
+69b3f156d108c10efc5431f5,banana,27.6,94,1105,0.890476,lote_F,madura,sem risco,,2026-03-13T11:13:26.672Z
+69b3f282d108c10efc5431f6,banana,27.6,94,1105,0.890476,lote_F,madura,sem risco,,2026-03-13T11:18:26.699Z
+69b3f3aed108c10efc5431f7,banana,28,93,1097,0.884029,lote_F,madura,sem risco,,2026-03-13T11:23:26.527Z
+69b3f4dad108c10efc5431f8,banana,28,93,1089,0.877582,lote_F,madura,sem risco,,2026-03-13T11:28:26.563Z
+69b3f606d108c10efc5431f9,banana,27.6,94,1084,0.873553,lote_F,madura,sem risco,,2026-03-13T11:33:26.807Z
+69b3f732d108c10efc5431fa,banana,27.6,94,1089,0.877582,lote_F,madura,sem risco,,2026-03-13T11:38:26.740Z
+69b3f85ed108c10efc5431fb,banana,27.6,94,1082,0.871941,lote_F,madura,sem risco,,2026-03-13T11:43:26.570Z
+69b3f98dd108c10efc5431fc,banana,27.6,94,1080,0.87033,lote_F,madura,sem risco,,2026-03-13T11:48:29.277Z
+69b3fab6d108c10efc5431fd,banana,27.6,94,1086,0.875165,lote_F,madura,sem risco,,2026-03-13T11:53:26.705Z
+69b3fbe2d108c10efc5431fe,banana,27.9,94,1080,0.87033,lote_F,madura,sem risco,,2026-03-13T11:58:26.537Z
+69b3fd0ed108c10efc5431ff,banana,28,93,1077,0.867912,lote_F,madura,sem risco,,2026-03-13T12:03:26.723Z
+69b3fe3ad108c10efc543200,banana,28,93,1078,0.868718,lote_F,madura,sem risco,,2026-03-13T12:08:26.934Z
+69b3ff67d108c10efc543201,banana,28,93,1085,0.874359,lote_F,madura,sem risco,,2026-03-13T12:13:27.609Z
+69b40092d108c10efc543202,banana,28,93,1085,0.874359,lote_F,madura,sem risco,,2026-03-13T12:18:26.792Z
+69b401bed108c10efc543203,banana,28,93,1078,0.868718,lote_F,madura,sem risco,,2026-03-13T12:23:26.562Z
+69b402ead108c10efc543204,banana,28,93,1089,0.877582,lote_F,madura,sem risco,,2026-03-13T12:28:26.814Z
+69b40416d108c10efc543205,banana,28,93,1085,0.874359,lote_F,madura,sem risco,,2026-03-13T12:33:26.641Z
+69b40542d108c10efc543206,banana,28,93,1084,0.873553,lote_F,madura,sem risco,,2026-03-13T12:38:26.740Z
+69b4066ed108c10efc543207,banana,28,93,1077,0.867912,lote_F,madura,sem risco,,2026-03-13T12:43:26.814Z
+69b4079bd108c10efc543208,banana,28,93,1066,0.859048,lote_F,madura,sem risco,,2026-03-13T12:48:27.453Z
+69b408c6d108c10efc543209,banana,28,92,1056,0.850989,lote_F,madura,sem risco,,2026-03-13T12:53:26.589Z
+69b409f2d108c10efc54320a,banana,28,92,1053,0.848571,lote_F,madura,sem risco,,2026-03-13T12:58:26.930Z
+69b40b1ed108c10efc54320b,banana,28,92,1055,0.850183,lote_F,madura,sem risco,,2026-03-13T13:03:26.799Z
+69b40c4ad108c10efc54320c,banana,28,92,1049,0.845348,lote_F,madura,sem risco,,2026-03-13T13:08:26.778Z
+69b40d76d108c10efc54320d,banana,28,92,1054,0.849377,lote_F,madura,sem risco,,2026-03-13T13:13:26.710Z
+69b40ea2d108c10efc54320e,banana,28,92,1055,0.850183,lote_F,madura,sem risco,,2026-03-13T13:18:26.849Z
+69b40fced108c10efc54320f,banana,28,92,1047,0.843736,lote_F,madura,sem risco,,2026-03-13T13:23:26.887Z
+69b410fad108c10efc543210,banana,28,92,1055,0.850183,lote_F,madura,sem risco,,2026-03-13T13:28:26.697Z
+69b41226d108c10efc543211,banana,28,92,1045,0.842125,lote_F,madura,sem risco,,2026-03-13T13:33:26.815Z
+69b41352d108c10efc543212,banana,28,92,1050,0.846154,lote_F,madura,sem risco,,2026-03-13T13:38:26.888Z
+69b4147ed108c10efc543213,banana,28,92,1044,0.841319,lote_F,madura,sem risco,,2026-03-13T13:43:26.694Z
+69b415aad108c10efc543214,banana,28,92,1041,0.838901,lote_F,madura,sem risco,,2026-03-13T13:48:26.843Z
+69b416d7d108c10efc543215,banana,28,92,1037,0.835678,lote_F,madura,sem risco,,2026-03-13T13:53:27.119Z
+69b41802d108c10efc543216,banana,28.5,92,1037,0.835678,lote_F,madura,sem risco,,2026-03-13T13:58:26.915Z
+69b4192ed108c10efc543217,banana,28.5,92,1044,0.841319,lote_F,madura,sem risco,,2026-03-13T14:03:26.796Z
+69b41a5bd108c10efc543218,banana,28.5,92,1041,0.838901,lote_F,madura,sem risco,,2026-03-13T14:08:27.114Z
+69b41b86d108c10efc543219,banana,28.5,92,1039,0.837289,lote_F,madura,sem risco,,2026-03-13T14:13:26.942Z
+69b41cb2d108c10efc54321a,banana,28.5,92,1047,0.843736,lote_F,madura,sem risco,,2026-03-13T14:18:26.756Z
+69b41dded108c10efc54321b,banana,28.5,92,1045,0.842125,lote_F,madura,sem risco,,2026-03-13T14:23:26.778Z
+69b41f0ad108c10efc54321c,banana,28.9,92,1051,0.84696,lote_F,madura,sem risco,,2026-03-13T14:28:26.949Z
+69b42036d108c10efc54321d,banana,28.9,92,1055,0.850183,lote_F,madura,sem risco,,2026-03-13T14:33:26.942Z
+69b42162d108c10efc54321e,banana,28.9,92,1053,0.848571,lote_F,madura,sem risco,,2026-03-13T14:38:26.786Z
+69b4228ed108c10efc54321f,banana,28.9,92,1063,0.85663,lote_F,madura,sem risco,,2026-03-13T14:43:26.953Z
+69b423bad108c10efc543220,banana,28.9,92,1070,0.862271,lote_F,madura,sem risco,,2026-03-13T14:48:26.987Z
+69b424e7d108c10efc543221,banana,28.9,92,1069,0.861465,lote_F,madura,sem risco,,2026-03-13T14:53:27.145Z
+69b42612d108c10efc543222,banana,29,92,1080,0.87033,lote_F,madura,sem risco,,2026-03-13T14:58:26.865Z
+69b4273fd108c10efc543223,banana,29.3,92,1095,0.882418,lote_F,madura,sem risco,,2026-03-13T15:03:27.003Z
+69b4286bd108c10efc543224,banana,29.3,92,1097,0.884029,lote_F,madura,sem risco,,2026-03-13T15:08:27.048Z
+69b42996d108c10efc543225,banana,29.3,92,1111,0.895311,lote_F,madura,sem risco,,2026-03-13T15:13:26.868Z
+69b42ac3d108c10efc543226,banana,29.3,92,1124,0.905788,lote_F,madura,sem risco,,2026-03-13T15:18:27.117Z
+69b42beed108c10efc543227,banana,29.8,92,1129,0.909817,lote_F,madura,sem risco,,2026-03-13T15:23:26.993Z
+69b42d1bd108c10efc543228,banana,29.8,92,1140,0.918681,lote_F,madura,sem risco,,2026-03-13T15:28:27.057Z
+69b42e47d108c10efc543229,banana,29.8,92,1148,0.925128,lote_F,madura,sem risco,,2026-03-13T15:33:27.416Z
+69b42f73d108c10efc54322a,banana,29.8,92,1152,0.928352,lote_F,madura,sem risco,,2026-03-13T15:38:27.530Z
+69b4309ed108c10efc54322b,banana,29.8,92,1155,0.930769,lote_F,madura,sem risco,,2026-03-13T15:43:26.889Z
+69b431cad108c10efc54322c,banana,30.2,91,1165,0.938828,lote_F,madura,sem risco,,2026-03-13T15:48:26.886Z
+69b432f6d108c10efc54322d,banana,30.2,91,1170,0.942857,lote_F,madura,sem risco,,2026-03-13T15:53:26.949Z
+69b43425d108c10efc54322e,banana,30.2,91,1107,0.892088,lote_F,madura,sem risco,,2026-03-13T15:58:29.949Z
+69b4354ed108c10efc54322f,banana,30.2,91,1053,0.848571,lote_F,madura,sem risco,,2026-03-13T16:03:26.913Z
+69b4367ad108c10efc543230,banana,30.2,91,1061,0.855018,lote_F,madura,sem risco,,2026-03-13T16:08:26.963Z
+69b437a7d108c10efc543231,banana,30.2,90,957,0.771209,lote_F,madura,sem risco,,2026-03-13T16:13:27.096Z
+69b438d3d108c10efc543232,banana,30.3,90,983,0.792161,lote_F,madura,sem risco,,2026-03-13T16:18:27.080Z
+69b439fed108c10efc543233,banana,30.2,88,1012,0.815531,lote_F,madura,sem risco,,2026-03-13T16:23:26.957Z
+69b43b2ad108c10efc543234,banana,30.2,89,1034,0.83326,lote_F,madura,sem risco,,2026-03-13T16:28:26.949Z
+69b43c57d108c10efc543235,banana,30.8,90,1033,0.832454,lote_F,madura,sem risco,,2026-03-13T16:33:27.238Z
+69b43d83d108c10efc543236,banana,30.8,90,1002,0.807473,lote_F,madura,sem risco,,2026-03-13T16:38:27.129Z
+69b43eb2d108c10efc543237,banana,30.8,90,958,0.772015,lote_F,madura,sem risco,,2026-03-13T16:43:30.275Z
+69b43fdbd108c10efc543238,banana,30.2,90,991,0.798608,lote_F,madura,sem risco,,2026-03-13T16:48:27.034Z
+69b44107d108c10efc543239,banana,30.2,90,1034,0.83326,lote_F,madura,sem risco,,2026-03-13T16:53:27.169Z
+69b44233d108c10efc54323a,banana,30.8,90,1066,0.859048,lote_F,madura,sem risco,,2026-03-13T16:58:27.003Z
+69b4435fd108c10efc54323b,banana,30.8,91,1084,0.873553,lote_F,madura,sem risco,,2026-03-13T17:03:27.098Z
+69b4448bd108c10efc54323c,banana,30.8,91,1109,0.8937,lote_F,madura,sem risco,,2026-03-13T17:08:27.158Z
+69b445b7d108c10efc54323d,banana,30.8,91,1123,0.904982,lote_F,madura,sem risco,,2026-03-13T17:13:27.218Z
+69b446e3d108c10efc54323e,banana,30.8,91,1139,0.917875,lote_F,madura,sem risco,,2026-03-13T17:18:27.047Z
+69b4480fd108c10efc54323f,banana,30.8,91,1150,0.92674,lote_F,madura,sem risco,,2026-03-13T17:23:27.164Z
+69b4493bd108c10efc543240,banana,30.8,91,1158,0.933187,lote_F,madura,sem risco,,2026-03-13T17:28:27.218Z
+69b44a67d108c10efc543241,banana,30.8,91,1171,0.943663,lote_F,madura,sem risco,,2026-03-13T17:33:27.022Z
+69b44b93d108c10efc543242,banana,30.8,91,1176,0.947692,lote_F,madura,sem risco,,2026-03-13T17:38:27.201Z
+69b44cbfd108c10efc543243,banana,30.8,91,1169,0.942051,lote_F,madura,sem risco,,2026-03-13T17:43:27.240Z
+69b44debd108c10efc543244,banana,30.2,91,1143,0.921099,lote_F,madura,sem risco,,2026-03-13T17:48:27.410Z
+69b44f17d108c10efc543245,banana,30.2,91,1135,0.914652,lote_F,madura,sem risco,,2026-03-13T17:53:27.091Z
+69b45043d108c10efc543246,banana,29.8,92,1122,0.904176,lote_F,madura,sem risco,,2026-03-13T17:58:27.239Z
+69b4516fd108c10efc543247,banana,29.8,92,1126,0.907399,lote_F,madura,sem risco,,2026-03-13T18:03:27.268Z
+69b4529bd108c10efc543248,banana,29.8,92,1147,0.924322,lote_F,madura,sem risco,,2026-03-13T18:08:27.104Z
+69b453c7d108c10efc543249,banana,29.8,92,1154,0.929963,lote_F,madura,sem risco,,2026-03-13T18:13:27.198Z
+69b454f6d108c10efc54324a,banana,29.9,92,1169,0.942051,lote_F,madura,sem risco,,2026-03-13T18:18:30.146Z
+69b4561fd108c10efc54324b,banana,30.2,92,1189,0.958169,lote_F,madura,sem risco,,2026-03-13T18:23:27.102Z
+69b4574bd108c10efc54324c,banana,30.2,92,1189,0.958169,lote_F,madura,sem risco,,2026-03-13T18:28:27.761Z
+69b45877d108c10efc54324d,banana,30.2,92,1191,0.95978,lote_F,madura,sem risco,,2026-03-13T18:33:27.177Z
+69b459a3d108c10efc54324e,banana,30.2,92,1194,0.962198,lote_F,madura,sem risco,,2026-03-13T18:38:27.419Z
+69b45acfd108c10efc54324f,banana,29.8,93,1200,0.967033,lote_F,madura,sem risco,,2026-03-13T18:43:27.123Z
+69b45bfdd108c10efc543250,banana,30.2,92,1212,0.976703,lote_F,madura,sem risco,,2026-03-13T18:48:29.026Z
+69b45d27d108c10efc543251,banana,30.2,92,1223,0.985568,lote_F,madura,sem risco,,2026-03-13T18:53:27.120Z
+69b45e53d108c10efc543252,banana,30.2,92,1227,0.988791,lote_F,madura,sem risco,,2026-03-13T18:58:27.977Z
+69b45f7fd108c10efc543253,banana,30.2,92,1229,0.990403,lote_F,madura,sem risco,,2026-03-13T19:03:27.116Z
+69b460abd108c10efc543254,banana,30.2,92,1224,0.986374,lote_F,madura,sem risco,,2026-03-13T19:08:27.428Z
+69b461d9d108c10efc543255,banana,29.8,93,1232,0.992821,lote_F,madura,sem risco,,2026-03-13T19:13:29.007Z
+69b46303d108c10efc543256,banana,29.8,93,1230,0.991209,lote_F,madura,sem risco,,2026-03-13T19:18:27.127Z
+69b4642fd108c10efc543257,banana,29.8,93,1196,0.96381,lote_F,madura,sem risco,,2026-03-13T19:23:27.336Z
+69b4655bd108c10efc543258,banana,29.8,93,1151,0.927546,lote_F,madura,sem risco,,2026-03-13T19:28:27.497Z
+69b46687d108c10efc543259,banana,29.3,92,1148,0.925128,lote_F,madura,sem risco,,2026-03-13T19:33:27.181Z
+69b467b3d108c10efc54325a,banana,29.3,92,1154,0.929963,lote_F,madura,sem risco,,2026-03-13T19:38:27.241Z
+69b468dfd108c10efc54325b,banana,29.3,92,1150,0.92674,lote_F,madura,sem risco,,2026-03-13T19:43:27.386Z
+69b46a0bd108c10efc54325c,banana,29.3,92,1136,0.915458,lote_F,madura,sem risco,,2026-03-13T19:48:27.361Z
+69b46b37d108c10efc54325d,banana,29.3,92,1144,0.921905,lote_F,madura,sem risco,,2026-03-13T19:53:27.459Z
+69b46c63d108c10efc54325e,banana,29.3,92,1148,0.925128,lote_F,madura,sem risco,,2026-03-13T19:58:27.488Z
+69b46d8fd108c10efc54325f,banana,29.3,92,1149,0.925934,lote_F,madura,sem risco,,2026-03-13T20:03:27.324Z
+69b46ebdd108c10efc543260,banana,29.3,92,1164,0.938022,lote_F,madura,sem risco,,2026-03-13T20:08:29.989Z
+69b46fe7d108c10efc543261,banana,29.3,92,1174,0.946081,lote_F,madura,sem risco,,2026-03-13T20:13:27.414Z
+69b47113d108c10efc543262,banana,29.3,93,1196,0.96381,lote_F,madura,sem risco,,2026-03-13T20:18:27.433Z
+69b4723fd108c10efc543263,banana,29.3,93,1237,0.99685,lote_F,madura,sem risco,,2026-03-13T20:23:27.567Z
+69b4736bd108c10efc543264,banana,29.3,93,1247,1.004908,lote_F,madura,sem risco,,2026-03-13T20:28:27.513Z
+69b4749cd108c10efc543265,banana,29.3,93,1258,1.013773,lote_F,madura,sem risco,,2026-03-13T20:33:32.570Z
+69b475c3d108c10efc543266,banana,29.3,93,1268,1.021832,lote_F,madura,sem risco,,2026-03-13T20:38:27.376Z
+69b476efd108c10efc543267,banana,29.3,93,1274,1.026667,lote_F,madura,sem risco,,2026-03-13T20:43:27.409Z
+69b4781bd108c10efc543268,banana,29.3,93,1278,1.02989,lote_F,madura,sem risco,,2026-03-13T20:48:27.616Z
+69b47947d108c10efc543269,banana,29.3,93,1223,0.985568,lote_F,madura,sem risco,,2026-03-13T20:53:27.463Z
+69b47a73d108c10efc54326a,banana,28.9,93,1214,0.978315,lote_F,madura,sem risco,,2026-03-13T20:58:27.575Z
+69b47ba0d108c10efc54326b,banana,28.5,92,1092,0.88,lote_F,madura,sem risco,,2026-03-13T21:03:28.061Z
+69b47ccbd108c10efc54326c,banana,27.6,93,1119,0.901758,lote_F,madura,sem risco,,2026-03-13T21:08:27.484Z
+69b47df7d108c10efc54326d,banana,27,92,1129,0.909817,lote_F,madura,sem risco,,2026-03-13T21:13:27.856Z
+69b47f23d108c10efc54326e,banana,27.1,92,1185,0.954945,lote_F,madura,sem risco,,2026-03-13T21:18:27.771Z
+69b4804fd108c10efc54326f,banana,27.1,93,1233,0.993626,lote_F,madura,sem risco,,2026-03-13T21:23:27.601Z
+69b4817bd108c10efc543270,banana,27.6,93,1275,1.027472,lote_F,madura,sem risco,,2026-03-13T21:28:27.648Z
+69b482a8d108c10efc543271,banana,28,92,1305,1.051648,lote_F,madura,sem risco,,2026-03-13T21:33:28.282Z
+69b483d3d108c10efc543272,banana,28,93,1332,1.073407,lote_F,madura,sem risco,,2026-03-13T21:38:27.401Z
+69b484ffd108c10efc543273,banana,28,93,1352,1.089524,lote_F,madura,sem risco,,2026-03-13T21:43:27.583Z
+69b4862bd108c10efc543274,banana,28,93,1370,1.104029,lote_F,madura,sem risco,,2026-03-13T21:48:27.688Z
+69b48784d108c10efc543275,banana,28.5,93,1385,1.116117,lote_F,madura,sem risco,,2026-03-13T21:54:12.203Z
+69b48883d108c10efc543276,banana,28.3,93,1399,1.127399,lote_F,madura,sem risco,,2026-03-13T21:58:27.448Z
+69b489afd108c10efc543277,banana,28.5,93,1388,1.118535,lote_F,madura,sem risco,,2026-03-13T22:03:27.708Z
+69b48ae4d108c10efc543278,banana,28,93,1385,1.116117,lote_F,madura,sem risco,,2026-03-13T22:08:36.880Z
+69b48c07d108c10efc543279,banana,28,93,1401,1.129011,lote_F,madura,sem risco,,2026-03-13T22:13:27.472Z
+69b48d33d108c10efc54327a,banana,28,93,1412,1.137875,lote_F,madura,sem risco,,2026-03-13T22:18:27.709Z
+69b48e68d108c10efc54327b,banana,28,93,1495,1.204762,lote_F,madura,sem risco,,2026-03-13T22:23:36.422Z
+69b48f8bd108c10efc54327c,banana,28,93,1489,1.199927,lote_F,madura,sem risco,,2026-03-13T22:28:27.513Z
+69b490b7d108c10efc54327d,banana,28.5,93,1497,1.206374,lote_F,madura,sem risco,,2026-03-13T22:33:27.802Z
+69b491e3d108c10efc54327e,banana,28.5,93,1503,1.211209,lote_F,madura,sem risco,,2026-03-13T22:38:27.869Z
+69b4930fd108c10efc54327f,banana,28.5,93,1510,1.21685,lote_F,madura,sem risco,,2026-03-13T22:43:27.713Z
+69b4943cd108c10efc543280,banana,28.5,93,1519,1.224103,lote_F,madura,sem risco,,2026-03-13T22:48:28.129Z
+69b49567d108c10efc543281,banana,28.5,93,1524,1.228132,lote_F,madura,sem risco,,2026-03-13T22:53:27.840Z
+69b496d9d108c10efc543282,banana,28.5,93,1527,1.230549,lote_F,madura,sem risco,,2026-03-13T22:59:37.076Z
+69b497bfd108c10efc543283,banana,28.5,93,1535,1.236996,lote_F,madura,sem risco,,2026-03-13T23:03:27.611Z
+69b498ebd108c10efc543284,banana,28.5,93,1537,1.238608,lote_F,madura,sem risco,,2026-03-13T23:08:27.855Z
+69b49a17d108c10efc543285,banana,28.5,93,1552,1.250696,lote_F,madura,sem risco,,2026-03-13T23:13:27.985Z
+69b49b43d108c10efc543286,banana,28.5,93,1552,1.250696,lote_F,madura,sem risco,,2026-03-13T23:18:27.815Z
+69b49c6fd108c10efc543287,banana,28.5,93,1555,1.253114,lote_F,madura,sem risco,,2026-03-13T23:23:27.643Z
+69b49d9bd108c10efc543288,banana,28.5,93,1562,1.258755,lote_F,madura,sem risco,,2026-03-13T23:28:27.807Z
+69b49ecfd108c10efc543289,banana,28.5,93,1564,1.260366,lote_F,madura,sem risco,,2026-03-13T23:33:35.014Z
+69b49ff6d108c10efc54328a,banana,28.9,93,1569,1.264396,lote_F,madura,sem risco,,2026-03-13T23:38:30.720Z
+69b4a11fd108c10efc54328b,banana,28.6,93,1583,1.275678,lote_F,madura,sem risco,,2026-03-13T23:43:27.897Z
+69b4a24bd108c10efc54328c,banana,28.9,93,1594,1.284542,lote_F,madura,sem risco,,2026-03-13T23:48:27.845Z
+69b4a377d108c10efc54328d,banana,28.5,93,1595,1.285348,lote_F,madura,sem risco,,2026-03-13T23:53:27.760Z
+69b4a4a6d108c10efc54328e,banana,28.5,93,1608,1.295824,lote_F,madura,sem risco,,2026-03-13T23:58:30.783Z
+69b4a5d2d108c10efc54328f,banana,28.5,93,1613,1.299853,lote_F,madura,sem risco,,2026-03-14T00:03:30.800Z
+69b4a6fcd108c10efc543290,banana,28.5,93,1624,1.308718,lote_F,madura,sem risco,,2026-03-14T00:08:28.192Z
+69b4a827d108c10efc543291,banana,28.5,93,1625,1.309524,lote_F,madura,sem risco,,2026-03-14T00:13:27.808Z
+69b4a95ed108c10efc543292,banana,28.5,93,1632,1.315165,lote_F,madura,sem risco,,2026-03-14T00:18:38.079Z
+69b4aa80d108c10efc543293,banana,28.5,93,1643,1.324029,lote_F,madura,sem risco,,2026-03-14T00:23:28.180Z
+69b4ababd108c10efc543294,banana,28.5,93,1545,1.245055,lote_F,madura,sem risco,,2026-03-14T00:28:27.821Z
+69b4acd7d108c10efc543295,banana,28.5,93,1439,1.159634,lote_F,madura,sem risco,,2026-03-14T00:33:27.846Z
+69b4ae03d108c10efc543296,banana,27.6,93,1438,1.158828,lote_F,madura,sem risco,,2026-03-14T00:38:27.881Z
+69b4af58d108c10efc543297,banana,27.6,93,1426,1.149158,lote_F,madura,sem risco,,2026-03-14T00:44:08.071Z
+69b4b05bd108c10efc543298,banana,27.6,93,1435,1.15641,lote_F,madura,sem risco,,2026-03-14T00:48:27.745Z
+69b4b187d108c10efc543299,banana,27.6,93,1449,1.167692,lote_F,madura,sem risco,,2026-03-14T00:53:27.895Z
+69b4b2b4d108c10efc54329a,banana,27.6,93,1463,1.178974,lote_F,madura,sem risco,,2026-03-14T00:58:28.029Z
+69b4b3dfd108c10efc54329b,banana,27.6,93,1486,1.197509,lote_F,madura,sem risco,,2026-03-14T01:03:27.864Z
+69b4b50cd108c10efc54329c,banana,27.6,93,1502,1.210403,lote_F,madura,sem risco,,2026-03-14T01:08:28.007Z
+69b4b637d108c10efc54329d,banana,27.6,94,1520,1.224908,lote_F,madura,sem risco,,2026-03-14T01:13:27.927Z
+69b4b790d108c10efc54329e,banana,27.6,94,1530,1.232967,lote_F,madura,sem risco,,2026-03-14T01:19:12.922Z
+69b4b88fd108c10efc54329f,banana,27.9,94,1545,1.245055,lote_F,madura,sem risco,,2026-03-14T01:23:27.897Z
+69b4bae8d108c10efc5432a0,banana,28,93,1575,1.269231,lote_F,madura,sem risco,,2026-03-14T01:33:28.203Z
+69b4bc13d108c10efc5432a1,banana,28,93,1586,1.278095,lote_F,madura,sem risco,,2026-03-14T01:38:27.904Z
+69b4bd40d108c10efc5432a2,banana,28,93,1597,1.28696,lote_F,madura,sem risco,,2026-03-14T01:43:28.047Z
+69b4be6cd108c10efc5432a3,banana,28,93,1607,1.295018,lote_F,madura,sem risco,,2026-03-14T01:48:28.619Z
+69b4bf97d108c10efc5432a4,banana,28,93,1619,1.304689,lote_F,madura,sem risco,,2026-03-14T01:53:27.784Z
+69b4c0c4d108c10efc5432a5,banana,28,93,1627,1.311136,lote_F,madura,sem risco,,2026-03-14T01:58:28.047Z
+69b4c1f0d108c10efc5432a6,banana,28,93,1635,1.317582,lote_F,madura,sem risco,,2026-03-14T02:03:28.498Z
+69b4c31bd108c10efc5432a7,banana,28,93,1639,1.320806,lote_F,madura,sem risco,,2026-03-14T02:08:27.803Z
+69b4c448d108c10efc5432a8,banana,28,93,1667,1.34337,lote_F,madura,sem risco,,2026-03-14T02:13:28.057Z
+69b4c574d108c10efc5432a9,banana,28,93,1711,1.378828,lote_F,madura,sem risco,,2026-03-14T02:18:28.708Z
+69b4c69fd108c10efc5432aa,banana,28,93,1734,1.397363,lote_F,madura,sem risco,,2026-03-14T02:23:27.927Z
+69b4c7ccd108c10efc5432ab,banana,28,93,1752,1.411868,lote_F,madura,sem risco,,2026-03-14T02:28:28.067Z
+69b4c8f8d108c10efc5432ac,banana,28,93,1752,1.411868,lote_F,madura,sem risco,,2026-03-14T02:33:28.097Z
+69b4ca23d108c10efc5432ad,banana,28,93,1768,1.424762,lote_F,madura,sem risco,,2026-03-14T02:38:27.941Z
+69b4cb50d108c10efc5432ae,banana,28,93,1765,1.422344,lote_F,madura,sem risco,,2026-03-14T02:43:28.074Z
+69b4cc7cd108c10efc5432af,banana,28,93,1767,1.423956,lote_F,madura,sem risco,,2026-03-14T02:48:28.004Z
+69b4cda8d108c10efc5432b0,banana,28,93,1762,1.419927,lote_F,madura,sem risco,,2026-03-14T02:53:28.038Z
+69b4ced3d108c10efc5432b1,banana,28,93,1764,1.421538,lote_F,madura,sem risco,,2026-03-14T02:58:27.970Z
+69b4d000d108c10efc5432b2,banana,28,93,1763,1.420733,lote_F,madura,sem risco,,2026-03-14T03:03:28.010Z
+69b4d12cd108c10efc5432b3,banana,28,93,1760,1.418315,lote_F,madura,sem risco,,2026-03-14T03:08:28.159Z
+69b4d257d108c10efc5432b4,banana,28,93,1750,1.410256,lote_F,madura,sem risco,,2026-03-14T03:13:27.981Z
+69b4d384d108c10efc5432b5,banana,28,93,1734,1.397363,lote_F,madura,sem risco,,2026-03-14T03:18:28.013Z
+69b4d4b0d108c10efc5432b6,banana,28,93,1714,1.381245,lote_F,madura,sem risco,,2026-03-14T03:23:28.149Z
+69b4d5dcd108c10efc5432b7,banana,28,93,1702,1.371575,lote_F,madura,sem risco,,2026-03-14T03:28:28.188Z
+69b4d708d108c10efc5432b8,banana,28,93,1691,1.362711,lote_F,madura,sem risco,,2026-03-14T03:33:28.022Z
+69b4d834d108c10efc5432b9,banana,28,93,1694,1.365128,lote_F,madura,sem risco,,2026-03-14T03:38:28.160Z
+69b4d960d108c10efc5432ba,banana,28,93,1694,1.365128,lote_F,madura,sem risco,,2026-03-14T03:43:28.200Z
+69b4da8cd108c10efc5432bb,banana,28,93,1693,1.364322,lote_F,madura,sem risco,,2026-03-14T03:48:28.028Z
+69b4dbb8d108c10efc5432bc,banana,28,93,1695,1.365934,lote_F,madura,sem risco,,2026-03-14T03:53:28.167Z
+69b4dce4d108c10efc5432bd,banana,28,93,1700,1.369963,lote_F,madura,sem risco,,2026-03-14T03:58:28.201Z
+69b4de10d108c10efc5432be,banana,28,93,1693,1.364322,lote_F,madura,sem risco,,2026-03-14T04:03:28.543Z
+69b4df3cd108c10efc5432bf,banana,28,93,1687,1.359487,lote_F,madura,sem risco,,2026-03-14T04:08:28.067Z
+69b4e068d108c10efc5432c0,banana,27.6,94,1693,1.364322,lote_F,madura,sem risco,,2026-03-14T04:13:28.719Z
+69b4e194d108c10efc5432c1,banana,27.6,94,1700,1.369963,lote_F,madura,sem risco,,2026-03-14T04:18:28.038Z
+69b4e2c0d108c10efc5432c2,banana,27.6,94,1709,1.377216,lote_F,madura,sem risco,,2026-03-14T04:23:28.034Z
+69b4e3ecd108c10efc5432c3,banana,27.6,94,1706,1.374799,lote_F,madura,sem risco,,2026-03-14T04:28:28.213Z
+69b4e518d108c10efc5432c4,banana,27.6,94,1712,1.379634,lote_F,madura,sem risco,,2026-03-14T04:33:28.154Z
+69b4e644d108c10efc5432c5,banana,27.6,94,1713,1.38044,lote_F,madura,sem risco,,2026-03-14T04:38:28.083Z
+69b4e770d108c10efc5432c6,banana,27.6,94,1718,1.384469,lote_F,madura,sem risco,,2026-03-14T04:43:28.122Z
+69b4e89cd108c10efc5432c7,banana,27.6,94,1716,1.382857,lote_F,madura,sem risco,,2026-03-14T04:48:28.146Z
+69b4e9c8d108c10efc5432c8,banana,27.6,94,1724,1.389304,lote_F,madura,sem risco,,2026-03-14T04:53:28.056Z
+69b4eaf7d108c10efc5432c9,banana,27.6,94,1737,1.39978,lote_F,madura,sem risco,,2026-03-14T04:58:31.607Z
+69b4ec20d108c10efc5432ca,banana,27.6,94,1737,1.39978,lote_F,madura,sem risco,,2026-03-14T05:03:28.304Z
+69b4ed4cd108c10efc5432cb,banana,27.6,94,1746,1.407033,lote_F,madura,sem risco,,2026-03-14T05:08:28.194Z
+69b4ee78d108c10efc5432cc,banana,27.6,94,1755,1.414286,lote_F,madura,sem risco,,2026-03-14T05:13:28.243Z
+69b4efa4d108c10efc5432cd,banana,27.6,94,1753,1.412674,lote_F,madura,sem risco,,2026-03-14T05:18:28.192Z
+69b4f0d0d108c10efc5432ce,banana,27.6,94,1762,1.419927,lote_F,madura,sem risco,,2026-03-14T05:23:28.229Z
+69b4f1fcd108c10efc5432cf,banana,27.6,94,1772,1.427985,lote_F,madura,sem risco,,2026-03-14T05:28:28.245Z
+69b4f328d108c10efc5432d0,banana,27.6,94,1768,1.424762,lote_F,madura,sem risco,,2026-03-14T05:33:28.389Z
+69b4f454d108c10efc5432d1,banana,27.6,94,1778,1.432821,lote_F,madura,sem risco,,2026-03-14T05:38:28.316Z
+69b4f580d108c10efc5432d2,banana,27.6,94,1780,1.434432,lote_F,madura,sem risco,,2026-03-14T05:43:28.459Z
+69b4f6acd108c10efc5432d3,banana,27.6,94,1784,1.437656,lote_F,madura,sem risco,,2026-03-14T05:48:28.385Z
+69b4f7d8d108c10efc5432d4,banana,27.2,94,1782,1.436044,lote_F,madura,sem risco,,2026-03-14T05:53:28.420Z
+69b4f904d108c10efc5432d5,banana,27.1,94,1787,1.440073,lote_F,madura,sem risco,,2026-03-14T05:58:28.352Z
+69b4fa30d108c10efc5432d6,banana,27.1,94,1791,1.443297,lote_F,madura,sem risco,,2026-03-14T06:03:28.184Z
+69b4fb5cd108c10efc5432d7,banana,27.1,94,1793,1.444908,lote_F,madura,sem risco,,2026-03-14T06:08:28.322Z
+69b4fc88d108c10efc5432d8,banana,27.1,94,1792,1.444103,lote_F,madura,sem risco,,2026-03-14T06:13:28.360Z
+69b4fdb4d108c10efc5432d9,banana,27.1,94,1800,1.450549,lote_F,madura,sem risco,,2026-03-14T06:18:28.195Z
+69b4fee0d108c10efc5432da,banana,27.1,94,1803,1.452967,lote_F,madura,sem risco,,2026-03-14T06:23:28.330Z
+69b5000cd108c10efc5432db,banana,27.1,94,1806,1.455385,lote_F,madura,sem risco,,2026-03-14T06:28:28.363Z
+69b50138d108c10efc5432dc,banana,27.1,94,1811,1.459414,lote_F,madura,sem risco,,2026-03-14T06:33:28.406Z
+69b50264d108c10efc5432dd,banana,27.1,94,1817,1.464249,lote_F,madura,sem risco,,2026-03-14T06:38:28.437Z
+69b50390d108c10efc5432de,banana,27.1,94,1813,1.461026,lote_F,madura,sem risco,,2026-03-14T06:43:28.473Z
+69b504bcd108c10efc5432df,banana,27.1,94,1815,1.462637,lote_F,madura,sem risco,,2026-03-14T06:48:28.410Z
+69b505e8d108c10efc5432e0,banana,27.1,94,1821,1.467473,lote_F,madura,sem risco,,2026-03-14T06:53:28.344Z
+69b50714d108c10efc5432e1,banana,27.1,94,1816,1.463443,lote_F,madura,sem risco,,2026-03-14T06:58:28.376Z
+69b50840d108c10efc5432e2,banana,27.1,94,1820,1.466667,lote_F,madura,sem risco,,2026-03-14T07:03:28.417Z
+69b5096cd108c10efc5432e3,banana,27.1,94,1822,1.468278,lote_F,madura,sem risco,,2026-03-14T07:08:28.451Z
+69b50a98d108c10efc5432e4,banana,27.1,94,1826,1.471502,lote_F,madura,sem risco,,2026-03-14T07:13:28.388Z
+69b50bc4d108c10efc5432e5,banana,27.1,94,1831,1.475531,lote_F,madura,sem risco,,2026-03-14T07:18:28.421Z
+69b50cf0d108c10efc5432e6,banana,26.7,94,1830,1.474725,lote_F,madura,sem risco,,2026-03-14T07:23:28.557Z
+69b50e1cd108c10efc5432e7,banana,26.7,94,1833,1.477143,lote_F,madura,sem risco,,2026-03-14T07:28:28.393Z
+69b50f4bd108c10efc5432e8,banana,26.7,94,1839,1.481978,lote_F,madura,sem risco,,2026-03-14T07:33:31.295Z
+69b51074d108c10efc5432e9,banana,26.7,94,1838,1.481172,lote_F,madura,sem risco,,2026-03-14T07:38:28.474Z
+69b511a0d108c10efc5432ea,banana,26.7,94,1845,1.486813,lote_F,madura,sem risco,,2026-03-14T07:43:28.496Z
+69b512ccd108c10efc5432eb,banana,26.7,94,1848,1.489231,lote_F,madura,sem risco,,2026-03-14T07:48:28.369Z
+69b513f8d108c10efc5432ec,banana,26.7,94,1846,1.487619,lote_F,madura,sem risco,,2026-03-14T07:53:28.616Z
+69b51524d108c10efc5432ed,banana,26.7,94,1849,1.490037,lote_F,madura,sem risco,,2026-03-14T07:58:28.605Z
+69b51650d108c10efc5432ee,banana,26.7,94,1856,1.495678,lote_F,madura,sem risco,,2026-03-14T08:03:28.567Z
+69b5177cd108c10efc5432ef,banana,26.7,94,1855,1.494872,lote_F,madura,sem risco,,2026-03-14T08:08:28.410Z
+69b518a8d108c10efc5432f0,banana,26.7,94,1851,1.491648,lote_F,madura,sem risco,,2026-03-14T08:13:28.442Z
+69b519d4d108c10efc5432f1,banana,26.7,94,1856,1.495678,lote_F,madura,sem risco,,2026-03-14T08:18:28.647Z
+69b51b00d108c10efc5432f2,banana,26.7,94,1860,1.498901,lote_F,madura,sem risco,,2026-03-14T08:23:28.486Z
+69b51c2cd108c10efc5432f3,banana,26.7,94,1860,1.498901,lote_F,madura,sem risco,,2026-03-14T08:28:28.526Z
+69b51d58d108c10efc5432f4,banana,26.7,94,1862,1.500513,lote_F,madura,sem risco,,2026-03-14T08:33:28.591Z
+69b51e84d108c10efc5432f5,banana,26.7,94,1861,1.499707,lote_F,madura,sem risco,,2026-03-14T08:38:28.429Z
+69b51fb0d108c10efc5432f6,banana,26.7,94,1866,1.503736,lote_F,madura,sem risco,,2026-03-14T08:43:28.521Z
+69b520dcd108c10efc5432f7,banana,26.7,94,1865,1.50293,lote_F,madura,sem risco,,2026-03-14T08:48:28.557Z
+69b52208d108c10efc5432f8,banana,26.7,94,1869,1.506154,lote_F,madura,sem risco,,2026-03-14T08:53:28.697Z
+69b52334d108c10efc5432f9,banana,26.6,94,1872,1.508571,lote_F,madura,sem risco,,2026-03-14T08:58:28.741Z
+69b52460d108c10efc5432fa,banana,26.3,94,1871,1.507766,lote_F,madura,sem risco,,2026-03-14T09:03:28.563Z
+69b5258cd108c10efc5432fb,banana,26.2,94,1869,1.506154,lote_F,madura,sem risco,,2026-03-14T09:08:28.604Z
+69b526b8d108c10efc5432fc,banana,26.2,94,1874,1.510183,lote_F,madura,sem risco,,2026-03-14T09:13:28.536Z
+69b527e4d108c10efc5432fd,banana,26.2,94,1881,1.515824,lote_F,madura,sem risco,,2026-03-14T09:18:28.800Z
+69b52910d108c10efc5432fe,banana,26.2,94,1876,1.511795,lote_F,madura,sem risco,,2026-03-14T09:23:28.761Z
+69b52a3cd108c10efc5432ff,banana,26.2,94,1887,1.520659,lote_F,madura,sem risco,,2026-03-14T09:28:28.548Z
+69b52b68d108c10efc543300,banana,26.2,94,1883,1.517436,lote_F,madura,sem risco,,2026-03-14T09:33:28.678Z
+69b52c94d108c10efc543301,banana,26.2,94,1884,1.518242,lote_F,madura,sem risco,,2026-03-14T09:38:28.621Z
+69b52dc0d108c10efc543302,banana,26.2,94,1883,1.517436,lote_F,madura,sem risco,,2026-03-14T09:43:28.637Z
+69b52eedd108c10efc543303,banana,26.2,94,1888,1.521465,lote_F,madura,sem risco,,2026-03-14T09:48:29.198Z
+69b53018d108c10efc543304,banana,26.2,94,1892,1.524689,lote_F,madura,sem risco,,2026-03-14T09:53:28.625Z
+69b53144d108c10efc543305,banana,26.2,94,1886,1.519853,lote_F,madura,sem risco,,2026-03-14T09:58:28.759Z
+69b53270d108c10efc543306,banana,26.2,94,1891,1.523883,lote_F,madura,sem risco,,2026-03-14T10:03:28.798Z
+69b5339cd108c10efc543307,banana,26.2,94,1897,1.528718,lote_F,madura,sem risco,,2026-03-14T10:08:28.630Z
+69b534c8d108c10efc543308,banana,26.2,94,1901,1.531941,lote_F,madura,madura,42,2026-03-14T10:13:28.882Z
+69b535f4d108c10efc543309,banana,26.2,94,1903,1.533553,lote_F,madura,madura,42,2026-03-14T10:18:28.805Z
+69b53720d108c10efc54330a,banana,26.2,94,1904,1.534359,lote_F,madura,madura,42,2026-03-14T10:23:28.627Z
+69b5384cd108c10efc54330b,banana,26.2,94,1909,1.538388,lote_F,madura,madura,42,2026-03-14T10:28:28.781Z
+69b53978d108c10efc54330c,banana,26.2,94,1917,1.544835,lote_F,madura,madura,42,2026-03-14T10:33:28.811Z
+69b53aa4d108c10efc54330d,banana,26.2,94,1915,1.543224,lote_F,madura,madura,42,2026-03-14T10:38:28.746Z
+69b53bd0d108c10efc54330e,banana,26.2,94,1919,1.546447,lote_F,madura,madura,42,2026-03-14T10:43:28.674Z
+69b53cfcd108c10efc54330f,banana,26.2,94,1922,1.548864,lote_F,madura,madura,42,2026-03-14T10:48:28.813Z
+69b53e28d108c10efc543310,banana,26.2,94,1921,1.548059,lote_F,madura,madura,42,2026-03-14T10:53:28.849Z
+69b53f54d108c10efc543311,banana,26.2,94,1924,1.550476,lote_F,madura,madura,42,2026-03-14T10:58:28.683Z
+69b58741de046abf293e7f6c,banana,28.1,92,1887,1.520659,lote_F,madura,sem risco,,2026-03-14T16:05:21.607Z
+69b58c92e9a4d426f7b44012,banana,28.5,92,1894,1.5263,lote_G,madura,sem risco,,2026-03-14T16:28:02.758Z
+69b58dbfe9a4d426f7b44013,banana,28.5,92,1865,1.50293,lote_G,madura,sem risco,,2026-03-14T16:33:03.138Z
+69b58eebe9a4d426f7b44014,banana,28.5,92,1872,1.508571,lote_G,madura,sem risco,,2026-03-14T16:38:03.081Z
+69b59016e9a4d426f7b44015,banana,28.5,92,1880,1.515018,lote_G,madura,sem risco,,2026-03-14T16:43:02.941Z
+69b59142e9a4d426f7b44016,banana,28.5,92,1893,1.525494,lote_G,madura,sem risco,,2026-03-14T16:48:02.865Z
+69b5926fe9a4d426f7b44017,banana,28.5,92,1896,1.527912,lote_G,madura,sem risco,,2026-03-14T16:53:03.010Z
+69b5939ae9a4d426f7b44018,banana,28.9,92,1908,1.537582,lote_G,madura,madura,42,2026-03-14T16:58:02.940Z
+69b594c7e9a4d426f7b44019,banana,28.9,92,1916,1.544029,lote_G,madura,madura,42,2026-03-14T17:03:03.084Z
+69b595f2e9a4d426f7b4401a,banana,28.9,92,1922,1.548864,lote_G,madura,madura,42,2026-03-14T17:08:02.813Z
+69b5971ee9a4d426f7b4401b,banana,28.9,92,1928,1.5537,lote_G,madura,madura,42,2026-03-14T17:13:02.847Z
+69b5984ee9a4d426f7b4401c,banana,28.9,92,1931,1.556117,lote_G,madura,madura,42,2026-03-14T17:18:06.092Z
+69b59976e9a4d426f7b4401d,banana,28.9,92,1937,1.560952,lote_G,madura,madura,42,2026-03-14T17:23:02.943Z
+69b59aa2e9a4d426f7b4401e,banana,28.9,92,1943,1.565788,lote_G,madura,madura,42,2026-03-14T17:28:02.959Z
+69b59bcfe9a4d426f7b4401f,banana,28.9,92,1956,1.576264,lote_G,madura,madura,42,2026-03-14T17:33:03.637Z
+69b59cfae9a4d426f7b44020,banana,28.9,92,1962,1.581099,lote_G,madura,madura,42,2026-03-14T17:38:02.845Z
+69b59e26e9a4d426f7b44021,banana,29.3,92,1970,1.587546,lote_G,madura,madura,42,2026-03-14T17:43:02.962Z
+69b59f53e9a4d426f7b44022,banana,29.3,92,1973,1.589963,lote_G,madura,madura,42,2026-03-14T17:48:03.107Z
+69b5a07ee9a4d426f7b44023,banana,29.3,92,1985,1.599634,lote_G,madura,madura,42,2026-03-14T17:53:02.925Z
+69b5a1aae9a4d426f7b44024,banana,29.3,92,1988,1.602051,lote_G,madura,madura,42,2026-03-14T17:58:02.862Z
+69b5a2d6e9a4d426f7b44025,banana,29.3,92,1995,1.607692,lote_G,madura,madura,42,2026-03-14T18:03:02.900Z
+69b5a406e9a4d426f7b44026,banana,29.3,92,1997,1.609304,lote_G,madura,madura,42,2026-03-14T18:08:06.210Z
+69b5a52ee9a4d426f7b44027,banana,29.3,92,2005,1.615751,lote_G,madura,madura,42,2026-03-14T18:13:02.966Z
+69b5a65be9a4d426f7b44028,banana,29.3,92,2008,1.618168,lote_G,madura,madura,42,2026-03-14T18:18:03.015Z
+69b5a787e9a4d426f7b44029,banana,29.3,92,2011,1.620586,lote_G,madura,madura,42,2026-03-14T18:23:03.048Z
+69b5a8b3e9a4d426f7b4402a,banana,29.3,92,2023,1.630256,lote_G,madura,madura,42,2026-03-14T18:28:03.189Z
+69b5a9dfe9a4d426f7b4402b,banana,29.3,92,2029,1.635092,lote_G,madura,madura,42,2026-03-14T18:33:03.113Z
+69b5ab0be9a4d426f7b4402c,banana,29.8,92,2029,1.635092,lote_G,madura,madura,42,2026-03-14T18:38:03.055Z
+69b5ac37e9a4d426f7b4402d,banana,29.8,92,2040,1.643956,lote_G,madura,madura,42,2026-03-14T18:43:03.162Z
+69b5ad63e9a4d426f7b4402e,banana,29.8,92,2055,1.656044,lote_G,madura,madura,42,2026-03-14T18:48:03.118Z
+69b5ae8fe9a4d426f7b4402f,banana,29.8,92,2053,1.654432,lote_G,madura,madura,42,2026-03-14T18:53:03.069Z
+69b5afbbe9a4d426f7b44030,banana,30.2,91,2070,1.668132,lote_G,madura,madura,42,2026-03-14T18:58:03.194Z
+69b5b0e7e9a4d426f7b44031,banana,30.8,91,2086,1.681026,lote_G,madura,madura,42,2026-03-14T19:03:03.226Z
+69b5b213e9a4d426f7b44032,banana,30.8,91,2096,1.689084,lote_G,madura,madura,42,2026-03-14T19:08:03.158Z
+69b5b33fe9a4d426f7b44033,banana,31.3,91,2097,1.68989,lote_G,madura,madura,42,2026-03-14T19:13:03.706Z
+69b5b46ae9a4d426f7b44034,banana,31.3,91,2107,1.697949,lote_G,madura,madura,42,2026-03-14T19:18:02.926Z
+69b5b6c3e9a4d426f7b44035,banana,31.8,91,2089,1.683443,lote_G,madura,madura,42,2026-03-14T19:28:03.415Z
+69b5b7efe9a4d426f7b44036,banana,31.3,91,2101,1.693114,lote_G,madura,madura,42,2026-03-14T19:33:03.265Z
+69b5b91ee9a4d426f7b44037,banana,31.7,91,2111,1.701172,lote_G,madura,madura,42,2026-03-14T19:38:06.463Z
+69b5ba4ae9a4d426f7b44038,banana,31.8,91,2114,1.70359,lote_G,madura,madura,42,2026-03-14T19:43:06.052Z
+69b5bb87e9a4d426f7b44039,banana,31.8,91,2128,1.714872,lote_G,madura,madura,42,2026-03-14T19:48:23.815Z
+69b5bc9ee9a4d426f7b4403a,banana,31.8,91,2132,1.718095,lote_G,madura,madura,42,2026-03-14T19:53:02.991Z
+69b5bdcbe9a4d426f7b4403b,banana,31.8,91,2132,1.718095,lote_G,madura,madura,42,2026-03-14T19:58:03.226Z
+69b5bef7e9a4d426f7b4403c,banana,31.5,91,2123,1.710842,lote_G,madura,madura,42,2026-03-14T20:03:03.354Z
+69b5c023e9a4d426f7b4403d,banana,31.3,91,2128,1.714872,lote_G,madura,madura,42,2026-03-14T20:08:03.287Z
+69b5c14fe9a4d426f7b4403e,banana,31.3,92,2136,1.721319,lote_G,madura,madura,42,2026-03-14T20:13:03.135Z
+69b5c27ee9a4d426f7b4403f,banana,31.3,92,2137,1.722125,lote_G,madura,madura,42,2026-03-14T20:18:06.127Z
+69b5c3a7e9a4d426f7b44040,banana,31.3,92,2130,1.716483,lote_G,madura,madura,42,2026-03-14T20:23:03.293Z
+69b5c4d3e9a4d426f7b44041,banana,31.3,92,2116,1.705202,lote_G,madura,madura,42,2026-03-14T20:28:03.288Z
+69b5c5ffe9a4d426f7b44042,banana,30.8,92,2103,1.694725,lote_G,madura,madura,42,2026-03-14T20:33:03.177Z
+69b5c72be9a4d426f7b44043,banana,30.8,92,2117,1.706007,lote_G,madura,madura,42,2026-03-14T20:38:03.316Z
+69b5c858e9a4d426f7b44044,banana,30.8,92,2167,1.7463,lote_G,madura,madura,42,2026-03-14T20:43:04.239Z
+69b5c983e9a4d426f7b44045,banana,30.2,92,2157,1.738242,lote_G,madura,madura,42,2026-03-14T20:48:03.026Z
+69b5cab7e9a4d426f7b44046,banana,30.2,92,2160,1.740659,lote_G,madura,madura,42,2026-03-14T20:53:11.463Z
+69b5cbe3e9a4d426f7b44047,banana,30.2,92,2156,1.737436,lote_G,madura,madura,42,2026-03-14T20:58:11.716Z
+69b5cd07e9a4d426f7b44048,banana,30.2,92,2146,1.729377,lote_G,madura,madura,42,2026-03-14T21:03:03.073Z
+69b5ce33e9a4d426f7b44049,banana,30.2,92,2143,1.72696,lote_G,madura,madura,42,2026-03-14T21:08:03.203Z
+69b5cf61e9a4d426f7b4404a,banana,30.2,92,2145,1.728571,lote_G,madura,madura,42,2026-03-14T21:13:05.005Z
+69b5d1b7e9a4d426f7b4404b,banana,30.2,92,2130,1.716483,lote_G,madura,madura,42,2026-03-14T21:23:03.413Z
+69b5d2e3e9a4d426f7b4404c,banana,30.2,92,2126,1.71326,lote_G,madura,madura,42,2026-03-14T21:28:03.891Z
+69b5d40fe9a4d426f7b4404d,banana,30.2,92,2126,1.71326,lote_G,madura,madura,42,2026-03-14T21:33:03.546Z
+69b5d53be9a4d426f7b4404e,banana,30.2,92,2126,1.71326,lote_G,madura,madura,42,2026-03-14T21:38:03.230Z
+69b5d66ae9a4d426f7b4404f,banana,30.2,92,2119,1.707619,lote_G,madura,madura,42,2026-03-14T21:43:06.536Z
+69b5d793e9a4d426f7b44050,banana,30.2,92,2127,1.714066,lote_G,madura,madura,42,2026-03-14T21:48:03.189Z
+69b5d8bfe9a4d426f7b44051,banana,30.2,92,2131,1.717289,lote_G,madura,madura,42,2026-03-14T21:53:03.219Z
+69b5d9ebe9a4d426f7b44052,banana,30.2,92,2137,1.722125,lote_G,madura,madura,42,2026-03-14T21:58:03.256Z
+69b5db17e9a4d426f7b44053,banana,30.2,92,2140,1.724542,lote_G,madura,madura,42,2026-03-14T22:03:03.292Z
+69b5dc43e9a4d426f7b44054,banana,30.2,92,2149,1.731795,lote_G,madura,madura,42,2026-03-14T22:08:03.861Z
+69b5dd6fe9a4d426f7b44055,banana,30.2,92,2158,1.739048,lote_G,madura,madura,42,2026-03-14T22:13:03.162Z
+69b5de9be9a4d426f7b44056,banana,30.2,92,2152,1.734212,lote_G,madura,madura,42,2026-03-14T22:18:03.315Z
+69b5dfcae9a4d426f7b44057,banana,30.2,92,2159,1.739854,lote_G,madura,madura,42,2026-03-14T22:23:06.522Z
+69b5e0f3e9a4d426f7b44058,banana,30.2,92,2157,1.738242,lote_G,madura,madura,42,2026-03-14T22:28:03.479Z
+69b5e21fe9a4d426f7b44059,banana,30.2,92,2164,1.743883,lote_G,madura,madura,42,2026-03-14T22:33:03.305Z
+69b5e34be9a4d426f7b4405a,banana,30.2,92,2166,1.745494,lote_G,madura,madura,42,2026-03-14T22:38:03.637Z
+69b5e477e9a4d426f7b4405b,banana,30.2,92,2169,1.747912,lote_G,madura,madura,42,2026-03-14T22:43:03.379Z
+69b5e5a3e9a4d426f7b4405c,banana,30.2,92,2172,1.75033,lote_G,madura,madura,42,2026-03-14T22:48:03.309Z
+69b5e6cfe9a4d426f7b4405d,banana,30.2,92,2175,1.752747,lote_G,madura,madura,42,2026-03-14T22:53:03.387Z
+69b5e7fce9a4d426f7b4405e,banana,30.2,92,2181,1.757582,lote_G,madura,madura,42,2026-03-14T22:58:04.098Z
+69b5e927e9a4d426f7b4405f,banana,30.2,92,2176,1.753553,lote_G,madura,madura,42,2026-03-14T23:03:03.325Z
+69b5ea53e9a4d426f7b44060,banana,30.2,92,2184,1.76,lote_G,madura,madura,42,2026-03-14T23:08:03.882Z
+69b5eb7fe9a4d426f7b44061,banana,30.2,92,2177,1.754359,lote_G,madura,madura,42,2026-03-14T23:13:03.389Z
+69b5ecabe9a4d426f7b44062,banana,29.8,93,2170,1.748718,lote_G,madura,madura,42,2026-03-14T23:18:03.426Z
+69b5edd7e9a4d426f7b44063,banana,29.8,93,2164,1.743883,lote_G,madura,madura,42,2026-03-14T23:23:03.371Z
+69b5ef03e9a4d426f7b44064,banana,29.8,93,2165,1.744689,lote_G,madura,madura,42,2026-03-14T23:28:03.407Z
+69b5f02fe9a4d426f7b44065,banana,29.8,93,2166,1.745494,lote_G,madura,madura,42,2026-03-14T23:33:03.881Z
+69b5f15be9a4d426f7b44066,banana,29.8,93,2168,1.747106,lote_G,madura,madura,42,2026-03-14T23:38:03.376Z
+69b5f287e9a4d426f7b44067,banana,29.7,93,2169,1.747912,lote_G,madura,madura,42,2026-03-14T23:43:03.405Z
+69b5f3b3e9a4d426f7b44068,banana,29.3,93,2164,1.743883,lote_G,madura,madura,42,2026-03-14T23:48:03.543Z
+69b5f4dfe9a4d426f7b44069,banana,29.3,93,2167,1.7463,lote_G,madura,madura,42,2026-03-14T23:53:03.586Z
+69b5f60be9a4d426f7b4406a,banana,29.3,93,2159,1.739854,lote_G,madura,madura,42,2026-03-14T23:58:03.416Z
+69b5f737e9a4d426f7b4406b,banana,29.3,93,2152,1.734212,lote_G,madura,madura,42,2026-03-15T00:03:03.641Z
+69b5f863e9a4d426f7b4406c,banana,29.3,93,2148,1.730989,lote_G,madura,madura,42,2026-03-15T00:08:03.482Z
+69b5f98fe9a4d426f7b4406d,banana,29.3,93,2144,1.727766,lote_G,madura,madura,42,2026-03-15T00:13:03.651Z
+69b5fabbe9a4d426f7b4406e,banana,29.3,93,2150,1.732601,lote_G,madura,madura,42,2026-03-15T00:18:03.451Z
+69b5fbebe9a4d426f7b4406f,banana,29.3,93,2152,1.734212,lote_G,madura,madura,42,2026-03-15T00:23:07.104Z
+69b5fd17e9a4d426f7b44070,banana,29.3,93,2152,1.734212,lote_G,madura,madura,42,2026-03-15T00:28:07.635Z
+69b5fe3fe9a4d426f7b44071,banana,28.9,93,2143,1.72696,lote_G,madura,madura,42,2026-03-15T00:33:03.461Z
+69b5ff6de9a4d426f7b44072,banana,28.9,93,2141,1.725348,lote_G,madura,madura,42,2026-03-15T00:38:05.152Z
+69b60097e9a4d426f7b44073,banana,28.9,93,2141,1.725348,lote_G,madura,madura,42,2026-03-15T00:43:03.949Z
+69b601c3e9a4d426f7b44074,banana,28.9,93,2142,1.726154,lote_G,madura,madura,42,2026-03-15T00:48:03.611Z
+69b602efe9a4d426f7b44075,banana,28.9,93,2147,1.730183,lote_G,madura,madura,42,2026-03-15T00:53:03.638Z
+69b6041be9a4d426f7b44076,banana,28.9,93,2152,1.734212,lote_G,madura,madura,42,2026-03-15T00:58:03.783Z
+69b60547e9a4d426f7b44077,banana,28.9,93,2146,1.729377,lote_G,madura,madura,42,2026-03-15T01:03:03.777Z
+69b60676e9a4d426f7b44078,banana,28.9,93,2143,1.72696,lote_G,madura,madura,42,2026-03-15T01:08:06.978Z
+69b6079fe9a4d426f7b44079,banana,28.9,93,2135,1.720513,lote_G,madura,madura,42,2026-03-15T01:13:03.654Z
+69b608cee9a4d426f7b4407a,banana,28.9,93,2137,1.722125,lote_G,madura,madura,42,2026-03-15T01:18:06.949Z
+69b609f7e9a4d426f7b4407b,banana,28.9,93,2141,1.725348,lote_G,madura,madura,42,2026-03-15T01:23:03.727Z
+69b60b23e9a4d426f7b4407c,banana,28.9,93,2149,1.731795,lote_G,madura,madura,42,2026-03-15T01:28:03.662Z
+69b60c4fe9a4d426f7b4407d,banana,28.9,93,2146,1.729377,lote_G,madura,madura,42,2026-03-15T01:33:03.694Z
+69b60d7be9a4d426f7b4407e,banana,28.9,93,2153,1.735018,lote_G,madura,madura,42,2026-03-15T01:38:03.724Z
+69b60ea7e9a4d426f7b4407f,banana,28.9,93,2153,1.735018,lote_G,madura,madura,42,2026-03-15T01:43:03.780Z
+69b60fd3e9a4d426f7b44080,banana,28.5,93,2143,1.72696,lote_G,madura,madura,42,2026-03-15T01:48:03.738Z
+69b610ffe9a4d426f7b44081,banana,28.5,93,2136,1.721319,lote_G,madura,madura,42,2026-03-15T01:53:03.626Z
+69b6122be9a4d426f7b44082,banana,28.5,93,2135,1.720513,lote_G,madura,madura,42,2026-03-15T01:58:03.904Z
+69b61358e9a4d426f7b44083,banana,28.5,93,2132,1.718095,lote_G,madura,madura,42,2026-03-15T02:03:04.039Z
+69b61483e9a4d426f7b44084,banana,28.5,93,2132,1.718095,lote_G,madura,madura,42,2026-03-15T02:08:03.941Z
+69b615b3e9a4d426f7b44085,banana,28.5,93,2128,1.714872,lote_G,madura,madura,42,2026-03-15T02:13:07.011Z
+69b616dbe9a4d426f7b44086,banana,28.5,93,2128,1.714872,lote_G,madura,madura,42,2026-03-15T02:18:03.934Z
+69b61808e9a4d426f7b44087,banana,28.5,93,2128,1.714872,lote_G,madura,madura,42,2026-03-15T02:23:04.261Z
+69b61936e9a4d426f7b44088,banana,28.5,93,2134,1.719707,lote_G,madura,madura,42,2026-03-15T02:28:06.525Z
+69b61a5fe9a4d426f7b44089,banana,28.5,93,2120,1.708425,lote_G,madura,madura,42,2026-03-15T02:33:03.847Z
+69b61b8be9a4d426f7b4408a,banana,28.3,93,2109,1.69956,lote_G,madura,madura,42,2026-03-15T02:38:03.761Z
+69b61cb8e9a4d426f7b4408b,banana,28,93,2114,1.70359,lote_G,madura,madura,42,2026-03-15T02:43:04.308Z
+69b61de3e9a4d426f7b4408c,banana,28,93,2121,1.709231,lote_G,madura,madura,42,2026-03-15T02:48:03.625Z
+69b61f12e9a4d426f7b4408d,banana,28,93,2123,1.710842,lote_G,madura,madura,42,2026-03-15T02:53:06.334Z
+69b6203fe9a4d426f7b4408e,banana,28,93,2120,1.708425,lote_G,madura,madura,42,2026-03-15T02:58:07.414Z
+69b62167e9a4d426f7b4408f,banana,28,93,2120,1.708425,lote_G,madura,madura,42,2026-03-15T03:03:03.832Z
+69b62293e9a4d426f7b44090,banana,28,93,2120,1.708425,lote_G,madura,madura,42,2026-03-15T03:08:03.969Z
+69b623c0e9a4d426f7b44091,banana,28,93,2111,1.701172,lote_G,madura,madura,42,2026-03-15T03:13:04.005Z
+69b624ebe9a4d426f7b44092,banana,28,93,2104,1.695531,lote_G,madura,madura,42,2026-03-15T03:18:03.836Z
+69b62617e9a4d426f7b44093,banana,28,93,2106,1.697143,lote_G,madura,madura,42,2026-03-15T03:23:03.983Z
+69b62744e9a4d426f7b44094,banana,28,93,2097,1.68989,lote_G,madura,madura,42,2026-03-15T03:28:04.010Z
+69b6286fe9a4d426f7b44095,banana,28,93,2086,1.681026,lote_G,madura,madura,42,2026-03-15T03:33:03.872Z
+69b6299ee9a4d426f7b44096,banana,28,93,2088,1.682637,lote_G,madura,madura,42,2026-03-15T03:38:06.424Z
+69b62ac8e9a4d426f7b44097,banana,28,93,2082,1.677802,lote_G,madura,madura,42,2026-03-15T03:43:04.542Z
+69b62bf3e9a4d426f7b44098,banana,28,93,2079,1.675385,lote_G,madura,madura,42,2026-03-15T03:48:03.848Z
+69b62d1fe9a4d426f7b44099,banana,28,93,2082,1.677802,lote_G,madura,madura,42,2026-03-15T03:53:03.884Z
+69b62e4fe9a4d426f7b4409a,banana,28,93,2089,1.683443,lote_G,madura,madura,42,2026-03-15T03:58:07.098Z
+69b62f78e9a4d426f7b4409b,banana,28,93,2069,1.667326,lote_G,madura,madura,42,2026-03-15T04:03:04.066Z
+69b630a3e9a4d426f7b4409c,banana,28,93,2063,1.662491,lote_G,madura,madura,42,2026-03-15T04:08:03.913Z
+69b631cfe9a4d426f7b4409d,banana,28,93,2064,1.663297,lote_G,madura,madura,42,2026-03-15T04:13:03.921Z
+69b632fce9a4d426f7b4409e,banana,28,93,2069,1.667326,lote_G,madura,madura,42,2026-03-15T04:18:04.185Z
+69b63428e9a4d426f7b4409f,banana,28,93,2070,1.668132,lote_G,madura,madura,42,2026-03-15T04:23:04.104Z
+69b63553e9a4d426f7b440a0,banana,28,93,2071,1.668938,lote_G,madura,madura,42,2026-03-15T04:28:03.938Z
+69b63680e9a4d426f7b440a1,banana,28,93,2095,1.688278,lote_G,madura,madura,42,2026-03-15T04:33:04.224Z
+69b637afe9a4d426f7b440a2,banana,28,93,2102,1.693919,lote_G,madura,madura,42,2026-03-15T04:38:07.190Z
+69b638dae9a4d426f7b440a3,banana,28,93,2112,1.701978,lote_G,madura,madura,42,2026-03-15T04:43:06.907Z
+69b63a03e9a4d426f7b440a4,banana,28,93,2116,1.705202,lote_G,madura,madura,42,2026-03-15T04:48:03.975Z
+69b63b30e9a4d426f7b440a5,banana,28,93,2120,1.708425,lote_G,madura,madura,42,2026-03-15T04:53:04.109Z
+69b63c5ce9a4d426f7b440a6,banana,28,93,2125,1.712454,lote_G,madura,madura,42,2026-03-15T04:58:04.460Z
+69b63d88e9a4d426f7b440a7,banana,28,93,2136,1.721319,lote_G,madura,madura,42,2026-03-15T05:03:04.014Z
+69b63eb4e9a4d426f7b440a8,banana,28,93,2134,1.719707,lote_G,madura,madura,42,2026-03-15T05:08:04.013Z
+69b63fdfe9a4d426f7b440a9,banana,28,93,2152,1.734212,lote_G,madura,madura,42,2026-03-15T05:13:03.945Z
+69b6410be9a4d426f7b440aa,banana,28,93,2158,1.739048,lote_G,madura,madura,42,2026-03-15T05:18:03.983Z
+69b64238e9a4d426f7b440ab,banana,28,93,2169,1.747912,lote_G,madura,madura,42,2026-03-15T05:23:04.533Z
+69b64363e9a4d426f7b440ac,banana,28,93,2186,1.761612,lote_G,madura,madura,42,2026-03-15T05:28:03.916Z
+69b64490e9a4d426f7b440ad,banana,28,93,2183,1.759194,lote_G,madura,madura,42,2026-03-15T05:33:04.009Z
+69b645bce9a4d426f7b440ae,banana,28,93,2197,1.770476,lote_G,madura,madura,42,2026-03-15T05:38:04.035Z
+69b646e8e9a4d426f7b440af,banana,27.6,94,2208,1.779341,lote_G,madura,madura,42,2026-03-15T05:43:04.063Z
+69b64814e9a4d426f7b440b0,banana,27.6,94,2204,1.776117,lote_G,madura,madura,42,2026-03-15T05:48:04.099Z
+69b64940e9a4d426f7b440b1,banana,27.6,94,2218,1.787399,lote_G,madura,madura,42,2026-03-15T05:53:04.030Z
+69b64a6ce9a4d426f7b440b2,banana,27.6,94,2230,1.79707,lote_G,madura,madura,42,2026-03-15T05:58:04.066Z
+69b64b98e9a4d426f7b440b3,banana,27.6,94,2224,1.792234,lote_G,madura,madura,42,2026-03-15T06:03:04.002Z
+69b64cc4e9a4d426f7b440b4,banana,27.6,94,2235,1.801099,lote_G,madura,madura,42,2026-03-15T06:08:04.038Z
+69b64df0e9a4d426f7b440b5,banana,27.6,94,2242,1.80674,lote_G,madura,madura,42,2026-03-15T06:13:04.077Z
+69b64f1ce9a4d426f7b440b6,banana,27.6,94,2241,1.805934,lote_G,madura,madura,42,2026-03-15T06:18:04.114Z
+69b65048e9a4d426f7b440b7,banana,27.6,94,2248,1.811575,lote_G,madura,madura,42,2026-03-15T06:23:04.051Z
+69b65174e9a4d426f7b440b8,banana,27.6,94,2252,1.814799,lote_G,madura,madura,42,2026-03-15T06:28:04.086Z
+69b652a0e9a4d426f7b440b9,banana,27.6,94,2255,1.817216,lote_G,madura,madura,42,2026-03-15T06:33:04.124Z
+69b653cce9a4d426f7b440ba,banana,27.6,94,2256,1.818022,lote_G,madura,madura,42,2026-03-15T06:38:04.051Z
+69b654f8e9a4d426f7b440bb,banana,27.6,94,2259,1.82044,lote_G,madura,madura,42,2026-03-15T06:43:04.189Z
+69b65624e9a4d426f7b440bc,banana,27.6,94,2268,1.827692,lote_G,madura,madura,42,2026-03-15T06:48:04.225Z
+69b65750e9a4d426f7b440bd,banana,27.6,94,2267,1.826886,lote_G,madura,madura,42,2026-03-15T06:53:04.159Z
+69b6587ce9a4d426f7b440be,banana,27.6,94,2270,1.829304,lote_G,madura,madura,42,2026-03-15T06:58:04.096Z
+69b659a8e9a4d426f7b440bf,banana,27.6,94,2269,1.828498,lote_G,madura,madura,42,2026-03-15T07:03:04.134Z
+69b65ad4e9a4d426f7b440c0,banana,27.6,94,2275,1.833333,lote_G,madura,madura,42,2026-03-15T07:08:04.369Z
+69b65c00e9a4d426f7b440c1,banana,27.6,94,2279,1.836557,lote_G,madura,madura,42,2026-03-15T07:13:04.103Z
+69b65d2ce9a4d426f7b440c2,banana,27.6,94,2285,1.841392,lote_G,madura,madura,42,2026-03-15T07:18:04.237Z
+69b65e58e9a4d426f7b440c3,banana,27.6,94,2291,1.846227,lote_G,madura,madura,42,2026-03-15T07:23:04.170Z
+69b65f84e9a4d426f7b440c4,banana,27.6,94,2298,1.851868,lote_G,madura,madura,42,2026-03-15T07:28:04.419Z
+69b660b0e9a4d426f7b440c5,banana,27.6,94,2316,1.866374,lote_G,madura,madura,42,2026-03-15T07:33:04.157Z
+69b661dce9a4d426f7b440c6,banana,27.6,94,2303,1.855897,lote_G,madura,madura,42,2026-03-15T07:38:04.287Z
+69b66308e9a4d426f7b440c7,banana,27.6,94,2307,1.859121,lote_G,madura,madura,42,2026-03-15T07:43:04.332Z
+69b66434e9a4d426f7b440c8,banana,27.6,94,2312,1.86315,lote_G,madura,madura,42,2026-03-15T07:48:04.355Z
+69b66560e9a4d426f7b440c9,banana,27.6,94,2319,1.868791,lote_G,madura,madura,42,2026-03-15T07:53:04.185Z
+69b6668ce9a4d426f7b440ca,banana,27.6,94,2310,1.861538,lote_G,madura,madura,42,2026-03-15T07:58:04.321Z
+69b667b8e9a4d426f7b440cb,banana,27.6,94,2318,1.867985,lote_G,madura,madura,42,2026-03-15T08:03:04.260Z
+69b668e4e9a4d426f7b440cc,banana,27.6,94,2328,1.876044,lote_G,madura,madura,42,2026-03-15T08:08:04.190Z
+69b66a10e9a4d426f7b440cd,banana,27.6,94,2328,1.876044,lote_G,madura,madura,42,2026-03-15T08:13:04.230Z
+69b66b3ce9a4d426f7b440ce,banana,27.6,94,2328,1.876044,lote_G,madura,madura,42,2026-03-15T08:18:04.265Z
+69b66c68e9a4d426f7b440cf,banana,27.6,94,2332,1.879267,lote_G,madura,madura,42,2026-03-15T08:23:04.198Z
+69b66d94e9a4d426f7b440d0,banana,27.6,94,2340,1.885714,lote_G,madura,madura,42,2026-03-15T08:28:04.234Z
+69b66ec0e9a4d426f7b440d1,banana,27.6,94,2344,1.888938,lote_G,madura,madura,42,2026-03-15T08:33:04.270Z
+69b66fece9a4d426f7b440d2,banana,27.6,94,2342,1.887326,lote_G,madura,madura,42,2026-03-15T08:38:04.334Z
+69b67118e9a4d426f7b440d3,banana,27.6,94,2344,1.888938,lote_G,madura,madura,42,2026-03-15T08:43:04.241Z
+69b67244e9a4d426f7b440d4,banana,27.6,94,2345,1.889744,lote_G,madura,madura,42,2026-03-15T08:48:04.274Z
+69b67370e9a4d426f7b440d5,banana,27.6,94,2349,1.892967,lote_G,madura,madura,42,2026-03-15T08:53:04.325Z
+69b6749ce9a4d426f7b440d6,banana,27.6,94,2353,1.896191,lote_G,madura,madura,42,2026-03-15T08:58:04.245Z
+69b675c8e9a4d426f7b440d7,banana,27.6,94,2354,1.896996,lote_G,madura,madura,42,2026-03-15T09:03:04.399Z
+69b676f4e9a4d426f7b440d8,banana,27.6,94,2358,1.90022,lote_G,madura,madura,42,2026-03-15T09:08:04.439Z
+69b67820e9a4d426f7b440d9,banana,27.4,94,2360,1.901832,lote_G,madura,madura,42,2026-03-15T09:13:04.250Z
+69b6794ce9a4d426f7b440da,banana,27.2,94,2357,1.899414,lote_G,madura,madura,42,2026-03-15T09:18:04.278Z
+69b67a78e9a4d426f7b440db,banana,27.1,94,2365,1.905861,lote_G,madura,madura,42,2026-03-15T09:23:04.536Z
+69b67ba4e9a4d426f7b440dc,banana,27.1,94,2369,1.909084,lote_G,madura,madura,42,2026-03-15T09:28:04.587Z
+69b67cd0e9a4d426f7b440dd,banana,27.1,94,2366,1.906667,lote_G,madura,madura,42,2026-03-15T09:33:04.405Z
+69b67dfce9a4d426f7b440de,banana,27.1,94,2375,1.913919,lote_G,madura,madura,42,2026-03-15T09:38:04.539Z
+69b67f28e9a4d426f7b440df,banana,27.1,94,2373,1.912308,lote_G,madura,madura,42,2026-03-15T09:43:04.592Z
+69b68054e9a4d426f7b440e0,banana,27.1,94,2375,1.913919,lote_G,madura,madura,42,2026-03-15T09:48:04.412Z
+69b68180e9a4d426f7b440e1,banana,27.1,94,2382,1.91956,lote_G,madura,madura,42,2026-03-15T09:53:04.548Z
+69b683dae9a4d426f7b440e2,banana,27.1,94,2381,1.918755,lote_G,madura,madura,42,2026-03-15T10:03:06.960Z
+69b68504e9a4d426f7b440e3,banana,27.1,94,2389,1.925201,lote_G,madura,madura,42,2026-03-15T10:08:04.447Z
+69b68630e9a4d426f7b440e4,banana,27.1,94,2393,1.928425,lote_G,madura,madura,42,2026-03-15T10:13:04.481Z
+69b6875ce9a4d426f7b440e5,banana,27.1,94,2385,1.921978,lote_G,madura,madura,42,2026-03-15T10:18:04.517Z
+69b68888e9a4d426f7b440e6,banana,27.1,94,2395,1.930037,lote_G,madura,madura,42,2026-03-15T10:23:04.451Z
+69b689b4e9a4d426f7b440e7,banana,27.1,94,2398,1.932454,lote_G,madura,madura,42,2026-03-15T10:28:04.497Z
+69b68ae0e9a4d426f7b440e8,banana,27.1,94,2400,1.934066,lote_G,madura,madura,42,2026-03-15T10:33:04.524Z
+69b68c0ce9a4d426f7b440e9,banana,27.1,94,2396,1.930843,lote_G,madura,madura,42,2026-03-15T10:38:04.461Z
+69b68d3be9a4d426f7b440ea,banana,27.2,94,2404,1.937289,lote_G,madura,madura,42,2026-03-15T10:43:07.668Z
+69b68e64e9a4d426f7b440eb,banana,27.4,94,2404,1.937289,lote_G,madura,madura,42,2026-03-15T10:48:04.529Z
+69b68f90e9a4d426f7b440ec,banana,27.6,94,2408,1.940513,lote_G,madura,madura,42,2026-03-15T10:53:04.567Z
+69b690bfe9a4d426f7b440ed,banana,27.6,94,2399,1.93326,lote_G,madura,madura,42,2026-03-15T10:58:07.425Z
+69b691e8e9a4d426f7b440ee,banana,27.6,94,2410,1.942124,lote_G,madura,madura,42,2026-03-15T11:03:04.519Z
+69b69315e9a4d426f7b440ef,banana,27.6,94,2418,1.948571,lote_G,madura,madura,42,2026-03-15T11:08:05.412Z
+69b69440e9a4d426f7b440f0,banana,27.6,94,2407,1.939707,lote_G,madura,madura,42,2026-03-15T11:13:04.512Z
+69b6956ce9a4d426f7b440f1,banana,27.6,94,2413,1.944542,lote_G,madura,madura,42,2026-03-15T11:18:04.544Z
+69b69698e9a4d426f7b440f2,banana,27.6,94,2415,1.946154,lote_G,madura,madura,42,2026-03-15T11:23:04.680Z
+69b697c4e9a4d426f7b440f3,banana,27.6,94,2412,1.943736,lote_G,madura,madura,42,2026-03-15T11:28:04.612Z
+69b698f0e9a4d426f7b440f4,banana,27.6,94,2410,1.942124,lote_G,madura,madura,42,2026-03-15T11:33:04.574Z
+69b69a1ce9a4d426f7b440f5,banana,27.6,94,2411,1.94293,lote_G,madura,madura,42,2026-03-15T11:38:04.584Z
+69b69b48e9a4d426f7b440f6,banana,27.6,94,2415,1.946154,lote_G,madura,madura,42,2026-03-15T11:43:04.626Z
+69b69c74e9a4d426f7b440f7,banana,27.6,94,2412,1.943736,lote_G,madura,madura,42,2026-03-15T11:48:04.780Z
+69b69da0e9a4d426f7b440f8,banana,27.6,94,2420,1.950183,lote_G,madura,madura,42,2026-03-15T11:53:04.599Z
+69b69ed5e9a4d426f7b440f9,banana,27.6,94,2428,1.95663,lote_G,madura,madura,42,2026-03-15T11:58:13.895Z
+69b69ff8e9a4d426f7b440fa,banana,27.6,94,2427,1.955824,lote_G,madura,madura,42,2026-03-15T12:03:04.630Z
+69b6a124e9a4d426f7b440fb,banana,27.6,94,2431,1.959048,lote_G,madura,madura,42,2026-03-15T12:08:04.629Z
+69b6a250e9a4d426f7b440fc,banana,27.6,94,2439,1.965495,lote_G,madura,madura,42,2026-03-15T12:13:04.739Z
+69b6a37ce9a4d426f7b440fd,banana,27.6,94,2446,1.971135,lote_G,madura,madura,42,2026-03-15T12:18:04.773Z
+69b6a4a8e9a4d426f7b440fe,banana,27.6,94,2444,1.969524,lote_G,madura,madura,42,2026-03-15T12:23:04.620Z
+69b6a5d7e9a4d426f7b440ff,banana,27.6,94,2443,1.968718,lote_G,madura,madura,42,2026-03-15T12:28:07.624Z
+69b6a700e9a4d426f7b44100,banana,27.6,94,2453,1.976777,lote_G,madura,madura,42,2026-03-15T12:33:04.676Z
+69b6a82ce9a4d426f7b44101,banana,27.6,94,2457,1.98,lote_G,madura,madura,42,2026-03-15T12:38:04.813Z
+69b6a958e9a4d426f7b44102,banana,27.6,94,2458,1.980806,lote_G,madura,madura,42,2026-03-15T12:43:04.758Z
+69b6aa84e9a4d426f7b44103,banana,27.6,94,2459,1.981612,lote_G,madura,madura,42,2026-03-15T12:48:04.688Z
+69b6abb0e9a4d426f7b44104,banana,27.6,94,2470,1.990476,lote_G,madura,madura,42,2026-03-15T12:53:04.831Z
+69b6acdce9a4d426f7b44105,banana,27.6,94,2492,2.008205,lote_G,madura,madura,42,2026-03-15T12:58:04.656Z
+69b6ae09e9a4d426f7b44106,banana,27.6,94,2468,1.988864,lote_G,madura,madura,42,2026-03-15T13:03:05.315Z
+69b6af37e9a4d426f7b44107,banana,27.6,94,2472,1.992088,lote_G,madura,madura,42,2026-03-15T13:08:07.798Z
+69b6b060e9a4d426f7b44108,banana,27.6,94,2477,1.996117,lote_G,madura,madura,42,2026-03-15T13:13:04.659Z
+69b6b18ce9a4d426f7b44109,banana,28,93,2486,2.00337,lote_G,madura,madura,42,2026-03-15T13:18:04.720Z
+69b6b2bbe9a4d426f7b4410a,banana,28,93,2479,1.997729,lote_G,madura,madura,42,2026-03-15T13:23:07.985Z
+69b6b3e4e9a4d426f7b4410b,banana,28,93,2481,1.999341,lote_G,madura,madura,42,2026-03-15T13:28:04.663Z
+69b6b510e9a4d426f7b4410c,banana,28,93,2492,2.008205,lote_G,madura,madura,42,2026-03-15T13:33:04.850Z
+69b6b63ce9a4d426f7b4410d,banana,28,93,2490,2.006593,lote_G,madura,madura,42,2026-03-15T13:38:04.739Z
+69b6b769e9a4d426f7b4410e,banana,28,93,2496,2.011429,lote_G,madura,madura,42,2026-03-15T13:43:05.206Z
+69b6b89de9a4d426f7b4410f,banana,28,93,2496,2.011429,lote_G,madura,madura,42,2026-03-15T13:48:13.917Z
+69b6b9c0e9a4d426f7b44110,banana,28,93,2498,2.01304,lote_G,madura,madura,42,2026-03-15T13:53:04.685Z
+69b6baf0e9a4d426f7b44111,banana,28,93,2506,2.019487,lote_G,madura,madura,42,2026-03-15T13:58:08.038Z
+69b6bc18e9a4d426f7b44112,banana,28.5,93,2513,2.025128,lote_G,madura,madura,42,2026-03-15T14:03:04.921Z
+69b6bd44e9a4d426f7b44113,banana,28.5,93,2511,2.023516,lote_G,madura,madura,42,2026-03-15T14:08:04.911Z
+69b6be70e9a4d426f7b44114,banana,28.5,93,2508,2.021099,lote_G,madura,madura,42,2026-03-15T14:13:04.899Z
+69b6bf9de9a4d426f7b44115,banana,28.5,93,2517,2.028352,lote_G,madura,madura,42,2026-03-15T14:18:05.371Z
+69b6c0c8e9a4d426f7b44116,banana,28.5,93,2520,2.030769,lote_G,madura,madura,42,2026-03-15T14:23:04.758Z
+69b6c1fde9a4d426f7b44117,banana,28.5,93,2521,2.031575,lote_G,madura,madura,42,2026-03-15T14:28:13.582Z
+69b6c324e9a4d426f7b44118,banana,28.5,93,2528,2.037216,lote_G,madura,madura,42,2026-03-15T14:33:08.326Z
+69b6c44ce9a4d426f7b44119,banana,28.5,93,2530,2.038828,lote_G,madura,madura,42,2026-03-15T14:38:04.865Z
+69b6c6aae9a4d426f7b4411a,banana,28.9,93,2537,2.044469,lote_G,madura,madura,42,2026-03-15T14:48:10.279Z
+69b6c7d1e9a4d426f7b4411b,banana,28.9,93,2540,2.046886,lote_G,madura,madura,42,2026-03-15T14:53:05.387Z
+69b6c8ffe9a4d426f7b4411c,banana,28.9,93,2539,2.046081,lote_G,madura,madura,42,2026-03-15T14:58:07.560Z
+69b6ca28e9a4d426f7b4411d,banana,28.9,93,2545,2.050916,lote_G,madura,madura,42,2026-03-15T15:03:04.953Z
+69b6cb58e9a4d426f7b4411e,banana,28.9,93,2549,2.054139,lote_G,madura,madura,42,2026-03-15T15:08:08.593Z
+69b6cc83e9a4d426f7b4411f,banana,28.9,93,2557,2.060586,lote_G,madura,madura,42,2026-03-15T15:13:07.373Z
+69b6cdace9a4d426f7b44120,banana,28.9,92,2567,2.068645,lote_G,madura,madura,42,2026-03-15T15:18:04.881Z
+69b6ced8e9a4d426f7b44121,banana,29,92,2560,2.063004,lote_G,madura,madura,42,2026-03-15T15:23:04.993Z
+69b6d006e9a4d426f7b44122,banana,29.3,92,2565,2.067033,lote_G,madura,madura,42,2026-03-15T15:28:06.584Z
+69b6d130e9a4d426f7b44123,banana,29.3,92,2562,2.064615,lote_G,madura,madura,42,2026-03-15T15:33:04.771Z
+69b6d25de9a4d426f7b44124,banana,29.3,93,2574,2.074286,lote_G,madura,madura,42,2026-03-15T15:38:05.110Z
+69b6d388e9a4d426f7b44125,banana,29.3,93,2568,2.069451,lote_G,madura,madura,42,2026-03-15T15:43:04.942Z
+69b6d4bae9a4d426f7b44126,banana,29.3,93,2573,2.07348,lote_G,madura,madura,42,2026-03-15T15:48:10.144Z
+69b6d5e3e9a4d426f7b44127,banana,29.3,93,2584,2.082344,lote_G,madura,madura,42,2026-03-15T15:53:07.695Z
+69b6d70de9a4d426f7b44128,banana,29.3,93,2585,2.08315,lote_G,madura,madura,42,2026-03-15T15:58:05.148Z
+69b6d839e9a4d426f7b44129,banana,29.3,93,2590,2.087179,lote_G,madura,madura,42,2026-03-15T16:03:05.073Z
+69b6d968e9a4d426f7b4412a,banana,29.3,93,2595,2.091209,lote_G,madura,madura,42,2026-03-15T16:08:08.623Z
+69b6da94e9a4d426f7b4412b,banana,29.3,93,2601,2.096044,lote_G,madura,alerta,12,2026-03-15T16:13:08.130Z
