@@ -48,7 +48,11 @@ Para a coleta de dados, serão usados sensores DHT22 que realizam leituras a cad
 
 # Equipe
 
-Luca Atanazio, Luciano Sales, Valdez, Santiago, Wassil
+* Luca Atanazio - linkedin.com/in/lucaatanazio/?locale=pt
+*  Luciano Sales - linkedin.com/in/luciano-sales-0ab86b18b/
+*  Valdez Marinho - linkedin.com/in/valdez-marinho-1564a33b8/?skipRedirect=true
+*  Santiago Peixoto - linkedin.com/in/santiago-peixoto-69b060117/
+*  Wassil Junior - linkedin.com/in/wassil-junior-659687325/
 
 # Riscos e Desafios
 
