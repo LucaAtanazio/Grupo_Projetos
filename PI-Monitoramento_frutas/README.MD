@@ -122,6 +122,8 @@ Após o saneamento e auditoria lógica do dataset, os dados foram utilizados par
   * Precisão;
   * Matriz de Confusão.
 
+
+
 Os resultados demonstraram elevada robustez na identificação de estados críticos de deterioração, especialmente na classe `Risco de Perda`.
 
 
@@ -235,7 +237,10 @@ Após o saneamento lógico e auditoria dos dados:
 
 Os resultados demonstram elevada estabilidade do modelo mesmo sob validação cruzada estratificada (K-Fold), indicando boa capacidade de generalização em diferentes subconjuntos do dataset.
 
+![f1-score](data\novo-monitoramento-FINAL\graficos\validacao_kfold_estabilidade.png)
+
 ### Desempenho por Estado Biológico
+![Matriz-de-confusao](data\novo-monitoramento-FINAL\graficos\matriz_confusao_robusta.png)
 
 * **Risco de Perda**
 
@@ -255,6 +260,8 @@ Os resultados demonstram elevada estabilidade do modelo mesmo sob validação cr
 
 ### Correlação Sensorial e Ambiental
 
+![mapa-calor](data\novo-monitoramento-FINAL\graficos\Ciclo-Termico-do-Ambiente-de-Armazenamento.png)
+
 As análises confirmaram correlação direta entre:
 
 * aumento da temperatura;
@@ -269,6 +276,7 @@ Durante os ciclos monitorados:
   `Sem Risco → Madura → Alerta → Risco de Perda`.
 
 ### Estimativa Heurística de Vida Útil
+![estima-heuristica](data\novo-monitoramento-FINAL\graficos\Estimativa-Heuristica-de-Vida-Util-Residual.png)
 
 A validade residual foi inferida automaticamente com base na combinação entre:
 
@@ -284,7 +292,7 @@ Regras aplicadas:
 * `Risco de Perda` → validade crítica (`0h`).
 
 ### Robustez do Pipeline IoT
-
+![intervalo-envio](data\novo-monitoramento-FINAL\graficos\Consistência_do_Intervalo_de_Envio_(ESP32_Flask).png)
 O sistema ESP32 → Flask → MongoDB demonstrou:
 
 * transmissão estável;
