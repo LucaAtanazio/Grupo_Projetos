@@ -311,7 +311,7 @@ Os resultados validam a proposta como uma solução:
 
 ## Contribuições
 
-Este projeto foi desenvolvido pelos aludas do curso de *Inteligência Artificial* do 2° semestre na *SENAI FATESG* como trabalho de conclusão das disciplinas *(Internet das coisas / Projeto de Extensão Integrador)*.
+Este projeto foi desenvolvido pelos alunos do curso de *Inteligência Artificial* do 2° semestre na *SENAI FATESG* como trabalho de conclusão das disciplinas *(Internet das coisas / Projeto de Extensão Integrador)*.
 
 * [@eopabro](https://www.linkedin.com/in/oipabro/) — **Pablo Henrique:** Desenvolvimento e Implementação do Código Embarcado, Integração Hardware-Software, Arquitetura de Aquisição IoT, Elaboração Conceitual do Projeto, Pesquisa de Campo e Apresentação Técnica.
 
@@ -322,7 +322,7 @@ Este projeto foi desenvolvido pelos aludas do curso de *Inteligência Artificial
 ### **Orientação Acadêmica**
 
 O projeto foi concluído sob a direção dos professores:
-* [Prof. Willgnner Ferreira Santos](https://github.com/Willgnner-Santos) *(Projeto de Extensão Integrador)*
+* [Prof. Willgnner Ferreira Santos](https://www.linkedin.com/in/willgnner-ferreira-santos-20bb6a17a/) *(Projeto de Extensão Integrador)*
 * [Prof. Alisson Rodrigues](https://www.linkedin.com/in/alissonralves1/) *(Internet da Coisas)*
 
 
