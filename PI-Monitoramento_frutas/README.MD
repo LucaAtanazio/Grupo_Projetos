@@ -179,7 +179,6 @@ Essa análise permite identificar:
 ### Estrutura do Projeto
 
 ├──data
-├──esp32
 ├──IoT
 ├──modelos
 ├──static
