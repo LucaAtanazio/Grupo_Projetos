@@ -1,15 +1,17 @@
+
 Flask
 Flask-SocketIO
-eventlet  
+eventlet
+gunicorn
+
 
 pandas
 numpy
 scikit-learn
 joblib
+matplotlib
+seaborn
 
-pymongo[srv]  
-python-dotenv  
 
-gunicorn
-
-EOF
+pymongo[srv]
+python-dotenv

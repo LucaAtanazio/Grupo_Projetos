@@ -1,0 +1,8 @@
+"estado_real","estado_previsto","total"
+"Madura","Alerta",341
+"Madura","Risco de Perda",167
+"Sem Risco","Madura",95
+"Risco de Perda","Alerta",91
+"Alerta","Madura",36
+"Madura","Sem Risco",35
+"Alerta","Risco de Perda",3

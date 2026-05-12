@@ -1,0 +1,10 @@
+# Configurações do Banco de Dados 
+MONGO_USER=seu_db_user
+MONGO_PASS=sua_db_password
+MONGO_HOST=host_do_projeto
+MONGO_DB=nome_do_db
+
+# Segurança da API (Header X-API-KEY)
+API_KEY=key_do_db
+
+IP=IP_da_maquina

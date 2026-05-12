@@ -1,0 +1,5 @@
+#define SECRET_SSID "nome_da_rede_wifi_2.5" 
+#define SECRET_PASS "senha_da_rede"
+#define SECRET_SERVER_URL "http://"IP_da_maquina":8080/api/novo_monitoramento"
+#define API_KEY "key_do_db"
+ 

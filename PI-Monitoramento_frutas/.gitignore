@@ -1,11 +1,6 @@
-*.db
-__pycache__/
+.venv
+.vscode
 
-*.pyc
-.vscode/
-code_seg/
+data\monitoramento\
 
-code_seg/DadosMedia/config.h
-code_seg/.env
-
-backup_sem_seg/
+data\novo-monitoramento-FINAL\.ipynb_checkpoints\
