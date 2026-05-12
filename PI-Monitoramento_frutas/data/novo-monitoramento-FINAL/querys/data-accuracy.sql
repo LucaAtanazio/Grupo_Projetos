@@ -1,7 +1,16 @@
-SELECT 
-    tipo_fruta, 
-    COUNT(*) as total_registros,
-    COUNT(*) FILTER (WHERE estado_real = estado_previsto) as acertos_ia,
-    ROUND((COUNT(*) FILTER (WHERE estado_real = estado_previsto)::numeric / COUNT(*)) * 100, 2) as porcentagem_acerto
+SELECT
+    lote,
+    COUNT(*) AS total,
+    COUNT(*) FILTER (
+        WHERE estado_real = estado_previsto
+    ) AS acertos,
+    ROUND(
+        (
+            COUNT(*) FILTER (
+                WHERE estado_real = estado_previsto
+            )::numeric / COUNT(*)
+        ) * 100,
+        2
+    ) AS accuracy
 FROM monitoramento_frutas
-GROUP BY tipo_fruta;
+GROUP BY lote;

@@ -1,0 +1,10 @@
+"estado_real","estado_previsto","media_validade","total"
+"Sem Risco","Madura",42.00,95
+"Alerta","Madura",41.33,36
+"Madura","Madura",39.95,715
+"Risco de Perda","Alerta",12.00,91
+"Madura","Alerta",12.00,341
+"Alerta","Alerta",12.00,316
+"Risco de Perda","Risco de Perda",0.00,1478
+"Madura","Risco de Perda",0.00,167
+"Alerta","Risco de Perda",0.00,3

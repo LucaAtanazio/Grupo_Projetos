@@ -4,4 +4,5 @@ SELECT
     data_registro - LAG(data_registro) OVER (ORDER BY data_registro) as intervalo
 FROM monitoramento_frutas
 WHERE tipo_fruta = 'banana'
-LIMIT 20;
+ORDER BY intervalo DESC
+LIMIT 20
